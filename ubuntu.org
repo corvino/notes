@@ -1,0 +1,34 @@
+* Make a USB Install Drive
+** [[https://help.ubuntu.com/community/How%20to%20install%20Ubuntu%20on%20MacBook%20using%20USB%20Stick][How to install Ubuntu on MacBook using USB Stick]]
+hdiutil convert /path/to/ubuntu.iso -format UDRW -o /path/to/target.img
+diskutil list
+diskutil unmountDisk /dev/disk
+sudo dd if=/path/to/downloaded.img of=/dev/diskN bs=1m
+diskutil eject /dev/diskN
+** [[https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0][Create a bootable USB stick on Ubuntu]]
+** [[https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0][Create a bootable USB stick on macOS]]
+* Apple-Ubuntu Server Setup
+[[https://nsrc.org/workshops/2015/nsrc-icann-dns-ttt-dubai/raw-attachment/wiki/Agenda/install-ubuntu-mac-mini.htm][Installation of Ubuntu on Mac Mini]]
+* [[https://en.wikipedia.org/wiki/List_of_Greek_mythological_figures][List of Greek mythological figures]]
+* [[https://help.ubuntu.com][Ubuntu Documentation]]
+** Ubuntu 19.10 (Eoan Ermine)
+** Ubuntu 19.04 (Disco Dingo)
+** Ubuntu 18.04 LTS (Bionic Beaver)
+*** [[https://help.ubuntu.com/lts/ubuntu-help/index.html][Desktop]]
+*** [[https://help.ubuntu.com/lts/serverguide/index.html][Server]]
+**** [[https://help.ubuntu.com/lts/serverguide/installation.html][Installation]]
+** Ubuntu 16.04 LTS (Xenial Xerus)
+* Upgrades
+** [[https://help.ubuntu.com/community/EoanUpgrades][EoanUpgrades]]
+** [[https://help.ubuntu.com/community/DiscoUpgrades][DiscoUpgrades]]
+** [[https://help.ubuntu.com/community/BionicUpgrades][BionicUpgrades]]
+* Server Setup
+** Install ssh
+sudo apt update
+sudo apt install openssh-server
+sudo systemctl status ssh
+** Change user password
+passwd
+** Apt upgrade
+sudo apt update
+sudo apt upgrade

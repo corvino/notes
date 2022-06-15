@@ -1,0 +1,25 @@
+I don’t believe I would create any (model-type) object via dictionary. Technically, things like `initWithCoder` are, but that’s an implementation detail for something trying to be format-resilient.
+
+[3:25]
+Here are my problems w/ it for model—specifically NSManagedObject—objects:
+
+[3:26]
+1. The desire-slash-necessity to check for pre-existing objects based on an identifier. Looking up an existing record this way restricts you to one lookup at a time and toasts your performance for multiple object import.
+
+[3:31]
+2. JSON or XML or what-have-you is a transfer format, dependent on the API. Your model object should simply be the object you design to work best in your app. Removing the transfer format responsibilities from the model object allows you to keep it smaller and focused. Coupling the format transform to the API (instead of the model object) allows you to test that API in isolation, including adding new variants such as API versions or additional vendor inputs. As long as it spits out properly formed model objects, it will work in your app and you can be more confident in that since you haven’t had to change the model object code at all.'
+
+[3:32]
+2a. As API changes, you can drop support for a format by removing that API. Once parser code is added to a model object, it tends to stay there even if it’s no longer used.
+
+[3:33]
+3. Not having your model object parse dictionaries causes you to write real initialization code to it, allowing your unit tests for it to not be dependent on loading a bunch of sample JSON files.
+
+[3:35]
+#1 is usually my big stick for it. Separating it out for better testability and focus on responsibilities is an argument that people usually blow off as something they think is inconvenient until it isn’t. (edited)
+
+[3:39]
+Oops, forgot another under the performance-and-batching: If I have a list of objects A referencing objects B reference objects C (kind of [A->[B->[C]]]), I will kick the snot out of your performance by loading all the Cs I’d need first, then Bs, then As which you just cannot do by having single objects load their multi-level dictionaries.
+
+[3:42]
+I can reuse a date formatter when parsing a batch of objects that I can’t when passing the dictionary in isolation.

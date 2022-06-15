@@ -1,0 +1,10 @@
+* Google
+** [[https://developers.google.com/protocol-buffers][Protocol Buffers]]
+** [[https://grpc.io][gRPC]]
+** Language project
+Looking in examples for ... examples. Google has an odd way of building tutorials ...
+*** [[https://github.com/grpc/grpc-web][grpc-web]]
+*** [[https://github.com/grpc/grpc-go][grpc-go]]
+**** Getting started
+go mod init <module-name>
+go get google.golang.org/grpc

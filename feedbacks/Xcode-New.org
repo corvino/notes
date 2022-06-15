@@ -1,0 +1,31 @@
+* Jan 21, 2022 at 3:53 PM – FB9854894
+Xcode File->New->Editor Commands Exhibit Unpredictable Behavior
+** Recent Similar Reports
+None
+** Resolution
+Open
+** Basic Information
+*** Please provide a descriptive title for your feedback:
+Xcode File->New->Editor Commands Exhibit Unpredictable Behavior
+*** Which area are you seeing an issue with?
+Xcode
+*** What type of feedback are you reporting?
+Incorrect/Unexpected Behavior
+** Details
+*** What version of Xcode are you using?
+13.2
+** Description
+*** Please describe the issue:
+The File->New menu contains the commands Editor and Editor Below, both of the which split the editor to provide another editing pain, and can have their keyboard shortcuts configured. But using Editor Below causes the commands to change to Editor and Editor On Right, with the behavior of the Editor command now acting as Editor Below. Invoking Editor On Right causes them to flop back.
+
+When using these commands via keyboard shortcut this is very confusing, since the changing text in the menu items is not seen. Repeatedly invoking the Editor Below/Editor On Right keyboard shortcut causes editors to appear with alternating behavior.
+*** What did you expect to happen?
+1. Get an editor below.
+2. Get an editor on the right.
+3. Get an editor below.
+
+Additionally, I would expect the commands to be named in a consistent manner: "Editor On Right" and "Editor Below".
+*** What actually happened?
+1. Got an editor below.
+2. Got an editor on the right.
+3. Got an editor below.

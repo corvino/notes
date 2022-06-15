@@ -1,0 +1,60 @@
+* Docker Toolbox and Docker for Mac lead to some differences
+** [[https://docs.docker.com/docker-for-mac/docker-toolbox/][Docker for Mac vs. Docker Toolbox]]
+** [[https://docs.docker.com/engine/][About Docker Engine]]
+** [[https://docs.docker.com/toolbox/overview/][Docker Toolbox Overview]]
+** [[https://docs.docker.com/machine/get-started/][Get started with Docker Machine and a local VM]]
+* From Josh:
+** #+BEGIN_SRC shell
+docker run -d --name kafka -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST=`docker-machine ip default` --env ADVERTISED_PORT=9092 spotify/kafka
+docker run --name kafka-manager -d -p 9000:9000 -e ZK_HOSTS="$(docker-machine ip default):2181" sheepkiller/kafka-manager
+docker run --name mongo -d -p 27017:27017 mongo --storageEngine wiredTiger
+docker run -d --hostname rabbit --name rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+docker run --name redis -p 6379:6379 -d redis
+#+END_SRC
+* Adjust for Docker for Mac
+** Don't need to get the default VM IP address; Docker for Mac maps directly to the host IP.
+*** See [[http://stackoverflow.com/questions/41267305/docker-for-mac-vm-ip][this Stack Overflow post]].
+** #+BEGIN_SRC shell
+docker run -d --name kafka -p 2181:2181 -p 9092:9092 --env ADVERTISED_HOST=localhost --env ADVERTISED_PORT=9092 spotify/kafka
+docker run --name kafka-manager -d -p 9000:9000 -e ZK_HOSTS="localhost:2181" sheepkiller/kafka-manager
+docker run --name mongo -d -p 27017:27017 mongo --storageEngine wiredTiger
+docker run -d --hostname rabbit --name rabbit -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+docker run --name redis -p 6379:6379 -d redis
+
+docker start kafka kafka-manager mongo
+docker start kafka kafka-manager mongo rabbit redis
+#+END_SRC
+* Dependencies for enroute-meta init/initialize.py
+** brew install stuff:
+python3
+kafka
+** Python modules to pip install:
+jinja2
+requests
+pymongo
+** Need to update config/local.json; add password for db users, or note what is printed when run. (Do the former.)
+* To install dependencies for a service
+** Python
+*** pip install -r requirements.txt
+** Go
+*** glide update
+* Initialize Databases
+** Core
+*** Run initializer.py in [[https://github.com/Glympse/core-meta/tree/develop/init][core-meta]].
+** Enroute
+*** Run inializer.py in [[https://github.com/Glympse/enroute-meta/tree/master/init][enroute-meta]].
+
+* Test kafka
+** Consume
+*** kafka-console-consumer --bootstrap-server localhost:9092 --topic core-api-events
+*** kafka-console-consumer --bootstrap-server localhost:9092 --topic p-enroute-core-api
+*** kafka-console-consumer --zookeeper localhost:2181 --topic p-enroute-core-api
+*** Using the ConsoleConsumer with old consumer is deprecated and will be removed in a future major release. Consider using the new consumer by passing [bootstrap-server] instead of [zookeeper].
+** Produce
+*** kafka-console-producer --broker-list localhost:9092 --topic greetings
+
+* Installing Python modules
+** Apparently can be a kind of undocumented thing.
+** In reporting-meta, see clusters/spark2/common/python.
+*** spark_update.yml shows the 'Install custom python modules' command
+python setup.py install

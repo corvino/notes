@@ -1,0 +1,54 @@
+* Books
+** React Hooks in Action
+~/code/books/react-hooks-in-action/workbook
+** Reading through Pro MEARN Stack
+*** Boot at
+~/Dropbox/Books/Technical\ Books/Web/Pro\ MEARN\ Stack.pdf
+*** Book source at
+athena:~/code/books-src/pro-mern-stack-2
+*** My work at
+athena:~/code/books/pro-mearn
+** Reading React in Action
+It's not clear this will still be happening. Example seems kind of a mess. But maybe?
+*** Book source
+athena:~/code/books-src/react-in-action
+* Kids Programming
+** The Offical Scratch Jr Book
+~/Dropbox/Books/Technical Books/Kids/theofficialscratchjrbook.pdf
+* Kitchen Notes / Cooks Log
+** source at
+athena:~/code/kitchennotes
+** grpc-web with proxy experiments at
+~/code/spearmints/grpc-web-node
+~/code/spearmints/grpcweb-envoy
+* Playing with JavaScript mapping
+~/Dropbox/code/spearmints/javascript-maps
+* Working through SwiftUI tutorial
+~/code/spearmints/Landmarks
+* Duet
+** ~/code/duet/fluent-elastic-docker
+** ~/code/spearmints/rethink-protobuf-updates
+* Cloud infrastructure stuff
+** Kubernetes for Startups
+~/Dropbox/Books/Technical Books/CloudNative/Bluematador-Kubernetes-for-Startups-ebook.pdf
+** Logging stuff
+~/code/duet/fluent-elastic-docker
+* Tools
+** [[https://screen.so/#/home][screen]] - Remote pair programming
+** [[https://kiteapp.co][Kite Compositor]] - animation and prototyping
+** DB
+*** Mongo
+**** Studio 3T
+*** PostgreSQL
+**** Postico
+*** SQLite
+**** SQLite Flow
+* Projects
+~/code/spearmints/covid-map
+~/code/brickhunt
+* Upcoming Projects
+** PDF library lister
+** markup viewer
+** SQLite Visual Client
+** Noridc Ski Map and Tracker
+** Wordle helper

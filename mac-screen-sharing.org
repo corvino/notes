@@ -1,0 +1,5 @@
+* SSH tunnel to share screen remotely
+ssh user@addr -p[ort]
+-N -L 1212:localhost:5900   (VNC)
+-N -L 1313:localhost:548     (Apple FileShare)
+-N -D 9999                            (SSH Tunneling)

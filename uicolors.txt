@@ -1,0 +1,122 @@
+blackColor: 0 255
+blueColor: 0 0 255 255
+brownColor: 153 102 51 255
+clearColor: 0 0
+cyanColor: 0 255 255 255
+darkGrayColor: 85 255
+darkTextColor: 0 255
+grayColor: 127 255
+greenColor: 0 255 0 255
+lightGrayColor: 170 255
+lightTextColor: 255 153
+megentaColor: 255 0 255 255
+orangeColor: 255 127 0 255
+purpleColor: 127 0 127 255
+redColor: 255 0 0 255
+whiteColor: 255 255
+yellowColor: 255 255 0 255
+
+blackColor: 0 255
+blueColor: 0 0 255 255
+brownColor: 153 102 51 255
+clearColor: 0 0
+cyanColor: 0 255 255 255
+darkGrayColor: 85 255
+darkTextColor: 0 255
+grayColor: 127 255
+greenColor: 0 255 0 255
+lightGrayColor: 170 255
+lightTextColor: 255 153
+megentaColor: 255 0 255 255
+orangeColor: 255 127 0 255
+purpleColor: 127 0 127 255
+redColor: 255 0 0 255
+whiteColor: 255 255
+yellowColor: 255 255 0 255
+
+---
+
+enum COLOR_STRING_MODE {
+	COLOR_STRING_MODE_FLOAT,
+	COLOR_STRING_MODE_255,
+};
+
+NSString *colorString(CGColorRef color, enum COLOR_STRING_MODE mode)
+{
+	NSString *result;
+	const CGFloat *comps = CGColorGetComponents(color);
+	
+	switch (mode) {
+		case COLOR_STRING_MODE_FLOAT:
+			switch (CGColorGetNumberOfComponents(color)) {
+				case 1:
+					result = [NSString stringWithFormat:@"%f", *comps];
+					break;
+				case 2:
+					result = [NSString stringWithFormat:@"%f %f", comps[0], comps[1]];
+					break;
+				case 3:
+					result = [NSString stringWithFormat:@"%f %f %f", comps[0], comps[1], comps[2]];
+					break;
+				case 4:
+					result = [NSString stringWithFormat:@"%f %f %f %f", comps[0], comps[2], comps[2], comps[3]];
+					break;
+				default:
+					result = nil;
+					break;
+			}
+		case COLOR_STRING_MODE_255:
+			switch (CGColorGetNumberOfComponents(color)) {
+				case 1:
+					result = [NSString stringWithFormat:@"%d", (int) (*comps * 255.)];
+					break;
+				case 2:
+					result = [NSString stringWithFormat:@"%d %d", (int) (comps[0] * 255.), (int) (comps[1] * 255.)];
+					break;
+				case 3:
+					result = [NSString stringWithFormat:@"%d %d %d", (int) (comps[0] * 255.), (int) (comps[1] * 255.), (int) (comps[2] * 255.)];
+					break;
+				case 4:
+					result = [NSString stringWithFormat:@"%d %d %d %d", (int) (comps[0] * 255.), (int) (comps[1] * 255.), (int) (comps[2] * 255.), (int) (comps[3] * 255.)];
+					break;
+				default:
+					result = nil;
+					break;
+			}
+	}
+	
+	
+	return result;
+}
+
+void logColor(char *name, UIColor *color, enum COLOR_STRING_MODE mode)
+{
+	printf("%s: %s\n", name, [colorString(color.CGColor, mode) cStringUsingEncoding:NSASCIIStringEncoding]);
+}
+
+void logColors(enum COLOR_STRING_MODE mode)
+{
+	logColor("blackColor", [UIColor blackColor], mode);
+	logColor("blueColor", [UIColor blueColor], mode);
+	logColor("brownColor", [UIColor brownColor], mode);
+	logColor("clearColor", [UIColor clearColor], mode);
+	logColor("cyanColor", [UIColor cyanColor], mode);
+	logColor("darkGrayColor", [UIColor darkGrayColor], mode);
+	logColor("darkTextColor", [UIColor darkTextColor], mode);
+	logColor("grayColor", [UIColor grayColor], mode);
+	logColor("greenColor", [UIColor greenColor], mode);
+	logColor("lightGrayColor", [UIColor lightGrayColor], mode);
+	logColor("lightTextColor", [UIColor lightTextColor], mode);
+	logColor("megentaColor", [UIColor magentaColor], mode);
+	logColor("orangeColor", [UIColor orangeColor], mode);
+	logColor("purpleColor", [UIColor purpleColor], mode);
+	logColor("redColor", [UIColor redColor], mode);
+	logColor("whiteColor", [UIColor whiteColor], mode);
+	logColor("yellowColor", [UIColor yellowColor], mode);
+}
+
+...
+	logColors(COLOR_STRING_MODE_FLOAT);
+	printf("\n");
+	logColors(COLOR_STRING_MODE_255);
+...

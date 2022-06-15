@@ -1,0 +1,3 @@
+* For working around stupid automake detection of clock_gettime
+** Add `-D_DARWIN_FEATURE_CLOCK_GETTIME=0` to the `CPPFLAGS` going into `./configure`
+* [[https://www.youtube.com/watch?v=8WhghyKZfzE][Fiddler on the Roof]]

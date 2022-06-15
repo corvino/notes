@@ -1,0 +1,104 @@
+vino@Nathans-MacBook-Pro:~/code/DevMynd/DidIt$ sudo gem install cocoapods
+Password:
+Fetching: i18n-0.6.9.gem (100%)
+Successfully installed i18n-0.6.9
+Fetching: multi_json-1.10.1.gem (100%)
+Successfully installed multi_json-1.10.1
+Fetching: activesupport-3.2.18.gem (100%)
+Successfully installed activesupport-3.2.18
+Fetching: nap-0.7.0.gem (100%)
+Successfully installed nap-0.7.0
+Fetching: json_pure-1.8.1.gem (100%)
+Successfully installed json_pure-1.8.1
+Fetching: fuzzy_match-2.0.4.gem (100%)
+Successfully installed fuzzy_match-2.0.4
+Fetching: cocoapods-core-0.33.1.gem (100%)
+Successfully installed cocoapods-core-0.33.1
+Fetching: claide-0.6.1.gem (100%)
+Successfully installed claide-0.6.1
+Fetching: colored-1.2.gem (100%)
+Successfully installed colored-1.2
+Fetching: xcodeproj-0.17.0.gem (100%)
+Building native extensions.  This could take a while...
+[!] You are using the prebuilt binary version of the xcodeproj gem.
+Successfully installed xcodeproj-0.17.0
+Fetching: cocoapods-downloader-0.6.1.gem (100%)
+Successfully installed cocoapods-downloader-0.6.1
+Fetching: cocoapods-plugins-0.2.0.gem (100%)
+Successfully installed cocoapods-plugins-0.2.0
+Fetching: cocoapods-try-0.3.0.gem (100%)
+Successfully installed cocoapods-try-0.3.0
+Fetching: json-1.8.1.gem (100%)
+Building native extensions.  This could take a while...
+Successfully installed json-1.8.1
+Fetching: netrc-0.7.7.gem (100%)
+Successfully installed netrc-0.7.7
+Fetching: cocoapods-trunk-0.1.1.gem (100%)
+Successfully installed cocoapods-trunk-0.1.1
+Fetching: escape-0.0.4.gem (100%)
+Successfully installed escape-0.0.4
+Fetching: open4-1.3.4.gem (100%)
+Successfully installed open4-1.3.4
+Fetching: cocoapods-0.33.1.gem (100%)
+
+CHANGELOG:
+
+## 0.33.1
+
+##### Bug Fixes
+
+* Fix `pod spec lint` for `json` podspecs.  
+  [Fabio Pelosin][irrationalfab]
+  [#2157](https://github.com/CocoaPods/CocoaPods/issues/2157)
+
+* Fixed downloader issues related to `json` podspecs.  
+  [Fabio Pelosin][irrationalfab]
+  [#2158](https://github.com/CocoaPods/CocoaPods/issues/2158)
+
+* Fixed `--no-ansi` flag in help banners.  
+  [Fabio Pelosin][irrationalfab]
+  [#34](https://github.com/CocoaPods/CLAide/issues/34)
+
+Successfully installed cocoapods-0.33.1
+Parsing documentation for i18n-0.6.9
+Installing ri documentation for i18n-0.6.9
+Parsing documentation for multi_json-1.10.1
+Installing ri documentation for multi_json-1.10.1
+Parsing documentation for activesupport-3.2.18
+unable to convert "\x80" from ASCII-8BIT to UTF-8 for lib/active_support/values/unicode_tables.dat, skipping
+Installing ri documentation for activesupport-3.2.18
+Parsing documentation for nap-0.7.0
+Installing ri documentation for nap-0.7.0
+Parsing documentation for json_pure-1.8.1
+Installing ri documentation for json_pure-1.8.1
+Parsing documentation for fuzzy_match-2.0.4
+Installing ri documentation for fuzzy_match-2.0.4
+Parsing documentation for cocoapods-core-0.33.1
+Installing ri documentation for cocoapods-core-0.33.1
+Parsing documentation for claide-0.6.1
+Installing ri documentation for claide-0.6.1
+Parsing documentation for colored-1.2
+Installing ri documentation for colored-1.2
+Parsing documentation for xcodeproj-0.17.0
+Installing ri documentation for xcodeproj-0.17.0
+Parsing documentation for cocoapods-downloader-0.6.1
+Installing ri documentation for cocoapods-downloader-0.6.1
+Parsing documentation for cocoapods-plugins-0.2.0
+Installing ri documentation for cocoapods-plugins-0.2.0
+Parsing documentation for cocoapods-try-0.3.0
+Installing ri documentation for cocoapods-try-0.3.0
+Parsing documentation for json-1.8.1
+unable to convert "\xCA" from ASCII-8BIT to UTF-8 for lib/json/ext/generator.bundle, skipping
+unable to convert "\xCA" from ASCII-8BIT to UTF-8 for lib/json/ext/parser.bundle, skipping
+Installing ri documentation for json-1.8.1
+Parsing documentation for netrc-0.7.7
+Installing ri documentation for netrc-0.7.7
+Parsing documentation for cocoapods-trunk-0.1.1
+Installing ri documentation for cocoapods-trunk-0.1.1
+Parsing documentation for escape-0.0.4
+Installing ri documentation for escape-0.0.4
+Parsing documentation for open4-1.3.4
+Installing ri documentation for open4-1.3.4
+Parsing documentation for cocoapods-0.33.1
+Installing ri documentation for cocoapods-0.33.1
+19 gems installed

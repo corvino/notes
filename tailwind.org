@@ -1,0 +1,10 @@
+* Default sizes
+** sm (640x800)
+** md (768x800)
+** lg (1024x800)
+** xl (1280x800)
+* Resources
+** [[https://blog.tailwindcss.com/building-react-and-vue-support-for-tailwind-ui][Building React + Vue support for Tailwind UI]]
+*** [[https://blog.tailwindcss.com/building-react-and-vue-support-for-tailwind-ui][Reach UI]]
+*** [[https://reakit.io/docs/composition/][Reakit]]
+** [[https://github.com/aniftyco/awesome-tailwindcss][awesome-tailwindcss]]

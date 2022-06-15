@@ -1,0 +1,11 @@
+* Xcode Compatability
+** Swift 2.x
+*** Xcode 8.x migrates to Swift 3
+** Swift 3.x
+*** Xcode 10.1 migrates to Swift 4
+* [[https://applaunchmap.com][App Launch Map]]
+* Features
+** [[https://www.swiftbysundell.com/articles/under-the-hood-of-futures-and-promises-in-swift/][Under the hood of Futures & Promises in Swift]]
+** [[http://robnapier.net/thats-not-a-number][Protocols IV: That's Not a Number]]
+** [[http://swiftyjimmy.com/server-side-swift-vapor/][Server-side Swift with Vapor 3 – backend set up]]
+** [[https://theswiftwebdeveloper.com/diving-into-vapor-part-4-deeper-into-fluent-30d84e19f114][Diving into Vapor, Part 4: Deeper into Fluent]]

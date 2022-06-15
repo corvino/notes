@@ -1,0 +1,7 @@
+* [[https://tldp.org/LDP/abs/html/tests.html][Tests]]
+** File Comparison Operators
+** [[https://tldp.org/LDP/abs/html/comparison-ops.html][Other Comparison Operators]]
+|----+--------------------------------------------|
+| -z | string is /null/, that is, has zero length |
+| -n | string is not null.                        |
+|----+--------------------------------------------|

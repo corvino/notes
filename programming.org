@@ -1,0 +1,21 @@
+* Language Popularity
+- [[https://githut.info][GitHut]]
+- [[https://www.tiobe.com/tiobe-index/][TIOBE Index]]
+- [[https://insights.stackoverflow.com/survey/2021#technology-most-popular-technologies][Stackoverflow Developer Survey 2021]]
+* Resources
+** [[https://github.com/sindresorhus/awesome][Awesome]]
+*** [[https://github.com/topics/awesome][Awesome topic on Github]]
+*** [[https://github.com/avelino/awesome-go][Awesome Go]]
+*** [[https://github.com/jest-community/awesome-jest][Awesome Jest]]
+*** [[https://github.com/aniftyco/awesome-tailwindcss][Awesome Tailwind CSS]]
+*** [[https://github.com/papers-we-love/papers-we-love][Papers We Love]]
+*** [[https://github.com/jaywcjlove/awesome-mac][Awesome Mac]]
+*** [[https://github.com/serhii-londar/open-source-mac-os-apps][Awesome macOS open source applications]]
+*** [[https://github.com/DopplerHQ/awesome-interview-questions][Awesome Interview Questions]]
+*** [[https://github.com/prakhar1989/awesome-courses][Awesome Courses]]
+*** [[https://github.com/viatsko/awesome-vscode][Awesome VSCode]]
+*** [[https://github.com/neutraltone/awesome-stock-resources][Awesome Stock Resources]]
+*** [[https://github.com/thibmaek/awesome-raspberry-pi][Awesome Raspberry Pi]]
+** State of
+*** [[https://stateofjs.com][State of JS]]
+*** [[https://2020.stateofcss.com/en-US/][State of CSS 2020]]

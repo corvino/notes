@@ -1,0 +1,157 @@
+* CenturyLink Modem Configuration
+** [[https://support.metageek.com/hc/en-us/articles/215467728-How-do-I-use-a-different-router-with-my-DSL-service-][How do I use a different router with my DSL service?]]
+** Go to [[https://192.168.0.1]]
+*** Login
+** Turn off Wireless
+*** Wireless Setup
+*** Wirelss Radio: Disable
+*** Apply
+** Set to Transparent Bridging
+*** Advanced Setup
+*** WAN Settings
+*** ISP Protocol: Transparent Bridging
+*** Apply
+** WiFi Options
+*** [[https://amplifi.com][AmpliFi]]
+*** [[https://www.netgear.com/orbi/][Netgear Orbi]]
+* SpeedTesting
+** [[https://www.cyberciti.biz/faq/how-to-test-the-network-speedthroughput-between-two-linux-servers/][How to test the network speed/throughput between two Linux servers]]
+* DNS
+** [[https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/router/][Cloudflare]]
+1.1.1.1
+1.0.0.1
+2606:4700:4700::1111
+2606:4700:4700::1001
+** [[https://developers.google.com/speed/public-dns][Google]]
+8.8.8.8
+8.8.4.4
+2001:4860:4860::8888
+2001:4860:4860::8844
+** systemd-resolved
+*** resolve.conf
+/etc/resolv.conf
+/run/systemd/resolve/stub-resolv.conf
+/usr/lib/systemd/resolv.conf
+*** /etc/systemd/resloved.conf
+*** Debug
+ps aux|grep resolve
+sudo systemctl stop systemd-resolved
+* VLANs
+** [[https://www.youtube.com/watch?v=p3SfeQTaaxw][Setup IoT VLANs and Firewall Rules with UniFi. ULTIMATE (Smart) Home Network Part Three]]
+*** Network - IoT
+Corporate
+LAN
+VLAN 20
+192.168.20.1/24 (Update DHCP Range)
+Enable IGMP snooping
+*** Network - NoT
+Corporate
+LAN
+VLAN 30
+192.168.30.1/24 (Update DHCP Range)
+Enable IGMP snooping
+*** Firewall Rules (LAN IN)
+**** Start
+|--------------------------------------------+--------+----------+---------------------------------+-------------------------------------------+-----------------------|
+| Name                                       | Action | Protocol | Source                          | Destination                               | States                |
+|--------------------------------------------+--------+----------+---------------------------------+-------------------------------------------+-----------------------|
+| Allow all established and related Sessions | Accept | All      | Groups: All IP Addresses        | Groups: All Local Addresses               | Established + Related |
+| Allow All Local to NTP                     | Accept | All      | Groups: All IP Addresses        | Groups: NTP Port                          |                       |
+| Allow IoT to Home Assistant                | Accept | All      | Network: IoT; Type: IPv4 Subnet | Groups: Home Assistant Server             |                       |
+| Allow NoT MQTT                             | Accept | All      | Network: NoT; Type: IPv4 Subnet | Groups: Home Assistant Server; MQTT Ports |                       |
+| Allow Chromecast                           | Accept | All      | Groups: Chromecasts             | Groups: Chromecast                        |                       |
+| Allow Rokus to Plex                        | Accept | All      | Groups: Rokus                   | Groups: Chromecast                        |                       |
+| Drop all other camera traffic              | Drop   | All      | Groups: Camera                  | Groups: All IP Addresses                  |                       |
+| Drop all other NoT                         | Drop   | All      | Network: NoT; Type: IPv4 Subnet | Groups: All IP Addresses                  |                       |
+| Drop IoT from local network                | Drop   | All      | Network IoT; Type IPv4 Subnet   | Network: LAN; Type: IPv4 Subnet           |                       |
+|--------------------------------------------+--------+----------+---------------------------------+-------------------------------------------+-----------------------|
+
+***** Rules
+****** Allow all established and related Sessions
+******* Source
+Little unclear whether All IP Addresses or All Local Addresses
+******* Destionation
+All Local Addresses
+******* Allow all established and related Sessions
+States: Established + Related
+***** Groups
+****** All local addresses
+******* Type
+Address IPv4
+******* Address
+192.168.86.0/24
+192.168.20.0/24
+192.168.30.0/24
+****** NTP
+******* Type
+Port
+******* Port
+123
+****** Home Assistant Server
+******* Type
+Address IPv4
+******* Address
+192.168.86.168
+****** MQTT Ports
+******* Type
+Port
+******* Port
+1883
+8883
+****** Chromecast
+******* Type
+Port
+******* Port
+8008
+8009
+5556
+5558
+5353
+****** All IP Address
+******* Type
+Address IPv4
+******* Address
+0.0.0.0/1
+128.0.0.0/2
+192.0.0.0/3
+224.0.0.0/4
+****** Camera
+******* Type
+Address IPv4
+******* Address
+192.168.86.150
+192.168.86.161
+etc
+**** Done (13:59)
+|--------------------------------------------+--------+----------+---------------------------------+-------------------------------------------+-----------------------|
+| Name                                       | Action | Protocol | Source                          | Destination                               | States                |
+|--------------------------------------------+--------+----------+---------------------------------+-------------------------------------------+-----------------------|
+| Allow all established and related Sessions | Accept | All      | Groups: All IP Addresses        | Groups: All Local Addresses               | Established + Related |
+| Allow All Local to NTP                     | Accept | All      | Groups: All Local Addresses     | Groups: NTP Port                          |                       |
+| Allow IoT to Home Assistant                | Accept | All      | Network: IoT; Type: IPv4 Subnet | Groups: Home Assistant Server             |                       |
+| Allow NoT MQTT                             | Accept | All      | Network: NoT; Type: IPv4 Subnet | Groups: Home Assistant Server; MQTT Ports |                       |
+| Allow Chromecast                           | Accept | All      | Groups: Chromecasts             | Groups: Chromecast                        |                       |
+| Allow Rokus to Plex                        | Accept | All      | Groups: Rokus                   | Groups: Chromecast                        |                       |
+| Drop all other camera traffic              | Drop   | All      | Groups: Camera                  | Groups: All IP Addresses                  |                       |
+| Drop all other NoT                         | Drop   | All      | Network: NoT; Type: IPv4 Subnet | Groups: All IP Addresses                  |                       |
+| Drop IoT from local network                | Drop   | All      | Network IoT; Type IPv4 Subnet   | Network: LAN; Type: IPv4 Subnet           |                       |
+|--------------------------------------------+--------+----------+---------------------------------+-------------------------------------------+-----------------------|
+* Ubiquiti Networking
+** EdgeOS Router CLI
+*** Examine routes
+show ip route static
+show ip route connected
+show ip route forward
+*** Examine ARP / Ethernet
+show arp
+*** DNS
+show dns forwarding nameservers
+show dns forwarding statistics
+** BusyBox Switch CLI
+*** arp
+[[https://linux.die.net/man/8/arp][arp - manipulate the system ARP cache]]
+arp
+arp -h
+*** ip
+[[https://linux.die.net/man/8/ip][ip - show / manipulate routing, devices, policy routing and tunnels]]
+ip addr show

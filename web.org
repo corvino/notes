@@ -1,0 +1,33 @@
+* Typical Frontend setup
+[[https://tailwindcss.com/docs/installation/using-postcss][tailwindcss]], [[
+npm init -y
+npm i -D vite
+# npm i -D tailwindcss postcss autoprefixer
+npm i -D tailwindcss postcss-import
+npm i react react-dom
+npm i -D eslint eslint-plugin-react
+npm i -D @vitejs/plugin-react-refresh
+
+** React, Vite, Tailwind
+npm i react react-dom
+npm i -D tailwindcss vite @vitejs/plugin-react-refresh
+** ESLint
+npm i -D eslint
+npm i -D eslint eslint-plugin-react
+
+* Images for Browser Testing
+[[https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/][Microsoft virtual machines]]
+** Login Information (for Windows Vista, 7, 8, 10 VMs)
+*** username: IEUser
+*** password: Passw0rd!
+* SVG Icons
+** [[https://simpleicons.org][Simple Icons]]
+2121 Free SVG icons for popular brands
+** [[https://heroicons.com][heroicons]]
+Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.
+** [[https://thenounproject.com][Noun Project]]
+Icons and Photos For Everything
+
+* Learning Resources
+** [[https://flexboxzombies.com/p/flexbox-zombies][Flexbox Zombies]]
+** [[https://serviceworkies.com][Service Workies]]

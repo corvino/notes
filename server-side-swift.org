@@ -1,0 +1,3 @@
+* [[https://gist.github.com/timburks/836c2ccf78ec770554b152d143ea5644][Run Swift on Google Cloud Shell!]]
+* [[https://cloud.google.com/compute/docs/instances/connecting-to-instance][Google Cloud Platform - Connecting to Linux Instances]]
+* [[https://github.com/acbodine/Swift-Microservice][acbodine/Swift-Microservice]]

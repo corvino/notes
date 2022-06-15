@@ -1,0 +1,14 @@
+* brew install `apache-spark`
+** 2.1.0
+** /usr/local/Cellar/apache-spark/2.1.0/
+* Have to get "java" "into" /Library/Java/Home/
+** /usr/local/Cellar/apache-spark/2.1.0/libexec/bin/spark-class: line 71: /Library/Java/Home/bin/java: No such file or directory
+** cd /Library/Java/
+sudo ln -s /Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home
+* To use ipython,
+** pip install ipython
+** PYSPARK_DRIVER_PYTHON=ipython pyspark
+*** https://fossies.org/diffs/spark/1.6.2_vs_2.0.0/bin/pyspark-diff.html
+*** alias as 'ispark'
+* Some test data:
+example = sc.parallelize([{"time": 0}, {"time": 1}, {"time": 2}, {"time": 3}, {"time": 1}])

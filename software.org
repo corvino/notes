@@ -1,0 +1,20 @@
+* [[https://www.unboundapp.com][Unbound]] (Photo Management)
+* [[https://imazing.com][iMazing]] (iOS Sync/Management)
+* [[https://apps.ankiweb.net][Anki]] Flash cards
+** [[https://github.com/Stvad/CrowdAnki][CrowdAnki]] import/export JSON
+** [[https://github.com/ohare93/brain-brew][Brain-Brew]] convert
+* [[https://github.com/raxod502/straight.el][straight.el]]
+* [[https://roamresearch.com][Roam]] note-taking
+* [[https://obsidian.md][Obsidian]] markdown knowledge base
+* [[https://www.craft.do][Craft]] Documents/writing
+* [[https://www.notion.so/product][Notion]]
+
+* Git
+** [[https://git-fork.com][Fork]]
+** [[https://www.gitkraken.com][GitKraken]]
+** [[https://www.git-tower.com/mac][Tower]]
+** [[https://gitup.co/][GitUp]]
+* HexEditor
+** [[https://hexfiend.com][Hex Fiend]]
+* Diff
+** [[https://kaleidoscope.app][Kaleidoscope]]

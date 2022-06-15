@@ -1,0 +1,4 @@
+* Github Omnifocus-JIRA code
+** [[https://github.com/devondragon/jira-omnifocus][devondragon/jira-omnifocus]]
+** [[https://zapier.com/zapbook/jira/omnifocus/][zapier]]
+** [[http://www.digitalsanctuary.com/tech-blog/general/jira-to-omnifocus-integration.html][digitalsanctuary blog post]]

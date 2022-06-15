@@ -1,0 +1,5 @@
+* Keyboard Shortcut Notes
+** 
+** Customizing Keyboard Shortcuts in Chrome Dev Tools
+*** [[https://developer.chrome.com/blog/new-in-devtools-88/#keyboard-shortcuts][developer.chrome.com - Customize chords keyboard shortcuts]]
+*** [[https://stackoverflow.com/questions/8192714/customize-chrome-developer-tool-javascript-debugger-keyboard-shortcuts][stackoverflow.com: customize chrome developer tool javascript debugger keyboard shortcuts?]]

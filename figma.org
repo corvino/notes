@@ -1,0 +1,6 @@
+* Introduction
+- [[https://www.figma.com/best-practices/][Best practices and tips]]: Explore deep-dive guides and bite-sized reads.
+- [[https://www.figma.com/weekly-group-demo/][Live group demo]]: Join a 1-hour demo of the end-to-end design process with Figma design advocates.
+- [[https://www.figma.com/events/][Virtual events]]: Tune in weekly for live webinars, office hours, and product demos.
+- [[https://www.figma.com/figjam/][Ideate and brainstorm]]: Try FigJam, our new online whiteboard for teams to explore ideas, together.
+- [[https://www.figma.com/downloads/][Figma on desktop and mobile]]: Use Figma and view designs on your desktop and mobile devices.

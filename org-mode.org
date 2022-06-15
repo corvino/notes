@@ -1,0 +1,94 @@
+* Meta Info
+Mimetype is 'text/x-org'; see [[https://lists.gnu.org/archive/html/emacs-orgmode/2017-06/msg00396.html][Re: [O] mimetype for orgmode files]]
+* Apps
+[[https://github.com/amake/orgro][orgro]] (iOS, Android)
+* CSS
+- [[https://github.com/gongzhitaao/orgcss][gongzhitaao / orgcss]]
+* [[https://orgmode.org/guide/Tables.html][Tables]]
+** Re-aligning and field motion
+| C-c C-c   | Re-align the table without moving point                                       |
+| TAB       | Re-align the table, move to the next field. Creates a new row if necessary.   |
+| S-TAB     | Re-align, move to previous field.                                             |
+| RET       | Re-align the table and move down to next row. Creates a new row if necessary. |
+| S-<ARROW> | Move a cell up, down, left, and right by swapping with adjacent cell          |
+** Column and row editing
+| M-LEFT, M-RIGHT | Move the current column left/right                                |
+| M-S-LEFT        | Kill the current column                                           |
+| M-S-RIGHT       | Insert a new column to the left of point position                 |
+| M-UP, M-DOWN    | Move the current row up/down                                      |
+| M-S-UP          | Kill the current row or horizontal line                           |
+| M-S-DOWN        | Insert a new row above the current row                            |
+| ""              | With a prefix argument, the line is created below the current one |
+
+* Spreadsheets
+** [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Org as a spreadsheet system: a short introduction]]
+** [[https://orgmode.org/manual/Updating-the-table.html][Updating the table]]
+org-table-recalculate
+*** On formula, c-u c-c c-c
+* [[https://orgmode.org/manual/Exporting.html][Exporting]]
+Convert and export documents to a variety of other formats.
+
+** Commands
+- /C-c C-e [[https://orgmode.org/manual/The-Export-Dispatcher.html][(org-export)]]/ :: Bring up export interface
+- /C-c C-e h h ([[https://orgmode.org/manual/HTML-export-commands.html][org-html-export-to-html]])/ ::
+
+** [[https://orgmode.org/manual/Export-Settings.html][Export Settings]]
+Export settings, which includes options for the publishing options shown below.
+** HTML Options
+*** Disable postamble, section numbers, and table of contents
+#+OPTIONS: html-postamble:nil num:nil toc:nil
+*** Disable All postamble
+#+OPTIONS: html-postamble:nil
+*** Finer grained control
+#+OPTIONS: author:nil email:nil creator:nil timestamp:nil
+(setq org-export-html-validation-link nil)
+;; post v8:
+(setq org-html-validation-link nil)
+** HTML Variables
+- org-html-htmlize-output-type :: Output type to be used by htmlize when formatting code snippets (‘css’, ‘inline-css’, or ‘nil’)
+- org-org-htmlized-css-url :: URL pointing to the CSS defining colors for htmlized Emacs buffers
+** cli
+*** References
+- -l file, --load=file :: Load the lisp code in the file file.
+- --eval=expr, --execute=expr :: Evaluate the Lisp expression expr.
+- -f function, --funcall=function :: Execute the lisp function function.
+*** Examples
+#+BEGIN_SRC shell
+SCRIPT=~/code/monocle/Monocle/org-html.el
+emacs -l $SCRIPT test.org --batch --eval "(org-to-html)"
+emacs -l $SCRIPT test.org --batch -f org-to-html
+emacs -nw -l $SCRIPT -f org-to-html -f kill-emacs
+#+END_SRC
+** htmlize/css
+org-org-htmlized-css-url is a variable defined in ‘ox-org.el’.
+Its value is nil
+
+  This variable has an alias: ‘org-export-htmlized-org-css-url’.
+  You can customize this variable.
+
+Documentation:
+URL pointing to the CSS defining colors for htmlized Emacs buffers.
+Normally when creating an htmlized version of an Org buffer,
+htmlize will create the CSS to define the font colors.  However,
+this does not work when converting in batch mode, and it also can
+look bad if different people with different fontification setup
+work on the same website.  When this variable is non-nil,
+creating an htmlized version of an Org buffer using
+‘org-org-export-as-org’ will include a link to this URL if the
+setting of ‘org-html-htmlize-output-type’ is ‘css’.
+* [[https://orgmode.org/manual/Publishing.html][Publishing]]
+Automatic HTML conversion of projects composed of interlinked Org files.
+
+** [[https://orgmode.org/manual/Publishing-options.html][Publishing Options]]
+Shows all properties that can be set for export, and their corresponding user variables in org.
+* Tables, Formulas, and Code Blocks, Oh My!
+- /C-u C-c C-c/ recompute table :: See [[https://orgmode.org/manual/Updating-the-table.html][Updating the table]]
+- /C-c C-c/ execute code block :: See [[https://orgmode.org/manual/Evaluating-Code-Blocks.html][Evaluating Code Blocks]]
+- [[https://orgmode.org/manual/Environment-of-a-Code-Block.html][Environment of a Code Block]]
+- [[https://orgmode.org/manual/Results-of-Evaluation.html][Results of Evaluation]]
+  - Collection (output)
+    - :results value :: return data
+    - :results output :: return text
+  - Handling
+    - :results output replace :: (default) replace results
+    - :results none :: do nothing with results

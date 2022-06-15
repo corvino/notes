@@ -1,0 +1,22 @@
+* Learning
+** [[https://www.elastic.co/blog/intro-to-aggregations/][Intro to Aggregations]]
+* [[https://www.elastic.co/guide/en/kibana/current/index.html][Kibana Guide]]
+** [[https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations.html][Aggregations]]
+** [[https://www.elastic.co/guide/en/kibana/current/dashboard.html][Dashboard and visualizations]]
+*** [[https://www.elastic.co/guide/en/kibana/current/aggregation-reference.html][Create panels with editors]]
+**** [[https://www.elastic.co/guide/en/kibana/current/timelion.html][Timelion]]
+**** [[https://www.elastic.co/guide/en/kibana/current/vega.html][Vega]]
+** [[https://www.elastic.co/guide/en/kibana/current/maps.html][Maps]]
+* [[https://www.elastic.co/guide/en/kibana/7.10/release-notes.html][Release Notes]]
+** [[https://www.elastic.co/blog/elasticsearch-7-8-0-released][Elasticsearch 7.8.0]]
+*** new and enhanced aggregation capabilities
+*** Ingest made (even) easier
+* [[https://www.elastic.co/guide/en/kibana/master/api.html][Rest API]]
+** [[https://www.elastic.co/guide/en/kibana/current/saved-objects-api-import.html][Import objects API]]
+*** [[https://www.elastic.co/guide/en/kibana/current/dashboard-api.html?baymax=rec&rogue=rec-1&elektra=guide][Import and export dashboard APIs]] (deprecated)
+* Elasticsearch
+** [[https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-create-index.html][Create index API]]
+* Blog Posts
+** [[https://blog.ruanbekker.com/blog/2019/04/02/setup-kibana-dashboards-for-nginx-log-data-to-understand-the-behavior/][Setup Kibana Dashboards for Nginx Log Data to Understand the Behavior]]
+* Webinars
+** [[https://www.elastic.co/webinars/understanding-ingest-pipeline?blade=kibanafeed][Understanding ingest pipeline]]

@@ -1,0 +1,8 @@
+* [[https://support.apple.com/en-us/HT201236][Mac kayboard shortcuts]]
+** Command (or Cmd) ⌘
+** Option (or Alt) ⌥
+** Caps Lock ⇪
+** Shift ⇧
+** Control (or Ctrl) ⌃
+** Apple 
+* [[https://feedbackassistant.apple.com][Feedback]]

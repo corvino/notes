@@ -1,0 +1,148 @@
+* Pick a Brick
+** Search for part by name
+*** [[https://www.lego.com/en-us/page/static/pick-a-brick?query=%22PLATE%201X1%2C%20ROUND%22&page=1&filters.i0.key=variants.attributes.designNumber&filters.i0.values.i0=6141][PLATE 1X1, ROUND]]
+*** How to get URL
+**** Find a part on Pick a Brick
+**** Open modal for part
+**** Select "Same Brick"
+
+* Dealing with colors
+[[LEGO color chart][https://swooshable.com/parts/colors]]
+[[https://www.bricklink.com/catalogColors.asp][bricklink color guide]]
+[[https://www.eurobricks.com/forum/index.php?/forums/topic/139772-ldd-and-bricklink-colors-naming-conversion/][Lego-bricklink conversion]]
+
+[[https://brickarchitect.com/allbricks/][Brick Architect All Bricks]]
+
+<img src="https://www.lego.com/cdn/cs/set/assets/blt3eae1cac51fd20c7/300501.jpg?fit=bounds&amp;format=jpg&amp;quality=90&amp;width=150&amp;height=150&amp;dpr=1" data-test="pab-item-image" alt="" class="ElementLeafstyles__Image-sc-1gap5iu-9 lihFkE">
+https://www.lego.com/cdn/cs/set/assets/${img_hash}/${element_id}.jpg
+fit=bounds&format=jpg&quality=90&width=150height=150&dpr=
+
+|-----+---------------------------+---------------|
+|  ID | Name                      | Family        |
+|-----+---------------------------+---------------|
+| 107 | Aqua                      | Blue          |
+| 221 | Black                     | Black         |
+|   5 | Brick Yellow              | Reddish Brown |
+|  21 | Bright Blue               | Blue          |
+|  41 | Bright Bluish Green       | Blue          |
+|  30 | Bright Green              | Dark Green    |
+|  40 | Bright Orange             | Bright Orange |
+|  91 | Bright Purple             | Purple        |
+|  19 | Bright Red                | Red           |
+|  52 | Bright Reddish Violet     | Purple        |
+|  22 | Bright Yellow             | Yellow        |
+|  48 | Bright Yellowish Green    | Dark Green    |
+|  96 | Cool Yellow               | Yellow        |
+| 105 | Dark Azur                 | Blue          |
+| 103 | Dark Brown                | Reddish Brown |
+| 246 | Dark Green                | Dark Green    |
+|  31 | Dark Orange               | Reddish Brown |
+|  79 | Dark Stone Grey           | Grey          |
+|  61 | Earth Blue                | Blue          |
+|  62 | Earth Green               |               |
+|  71 | Flame Yellowish Orange    |               |
+| 109 | Lavender                  |               |
+|  78 | Light Purple              |               |
+|  84 | Light Royal Blue          |               |
+| 106 | Medium Azur               |               |
+| 239 | Medium Blue               |               |
+| 108 | Medium Lavendel           |               |
+|  99 | Medium Lilac              |               |
+| 104 | Medium Nougat             |               |
+|  74 | Medium Stone Grey         |               |
+|  66 | New Dark Red              |               |
+| 111 | Olive Green               |               |
+|  72 | Reddish Brown             |               |
+|  57 | Sand Blue                 |               |
+|  64 | Sand Green                |               |
+|  60 | Sand Yellow               |               |
+| 171 | Silver Metallic           |               |
+| 110 | Spring Yellowish Green    |               |
+| 121 | Tr. Blue                  |               |
+| 145 | Tr. Bright Green          |               |
+| 134 | Tr. Bright Orange         |               |
+|     | Tr. Bright Violet         |               |
+| 127 | Tr. Brown                 |               |
+| 124 | Tr. Green                 |               |
+| 120 | Tr. Light Blue            |               |
+| 128 | Tr. Medium Reddish Violet |               |
+| 119 | Tr. Red                   |               |
+| 122 | Tr. Yellow                |               |
+| 118 | Transparent               |               |
+|     | Vibrant Coral             |               |
+| 170 | Warm Gold                 |               |
+|   1 | White                     |               |
+|-----+---------------------------+---------------|
+
+
+|---------+--------------+-------------------+-----------------------|
+| LEGO ID | bricklink ID | LEGO Color Family | LEGO Exact Color      |
+|---------+--------------+-------------------+-----------------------|
+|      01 |              | White             | White                 |
+|      02 |              |                   | Grey                  |
+|      03 |              | Lilac             | Medium Lavendel       |
+|      05 |              | Bright Orange     | Bright Orange         |
+|      13 |              |                   |                       |
+|      15 |              | Reddish Brown     | Brick Yellow          |
+|      21 |              | Red               | Bright Red            |
+|      23 |              | Blue              | Bright Blue           |
+|      24 |              | Yellow            | Bright Yellow         |
+|      26 |              | Black             | Black                 |
+|      30 |              | Blue              | Medium Blue           |
+|      35 |              | Purple            | Bright Reddish Violet |
+|      42 |              | Reddish Brown     | Reddish Brown         |
+|      48 |              | Dark Green        | Sand Green            |
+|      50 |              | Purple            | Light Purple          |
+|      52 |              | Blue              | Medium Azur           |
+|      76 |              | Red               | New Dark Red          |
+|      98 |              | Grey              | Dark Stone Grey       |
+|---------+--------------+-------------------+-----------------------|
+
+https://www.lego.com/cdn/cs/set/assets/blta73c5691a72732dc/300401.jpg?fit=bounds&amp;format=jpg&amp;quality=90&amp;width=150&amp;height=150&amp;dpr=1
+
+|------+-----------+-----------------------------------------------------------------------+-------|
+|   ID | Name      | Image                                                                 | Price |
+|------+-----------+-----------------------------------------------------------------------+-------|
+| 3004 | BRICK 1X2 | https://www.lego.com/cdn/cs/set/assets/blta73c5691a72732dc/300401.jpg |       |
+| 3005 | BRICK 1X1 | https://www.lego.com/cdn/cs/set/assets/blt3eae1cac51fd20c7/300501.jpg | $.07  |
+|------+-----------+-----------------------------------------------------------------------+-------|
+
+
+https://www.bricklink.com/catalogColors.asp
+
+
+* BRICK 1X1
+** Design ID: 3005
+** Price:  $.07
+** Variations
+*** White
+**** Color Family: White
+**** Exact Color: White
+**** Element ID: 300501
+*** Medium Lavendel
+**** Color Family: Lilac
+**** Exact Color: Medium Lavendel
+**** Element ID: 4651903
+*** 
+**** Color Family: Bright Orange
+
+Exact Color: Bright Orange
+Element ID: 4173805
+*** Bright Red
+**** Color Family: Red
+**** Exact Color: Bright Red
+**** Element ID: 300521
+*** Bright Yellow
+**** Color Family: Yellow
+**** Exact Color: Bright Yellow
+**** Element ID: 300524
+*** Black
+**** Color Family: Black
+**** Exact Color: Black
+**** Element ID: 300526
+*** Bright Reddish Violet
+**** Color Family: Purple
+**** Exact Color: Bright Reddish Violet
+**** Element ID: 6022035
+
+

@@ -1,0 +1,14 @@
+* Webmail Clients
+[[https://electronjs.org/apps/mailspring][Mailspring]]
+[[https://www.slant.co/topics/1460/~best-self-hosted-webmail-clients][What are the best self-hosted webmail clients?]]
+[[http://www.postfix.org/addon.html][Postfix Add-on Software]]
+[[https://blog.marcnuri.com/isotope-mail-client-introduction/][Isotope Mail Client: Introduction and features]]
+[[https://github.com/manusa/isotope-mail#readme][Github - manusa/isotope-mail]]
+[[https://github.com/nylas/nylas-mail][Github - nylas/nylas-mail]]
+* Gmail-app-things
+** [[https://wavebox.io/download/][Wavebox]]
+** [[https://www.boxysuite.com][Boxysuite 2]]
+** [[https://www.kiwiforgmail.com][Kiwi for Gmail]]
+** [[https://www.google.com/inbox/?hl=en-GB][Inbox by Gmail]]
+* Taming inbox
+** [[https://mailstrom.co/subscribe][Mailstrom]]

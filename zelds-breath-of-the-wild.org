@@ -1,0 +1,34 @@
+* Shrines
+** Bosh Kala
+*** Chest: Amber
+** Hila Rao Shrine
+*** Floret Sandbar
+**** There is a raft here; how do I sail it?
+*** Chest: Ice Arrows x5
+** Ha Dahamar Shrine
+*** Chese: Purple Rupee (50 Rupees)
+** Shee Vaneer Shrine
+*** Message
+The shrines atop these peaks here a connection-their memory the answer
+to the other's question.
+
+Commit to memory before you start, lest, a failure, you will depart.
+*** Floor Pattern (from above)
+rBrrr
+rrrBr
+Brrrr
+rrBrr
+rrrrB
+*** Chest: Eightfold Longblade (32)
+Around the pillar from the platform wall where you ascend; gide around
+the column.
+** Shee Venath Shrine
+*** Floor Pattern (from above)
+rrrrB
+Brrrr
+rBrrr
+rrrBr
+rBrrr
+*** Chest: Serpantine Spear (12)
+Around the pillar from the platform wall where you ascend; gide around
+the column.

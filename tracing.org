@@ -1,0 +1,39 @@
+* [[http://principlesofchaos.org][Principles of Chaos Engineering]]
+* [[https://www.youtube.com/watch?v=8IKxf98h65Y][Distributed Large Scale Systems in Go: The Good, The Bad, and The Otherwise - Ben Sigelman]]
+* [[http://opentracing.io/talks-and-videos/opentracing-isnt-just-tracing][OpenTracing Isn't Just Tracing]]
+* [[http://lightstep.com][LightStep]]
+* [[https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941][Take OpenTracing for a HotROD ride]]
+* [[https://medium.com/designmap-inc/dual-track-agile-for-designers-220116186b81][Dual Track Agile for Designers]]
+
+* [[https://uber.github.io/jaeger/][Jaeger]]
+** [[http://jaeger.readthedocs.io/en/latest/][Documentation]]
+** [[https://github.com/uber/jaeger-client-go][Go Client]]
+* [[https://docs.google.com/document/d/1llfXOJSwLtiy7i8Pum9xCKLdeEgZIAxwC2m1gyepg-Y/edit#][From zero to distributed traces: An OpenTracing tutorial]]
+** [[https://github.com/yurishkuro/opentracing-tutorial/tree/master/go][OpenTracing Go Tutortial]]
+* [[http://zipkin.io][Zipkin]]
+* [[http://opentracing.io][OpenTracing]]
+* Future Reading
+** [[https://eng.uber.com/distributed-tracing/][Evolving Distributed Tracing at Uber Engineering]]
+** [[https://medium.com/opentracing/tracing-http-request-latency-in-go-with-opentracing-7cc1282a100a][Tracing HTTP request latency in Go with OpenTracing]]
+** [[https://blog.openshift.com/openshift-commons-briefing-82-distributed-tracing-with-jaeger-prometheus-on-kubernetes/][OpenShift Commons Briefing #82: Distributed Tracing with Jaeger & Prometheus on Kubernetes]]
+
+* Quick Demo
+** Start up jaeger container
+docker run -d -e COLLECTOR_ZIPKIN_HTTP_PORT=9411 -p5775:5775/udp -p6831:6831/udp -p6832:6832/udp -p5778:5778 -p16686:16686 -p14268:14268 -p9411:9411 jaegertracing/all-in-one:latest
+** Jaeger Interface
+http://localhost:16686
+** Fire up hotrod
+*** Quick run
+~/code/go/src/github.com/uber/jaeger/examples/hotrod/hotrod
+**** Or
+***** build and run
+cd ~/code/go/src/github.com/uber/jaeger/examples/hotrod/
+go build
+./hotrod
+***** scripty go
+cd ~/code/go/src/github.com/uber/jaeger/examples/hotrod/
+go run main.go all
+* Quick Links
+[[https://medium.com/opentracing/take-opentracing-for-a-hotrod-ride-f6e3141f7941][Take OpenTracing for a HotROD ride]]
+[[http://opentracing.io/talks-and-videos/opentracing-and-containers][Keynote: OpenTracing and Containers: Depth, Breadth, and the Future of Tracing]]
+[[https://research.google.com/pubs/pub36356.html][Dapper, a Large-Scale Distributed Systems Tracing Infrastructure]]

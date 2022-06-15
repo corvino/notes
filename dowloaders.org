@@ -1,0 +1,9 @@
+* Bittorrent
+- [[https://transmissionbt.com][Transmission]]
+- [[https://www.qbittorrent.org][qBittorrent]]
+- [[https://www.utorrent.com/downloads/mac/][uTorrent]]
+- [[https://www.mac-downloader.com][Flox 5]]
+* Torrents
+- [[https://proxyrarbg.org][RARBG]]
+* YouTube
+** [[https://www.4kdownload.com/products/videodownloader/8][4k Video Downloader]]

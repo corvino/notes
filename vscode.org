@@ -1,0 +1,27 @@
+* [[https://code.visualstudio.com/docs/editor/debugging][Debugging]]
+- [[https://code.visualstudio.com/docs/editor/debugging#_launchjson-attributes][Launch.json attributes]]
+** Snippets
+*** Attach to chrome/web
+{
+  "name": "Renderer",
+  "type": "chrome",
+  "request": "attach",
+  "port": 9223,
+  "webRoot": "${workspaceFolder}",
+  "timeout": 5000
+}
+*** Front-end tooling (webpack, vite, etc)
+{
+  "name": "react",
+  "command": "npm start",
+  "request": "launch",
+  "type": "node-terminal"
+}
+*** Browser
+** Browser paths
+- /Applications/Chromium.app/Contents/MacOS/Chromium
+- /Applications/Brave Browser.app/Contents/MacOS/Brave Browser
+- /Applications/Brave Browser Beta.app/Contents/MacOS/Brave Browser Beta
+** Start with remote debugging
+/Applications/Chromium.app/Contents/MacOS/Chromium --remote-debugging-port=9223
+

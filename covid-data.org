@@ -1,0 +1,35 @@
+* Washington
+** [[https://www.doh.wa.gov/emergencies/coronavirus][Washington State 2019 Novel Coronavirus Outbreak (COVID-19) Page]]
+** [[https://www.kingcounty.gov/depts/health/covid-19/data.aspx][King County]]
+*** [[https://www.kingcounty.gov/depts/health/covid-19/data/key-indicators.aspx][Key indicators of COVID-19 activity in King County]]
+*** [[https://www.kingcounty.gov/depts/health/covid-19/data/daily-summary.aspx][King County Daily COVID-19 outbreak summary]]
+* New York Times
+** [[https://www.nytimes.com/interactive/2020/us/coronavirus-testing.html][Is Your State Doing Enough Coronavirus Testing?]]
+** [[https://www.nytimes.com/interactive/2020/world/coronavirus-maps.html][Coronavirus Map: Tracking the Global Outbreak]]
+** [[https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html][Coronavirus in the U.S.: Latest Map and Case Count]]
+** [[https://www.nytimes.com/interactive/2020/us/washington-coronavirus-cases.html][Washington Coronavirus Map and Case Count]]
+* [[https://www.covidexitstrategy.org][Covid Exit Strategy]]
+** [[https://www.covidexitstrategy.org/resolve-essential-indicators][Resolve to Save Lives Essential Indicators]]
+* Data
+** [[https://github.com/nytimes/covid-19-data][nytimes / covid-19-data]]
+** [[https://github.com/COVID19Tracking/covid-public-api][COVID19Tracking / covid-public-api]]
+** [[https://github.com/CSSEGISandData/COVID-19][CSSEGISandData / COVID-19 (John Hopkins)]]
+* US Census Data
+** [[https://www.census.gov/data/datasets/2010/dec/rdo/section-203-determination-pums.html][Section 203 Determinations Dataset - Census 2010]]
+** [[https://www.census.gov/data/datasets/2016/dec/rdo/section-203-determinations.html][Section 203 Determinations Dataset - 2016 Update]]
+** [[https://www2.census.gov/programs-surveys/popest/datasets/][Census population estimates]]
+* HHS
+** [[https://protect-public.hhs.gov/pages/hospital-capacity][Hospital Capacity Data ]]
+* NYTime colors
+** #f2df91
+** #f9c468
+** #ffa83d
+** #ff8b23
+** #fe6a0c
+** 40
+** #f04f09
+** #e13106
+** 56
+** #ce0a05
+
+

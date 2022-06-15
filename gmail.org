@@ -1,0 +1,38 @@
+* [[https://support.google.com/drive/answer/6374270?hl=en][Clear Google Drive space & increase storage]]
+Your storage is shared across Google Drive, Gmail, and Google Photos.
+
+To see how much space you have left, on a computer, go to google.com/settings/storage .
+
+Important: When your account reaches its storage limit, you can’t send or receive emails.
+
+** Clear space
+Clear space in Google Drive, Gmail, and Google Photos to make room for new items.
+Tip: Within 24 hours, deleted items will show in the available space in your Google Drive account.
+*** Delete files by size in Google Drive
+**** 1. Use a computer to see your files listed from largest to smallest.
+**** 2. Put files you don't want in your Trash, then permanently delete them.
+*** Gmail
+**** Permanently delete large emails
+***** 1. In the Search box, type
+has:attachment larger:10M.
+***** 2. Click Search Search.
+Note: Replace "10" with a higher number to delete larger files.
+
+***** 3. Select the emails you don't need, then click Delete Delete.
+***** 4. On the left side of the page, click More and then Trash.
+***** 5. At the top, click Empty trash now.
+**** Permanently delete emails in Spam
+***** On the left, click Spam. If you don't see Spam, click More.
+***** At the top, click Delete all spam messages now. Or, select specific emails, then click Delete forever.
+*** Google Photos
+**** Store photos & videos as "High quality"
+Change your photos and videos from "Original quality" to "High quality," which doesn't take up storage space.
+
+***** On a computer, go to photos.google.com/settings.
+***** Click Recover storage. This won't change the quality of your future uploads.
+**** Move photos & videos to Trash
+***** 1. On your computer, go to photos.google.com.
+***** 2. Point to an item you want to move to Trash.
+***** 3. At the top left, click Select Select.
+***** 4. At the top right, click Delete Delete and then Move to trash.
+

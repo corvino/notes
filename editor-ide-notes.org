@@ -1,0 +1,13 @@
+* Keyboard Short Defaults
+
+- [[https://docs.microsoft.com/en-us/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022][Visual Studio]]
+- [[https://code.visualstudio.com/docs/getstarted/keybindings][Visual Studio Code]] ([[https://code.visualstudio.com/docs/editor/debugging][Debugging]])
+- [[https://www.eclipse.org/getting_started/content/eclipse-ide-keybindings.pdf][Eclipse]]
+
+| Command           | Xcode      | Eclipse     | VS Code  |
+|-------------------+------------+-------------+----------|
+| Step Over         | F6         | F6          | F10      |
+| Step into         | F7         | F5          | F11      |
+| Stop Out          | F8         | F7          | Shft-F11 |
+| Toggle Breakpoint | Ctrl-\     | Ctrl-Shft-B | F9       |
+| Continue          | Cmd-Shft-Y | F8          | F5       |

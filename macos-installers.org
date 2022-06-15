@@ -1,0 +1,38 @@
+* [[https://support.apple.com/en-us/HT201372][How to create a bootable installer for macOS]]
+[[https://support.apple.com/en-us/HT204904][How to reinstall macOS from macOS Recovery]]
+[[https://support.apple.com/en-us/HT201260][Find out which macOS your Mac is using]]
+* Find version of installer
+** Lion
+Look in System/Library/CoreServices/SystemVersion.plist for the value of "ProductVersion"
+** High Sierra
+Look in Contents/SharedSupport/InstallInfo.plist for the value "System Image Info"->"version"
+* Lion (10.7)
+* Mountain Lion (10.8)
+* Mavericks (10.9)
+* Yosemite (10.10)
+[[https://support.apple.com/en-us/HT210717][How to upgrade to OS X Yosemite]]
+[[http://updates-http.cdn-apple.com/2019/cert/061-41343-20191023-02465f92-3ab5-4c92-bfe2-b725447a070d/InstallMacOSX.dmg][InstallMacOSX.dmg]]
+sudo ~/Desktop/Install\ OS\ X\ Yosemite.app/Contents/Resources/createinstallmedia --volume /Volumes/NO\ NAME/ --applicationpath ~/Desktop/Install\ OS\ X\ Yosemite.app
+* El Capitan (10.11)
+[[https://support.apple.com/en-us/HT206886][How to upgrade to OS X El Capitan]]
+[[http://updates-http.cdn-apple.com/2019/cert/061-41424-20191024-218af9ec-cf50-4516-9011-228c78eda3d2/InstallMacOSX.dmg][InstallMacOSX.dmg]]
+sudo ~/Desktop/Install\ OS\ X\ El\ Capitan.app/Contents/Resources/createinstallmedia --volume /Volumes/NO\ NAME/ --applicationpath ~/Desktop/Install\ OS\ X\ El\ Capitan.app
+* Sierra (10.12)
+[[https://support.apple.com/en-us/HT208202][How to upgrade to macOS Sierra]]
+[[http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg][InstallOS.dmg]]
+Run the createinstallmedia --volue /Volumes/<Volume Name>
+createinstallmedia is found in the installer in Contents/Resources/
+Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled/
+* High Sierra (10.13)
+[[https://support.apple.com/en-us/HT208969][How to upgrade to macOS High Sierra]]
+[[http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg][InstallOS.dmg]]
+(App Store Download)
+Run the createinstallmedia --volue /Volumes/<Volume Name>
+createinstallmedia is found in the installer in Contents/Resources/
+Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/Untitled/
+* Mojava (10.14)
+[[https://support.apple.com/en-us/HT210190][How to upgrade to macOS Mojave]]
+(App Store Download)
+* Catalina (10.15)
+Run the createinstallmedia --volue /Volumes/<Volume Name>
+createinstallmedia is found in the installer in Contents/Resources/

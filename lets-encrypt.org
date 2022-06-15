@@ -1,0 +1,23 @@
+* [[https://www.digitalocean.com/community/tech_talks/building-a-minimal-production-ready-infrastructure-on-digitalocean][Building a Minimal, Production-Ready Infrastructure on DigitalOcean]]
+* DNS
+** [[https://www.digitalocean.com/docs/networking/dns/][Digital Ocean Domains and DNS]]
+* Certbot
+* [[https://letsencrypt.org/docs/staging-environment/][Staging]]
+* Setting up with nginx
+** Wildcard; doesn't seem to authenticate automatically
+sudo certbot --staging --nginx -d *.yodabits.com -m corvino@gmail.com --agree-tos --eff-email
+** Specifica subdomains
+sudo certbot --staging --nginx -d yodabits.com -d www.yodabits.com -d docker.yodabits.com -m corvino@gmail.com --agree-tos --eff-email
+* [[https://certbot-dns-digitalocean.readthedocs.io/en/stable/][Certbot DNS Digital Ocean]]
+** See related
+*** [[https://letsencrypt.org/docs/challenge-types/][Let's Encrypt Challenge Types]]
+*** [[https://community.letsencrypt.org/t/dns-providers-who-easily-integrate-with-lets-encrypt-dns-validation/86438][Let's Encrypt DNS Providers]]
+** Wildcard
+sudo certbot certonly --staging --dns-digitalocean --dns-digitalocean-credentials /etc/dns-digitalocean-credentials -d *.yodabits.com -m corvino@gmail.com --agree-tos --eff-email
+* [[https://letsencrypt.org/docs/revoking/][Revoke cert]]
+sudo certbot revoke --cert-path /etc/letsencrypt/archive/yodabits.com/cert1.pem
+sudo certbot revoke --cert-path /etc/letsencrypt/live/yodabits.com/cert.pem
+* Docker Registry
+** [[https://docs.docker.com/registry/deploying/][Deploy a registry server]]
+** [[https://docs.docker.com/registry/insecure/][Test an insecure registry]]
+** [[https://docs.docker.com/registry/recipes/nginx/][Authenticate proxy with nginx]]

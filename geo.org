@@ -1,0 +1,6 @@
+* Software
+** [[https://maplibre.org][MapLibre]]
+** [[https://www.mapbox.com][Mapbox]]
+** [[https://geojson.org][GeoJson]]
+** [[https://libgeos.org][GEOS]]
+** [[https://postgis.net][PostGIS]]

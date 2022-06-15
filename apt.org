@@ -1,0 +1,11 @@
+[[https://en.wikipedia.org/wiki/APT_(Package_Manager)][APT]]
+* Core commands
+** Update package cache
+apt-get update
+** Update installed pacakages
+apt-get upgrade
+** List installed packages
+apt list --installed
+dpkg -l
+** List available versions of a package
+apt-cache madison <package>

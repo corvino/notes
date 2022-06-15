@@ -1,0 +1,12 @@
+* Migration to v1 / Bootstrap 4
+** [[https://react-bootstrap.netlify.app/migrating/][Migrating to react-bootstrap v1]]
+** [[https://getbootstrap.com/docs/4.0/migration/][Migrating to Bootstrap v4]]
+** [[https://github.com/react-bootstrap/react-bootstrap/issues/3395][Github Issue]]
+* Docs
+** [[https://react-bootstrap.github.io/components/][React Bootstrap Components]]
+* Icons
+** [[https://github.com/react-icons/react-icons][react-icons]]
+** [[https://fontawesome.com/icons?d=gallery][fontawesome gallery]]
+** [[https://fontawesome.com/v4.7.0/icons/][fontawesome v4.7.0 icons]]
+** [[https://getbootstrap.com/docs/3.3/components/][Bootstrap 3.3 Glyphicons]]
+** [[https://gist.github.com/blowsie/15f8fe303383e361958bd53ecb7294f9][Map glyphicon icons to font-awesome]]

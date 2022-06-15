@@ -1,0 +1,14 @@
+* Tilequery API
+[[https://blog.mapbox.com/unlock-context-rich-experiences-with-the-new-tilequery-api-9af1ecf2b03f][Unlock context-rich experiences with the new Tilequery API]]
+[[https://docs.mapbox.com/playground/tilequery/][Tilequery API Playground]]
+
+* Getting macOS sample app to run
+** Bootstrapping
+#+BEGIN_SRC shell
+make build/macos/mbgl.xcodeproj
+open platform/macos/macos.xcworkspace
+#+END_SRC
+* Including source in workspace
+* Things to investigate
+** [[https://docs.mapbox.com/mapbox-tiling-service/examples/natural-earth-data-roads/][Roads - ranking and simplifying linestrings]]
+Creating a road tileset from [[https://www.naturalearthdata.com][Natural Earth Data]] road data.

@@ -1,0 +1,106 @@
+* Coursera
+** [[https://www.coursera.org/specializations/big-data][Big Data Specialization (UC San Diego)]]
+Unlock Value in Massive Datasets. Learn fundamental big data methods in six straightforward courses.
+*** [[https://www.coursera.org/learn/big-data-introduction/home/welcome][Introduction to Big Data]]
+*** [[https://www.coursera.org/learn/big-data-management/home/welcome][Big Data Modeling and Management Systems]]
+*** [[https://www.coursera.org/learn/big-data-integration-processing][Big Data Integration and Processing]]
+*** [[https://www.coursera.org/learn/big-data-machine-learning][Machine Learning With Big Data]]
+*** [[https://www.coursera.org/learn/big-data-graph-analytics][Graph Analytics for Big Data]]
+*** [[https://www.coursera.org/learn/big-data-project][Big Data - Capstone Project]]
+** [[https://www.coursera.org/specializations/data-warehousing][Data Warehousing for Business Intelligence Specialization (University of Colorado)]]
+Harness Business Data. Build a fully-optimized business data warehouse in five courses.
+*** [[https://www.coursera.org/learn/database-management][Database Management Essentials]]
+*** [[https://www.coursera.org/learn/dwdesign][Data Warehouse Concepts, Design, and Data Integration]]
+*** [[https://www.coursera.org/learn/dwrelational][Relational Database Support for Data Warehouses]]
+*** [[https://www.coursera.org/learn/business-intelligence-tools][Business Intelligence Concepts, Tools, and Applications]]
+*** [[https://www.coursera.org/learn/data-warehouse-bi-building][Design and Build a Data Warehouse for Business Intelligence Implementation]]
+** [[https://www.coursera.org/specializations/cloud-computing][Cloud Computing Specialization]]
+Clouds, Distributed Systems, Networking. Learn about and build distributed and networked systems for clouds and big data.
+*** [[https://www.coursera.org/learn/cloud-computing][Cloud Computing Concepts, Part 1]]
+*** [[https://www.coursera.org/learn/cloud-computing-2][Cloud Computing Concepts: Part 2]]
+*** [[https://www.coursera.org/learn/cloud-applications-part1][Cloud Computing Applications, Part 1: Cloud Systems and Infrastructure]]
+*** [[https://www.coursera.org/learn/cloud-applications-part2][Cloud Computing Applications, Part 2: Big Data and Applications in the Cloud]]
+*** [[https://www.coursera.org/learn/cloud-networking][Cloud Networking]]
+*** [[https://www.coursera.org/learn/cloud-computing-project][Cloud Computing Project]]
+* Links
+** [[https://engineeringblog.yelp.com/2016/11/open-sourcing-yelps-data-pipeline.html][Open-Sourcing Yelp's Data Pipeline]]
+** [[https://engineeringblog.yelp.com/2016/07/billions-of-messages-a-day-yelps-real-time-data-pipeline.html][Billions of Messages a Day - Yelp's Real-time Data Pipeline]]
+** [[https://www.confluent.io/blog/stream-data-platform-1/][Putting Apache Kafka To Use: A Practical Guide to Building a Streaming Platform (Part 1)]]
+** [[https://www.confluent.io/blog/stream-data-platform-2/][Putting Apache Kafka To Use: A Practical Guide to Building a Streaming Platform (Part 2)]]
+** [[https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying][The Log: What every software engineer should know about real-time data's unifying abstraction]]
+** [[https://sookocheff.com/post/kafka/kafka-in-a-nutshell/][Kafka in a Nutshell]]
+** [[https://robinhood.engineering/why-robinhood-uses-airflow-aed13a9a90c8][Why Robinhood uses Airflow]]
+* Shouldn't Be Here
+** [[http://sourabhbajaj.com/mac-setup/Vagrant/README.html][Dude's Vagrant Setup Guide]] (He has a whole macos guide)
+* Books
+** [[http://shop.oreilly.com/product/0636920032175.do][Designing Data-Intensive Applications]]
+** [[http://shop.oreilly.com/product/0636920022466.do][Big Data Glossary]]
+** [[http://shop.oreilly.com/product/0636920033950.do][Data Algorithms: Recipes for Scaling Up with Hadoop and Spark]]
+** [[http://shop.oreilly.com/product/0636920051619.do][Agile Data Science 2.0: Building Full-Stack Data Analytics Applications with Spark]]
+** [[http://shop.oreilly.com/product/0636920049463.do][Streaming Architecture: New Designs Using Apache Kafka and MapR Streams]]
+** [[http://shop.oreilly.com/product/0636920042204.do][The Enterprise Big Data Lake]]
+** [[http://shop.oreilly.com/product/0636920073994.do][Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing]]
+** [[http://shop.oreilly.com/product/0636920048992.do][Practical Statistics for Data Scientists: 50 Essential Concepts]]
+** [[http://shop.oreilly.com/product/0636920049081.do][Mastering Feature Engineering: Principles and Techniques for Data Scientists]]
+** Spark
+*** [[http://shop.oreilly.com/product/0636920047568.do][Learning Spark Streaming]]
+*** [[http://shop.oreilly.com/product/0636920034957.do][Spark: The Definitive Guide: Big data processing made simple]]
+*** [[http://shop.oreilly.com/product/0636920046967.do][High Performance Spark: Best Practices for Scaling and Optimizing Apache Spark]]
+*** [[http://shop.oreilly.com/product/0636920056591.do][Advanced Analytics with Spark: Patterns for Learning from Data at Scale]]
+** Not Quite Big Data
+*** [[http://shop.oreilly.com/product/0636920050308.do][Microservice Architecture: Aligning Principles, Practices, and Culture]]
+*** [[http://shop.oreilly.com/product/0636920047070.do][Architecting for Scale: High Availability for Your Growing Applications]]
+*** [[http://shop.oreilly.com/product/0636920072768.do][Designing Destributed Systems]]
+* Playground-test-environment
+** [[https://blog.cloudera.com/blog/2014/06/how-to-install-a-virtual-apache-hadoop-cluster-with-vagrant-and-cloudera-manager/][How-to: Install a Virtual Apache Hadoop Cluster with Vagrant and Cloudera Manager]]
+** [[https://github.com/DandyDev/virtual-hadoop-cluster][A working virtual Hadoop cluster]]
+* Tools
+** [[https://www.jetbrains.com/datagrip/][DataGrip]]
+*** Setup a new Data Source type (Redshift)
+**** File->Data Sources... (Cmd-;)
+**** + button in upper left
+**** Select Driver or Driver and Data Source at bottom of popup
+*** References
+**** [[http://blog.code4hire.com/2016/05/Connecting-JetBrains-DataGrip-to-redshift/][Connecting DataGrip/IntelliJ to Redshift]]
+** IntelliJ Ultimate
+*** Setup a new Data Source type (Redshift)
+**** View->Tools Window->Database
+**** Database+Wrench Icon
+**** + button in upper left
+**** Select Driver or Driver and Data Source at bottom of popup
+*** References
+**** [[http://ryancoder.blogspot.com/2015/08/connecting-intellij-to-redshift.html][Connecting IntelliJ to Redshift]]
+** Common to DataGrip/IntelliJ Ultimate
+*** You can use Driver or Driver and Data Source
+Using Driver and Data Source, you have select Driver to get to Data
+Source, which gets you to the same place as Data Source. Kinda. Why?
+*** You can download a driver from AWS in the Redshift Console
+**** Look for Connect client at the bottom of the sidebar menu
+*** You want to add the com.amazon.redshift.jdbc<version>.Driver as the driver class name
+*** You want PostgreSQL as the Dialect
+*** Redshift is the recommended name
+jdbc:redshift://p-reporting-main.ceglwjrxcc7w.us-east-1.redshift.amazonaws.com:5439/main
+* [[https://www.jetbrains.com/datagrip/][DataGrip]] alternatives
+** SQL Server Management Studio
+** MySQL Workbench
+** SQL Developer
+** pgAdmin
+** TOAD
+** Sequel Pro
+** Navicat
+** Command Line Tools
+** SQL Server Data Tools
+** phpMyAdmin
+** HeidiSQL
+** SQuirreL
+** DBeaver
+** SQL navigator
+** DBVisualizer
+** SQLyog
+* Redshift
+** You can connect with psql
+psql -h p-reporting-main.ceglwjrxcc7w.us-east-1.redshift.amazonaws.com -p 5439 -U reporting data
+* NiFi
+** [[https://cwiki.apache.org/confluence/display/NIFI/Release+Notes#ReleaseNotes-Version1.2.0][Release Notes - Version 1.2.0]]
+** [[https://nifi.apache.org/registry.html][NiFi Registry]]
+** [[https://cwiki.apache.org/confluence/display/NIFI/Configuration+Management+of+Flows][Configuration Management of Flows]]

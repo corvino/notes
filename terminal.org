@@ -1,0 +1,36 @@
+* [[https://tldp.org/HOWTO/Bash-Prompt-HOWTO/][Bash Prompt HOWTO]]
+** Reference Pages
+[[https://tldp.org/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html][Bash Prompt Escape Sequences]]
+[[https://tldp.org/HOWTO/Bash-Prompt-HOWTO/nonprintingchars.html][Non-Printing Characters in Prompts]]
+Surround with '\[' and '\]', so '\[<non-printing content>\'
+[[https://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html][Colours]]
+[[https://chrisyeh96.github.io/2020/03/28/terminal-colors.html][Terminal Colors]]
+* Colors
+** macOS Terminal App
+*** Basic Profile
+|---------+--------+--------|
+|         | Normal | Bright |
+|---------+--------+--------|
+| Black   | 000000 | 666666 |
+| Red     | 990000 | E60000 |
+| Green   | 00A600 | 00D900 |
+| Yellow  | 999900 | E5E500 |
+| Blue    | 0000B2 | 0000FF |
+| Magenta | B200B2 | E500E5 |
+| Cyan    | 00A6B2 | 00E5E5 |
+| White   | BFBFBF | E5E5E5 |
+|---------+--------+--------|
+** iTerm
+*** Default Profile
+|---------+--------+--------|
+|         | Normal | Bright |
+|---------+--------+--------|
+| Black   | 000000 | 676767 |
+| Red     | c91b00 | c91b00 |
+| Green   | 00c200 | 5ff967 |
+| Yellow  | c7c400 | fefb67 |
+| Blue    | 0225c7 | 6871ff |
+| Magenta | c930c7 | ff76ff |
+| Cyan    | 00c5c7 | 5ffdff |
+| White   | c7c7c7 | fffefe |
+|---------+--------+--------|

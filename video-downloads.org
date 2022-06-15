@@ -1,0 +1,12 @@
+* [[https://mac.eltima.com/top-video-downloaders.html][Top 10 video downloaders Mac (Big Sur compatible)]]
+* Mac Apps
+** [[https://mac.eltima.com/video-downloader.html][VideoDuke]]
+** [[https://www.acethinker.com/video-downloader][AceThinker]]
+* Browser Extension
+** [[https://video-downloadhelper.en.softonic.com/mac/download][Video DownloadHelper for Mac]]
+Seems to handle flow video well, which is what fiddlevideo.com
+uses. Yay!  Also, purchased.
+
+Downloads to ~/dwhelper, which can be found within the extension.
+*** [[https://www.downloadhelper.net/][Homepage]]
+*** [[https://chrome.google.com/webstore/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk][Chrome Store]]

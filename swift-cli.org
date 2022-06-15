@@ -1,0 +1,5 @@
+* [[https://jblevins.org/log/swift][Scripting and Compiling Swift on the Command Line]]
+* [[https://www.hackingwithswift.com/articles/44/apple-s-new-utility-library-will-power-up-command-line-apps][Apple's new Utility library will power up command-line apps]]
+* [[https://medium.com/@dmytro.anokhin/command-line-tool-using-swift-package-manager-and-utility-package-e0984224fc04][Command Line Tool using Swift Package Manager and Utility package]]
+* [[https://github.com/mxcl/swift-sh][mxcl/swift-sh]]
+Easily script with third-party Swift dependencies.

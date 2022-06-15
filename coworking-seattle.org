@@ -1,0 +1,17 @@
+* [[http://www.newtechnorthwest.com/resource-guide/co-working/][NewTech Northwest Guide]]
+* |---------------------------+----------------------------------------------------|
+| [[https://www.wework.com/buildings/westlake-tower--seattle--WA][WeWork - Westlake Tower]]   | 1601 5th Ave, Seattle, WA 98101                    |
+| [[https://www.wework.com/buildings/denny-triangle--seattle--WA][WeWork - Denny Triangle]]   | 1099 Stewart Street, Seattle, WA 98101             |
+| [[https://www.wework.com/buildings/south-lake-union--seattle--WA][WeWork - South Lake Union]] | 500 Yale Avenue North, Seattle, WA 98109           |
+| [[https://www.wework.com/buildings/holyoke-building--seattle--WA][WeWork - Holyoke Building]] | 107 Spring St, Seattle, WA 98104                   |
+| [[https://www.themakersspace.com][Makers]]                    | 92 Lenora Street, Seattle, WA, 9812                |
+| [[https://www.industriousoffice.com/locations/seattle/][Industrious]]               | 2033 Sixth Ave, Suite 600, Seattle, WA 98121       |
+| [[https://www.thepioneercollective.com][The Pioneer Collective]]    | 100 South King Street Suite 100, Seattle, WA 98104 |
+| [[https://www.cambiagrove.com/coworking][Cambia Grove]]              | 1800 9th Ave., Suite 250, Seattle, WA 98101        |
+| [[https://www.regus.com/coworking-space/united-states/washington/seattle/washington-seattle-columbia-center][Regus, Columbia Center]]    | 701 Fifth Avenue, 42nd Floor, Seattle, WA, 98104   |
+| [[http://coterieworklounge.com][Coterie - Work Lounge]]     | 1414 Fourth Avenue, Seattle, WA 98101              |
+| [[http://www.atlasworkbase.com][ATLAS Workbase]]            | 500 Mercer St, Seattle, WA 98109, USA              |
+| [[https://www.galvanize.com/seattle][Galvanize]]                 | 111 S Jackson St. Seattle WA 98104                 |
+| [[http://www.westseattlecoworking.com][West Seattle Coworking]]    | 6040 B/C California, Ave SW, Seattle, WA 98136     |
+|---------------------------+----------------------------------------------------|
+

@@ -1,0 +1,381 @@
+* Books
+** O'Reilly
+*** [[https://smile.amazon.com/Network-Troubleshooting-OReilly-System-Administration/dp/059600186X/][Network Troubleshooting Tools]]
+*** [[https://smile.amazon.com/TCP-Network-Administration-Craig-Hunt/dp/1565923227/][TCP/IP Network Administration]]
+*** [[https://smile.amazon.com/Network-Troubleshooting-OReilly-System-Administration/dp/059600186X/][Network Troubleshooting Tools]]
+*** [[https://smile.amazon.com/Packet-Guide-Core-Network-Protocols/dp/1449306535/][Packet Guide to Core Network Protocols]]
+**** [[https://smile.amazon.com/Internet-Core-Protocols-Definitive-Administrators/dp/1565925726/][Internet Core Protocols: The Definitive Guide: Help for Network Administrators]]
+*** [[https://smile.amazon.com/Packet-Guide-Routing-Switching-Exploring/dp/1449306551/][Packet Guide to Routing and Switching]]
+**** [[https://smile.amazon.com/IP-Routing-Ravi-Malhotra/dp/0596002750/][IP Routing]]
+*** [[https://smile.amazon.com/Ethernet-Definitive-Designing-Managing-Networks/dp/1449361846/][Ethernet: The Definitive Guide]]
+*** [[https://smile.amazon.com/Packet-Guide-Voice-over-administrators/dp/1449339670/][Packet Guide to Voice Over Ip: A System Administrator's Guide To Voip Technologies]]
+** [[https://www.auvik.com/franklymsp/blog/essential-network-admin-library/][The Essential Network Admin Library: 12 Books to Read & Own]]
+* Ubiquiti
+** Documentation
+*** Stored locally at ~/Dropbox/Ubiquiti/
+** vyatta
+EdgeOS is apparently a fork of vyatta
+[[https://docs.huihoo.com/vyatta/][Vyatta Open Source Docs]]
+[[https://docs.huihoo.com/vyatta/6.3/][vyatta 6.3 docs]]
+** Raspberry Pi Server
+*** How to Image
+**** [[https://jonasrosland.com/simple-way-to-build-a-custom-docker-ready-raspberry-pi-image/][Simple way to build a custom Docker-ready Raspberry Pi image]]
+**** [[https://github.com/TheSin-/rpi-img-builder][Scripts to create custom images for RaspberryPi]]
+** [[https://help.ubnt.com/hc/en-us/articles/220066768-UniFi-How-to-Install-and-Update-via-APT-on-Debian-or-Ubuntu][UniFi on Linux]]
+** cli setup (now see vagrant scripts, etc)
+sudo apt update && sudo apt install ca-certificates apt-transport-https
+echo 'deb http://www.ui.com/downloads/unifi/debian stable ubiquiti' | sudo tee /etc/apt/sources.list.d/100-ubnt-unifi.list
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
+echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+sudo apt update
+
+sudo wget -O /etc/apt/trusted.gpg.d/unifi-repo.gpg https://dl.ui.com/unifi/unifi-repo.gpg
+
+sudo apt install unifi
+** Reset devices
+*** UniFi Security Gateway
+Resets to factory defaults. The UniFi Security Gateway should be powered
+on. Press and hold the Reset button for about 10 seconds until the right
+LED on the WAN 2 / LAN 2 port starts flashing and then becomes solidly
+lit. After a few seconds, the LED will turn off, and the UniFi Security
+Gateway will automatically reboot.
+*** UniFi Switch 8-60W
+Reset Button:
+This button serves two functions for the UniFi Switch:
+• Restart Press and release the Reset button quickly.
+• Restore to Factory Default Settings Press and hold the Reset button for more than five seconds.
+** Status Lights
+*** UniFi Security Gateway
+**** White Fully Booted
+Not Adopted
+**** Blue
+Adopted and Provisioned
+**** Alternating White/Blue
+Device Firmware is Upgrading
+**** Blue Flashing
+Device Locator Activated from UniFi Controller
+*** UniFi Switch 8-60W
+**** Flashing White
+Initializing.
+**** Steady White
+Factory defaults, waiting for integration.
+**** Alternating White/Blue
+Device is busy; do not touch or unplug it. This usually indicates that a
+process such as a firmware upgrade is taking place.
+**** Steady Blue
+Successfully integrated into a network and working properly.
+**** Flashing Blue
+This is used to locate a device.  When you click Locate in the UniFi
+Controller software, the System LED will flash blue. The software will
+also display the location of the UniFi Switch on the map.
+* Configuration for CenturyLink
+** Transparent Bridging on CenturyLink's Router
+Not sure why you would do this. Also, I questions whether it works; but
+maybe the router still tags the packets appropriately.
+*** [[https://support.metageek.com/hc/en-us/articles/215467728-How-do-I-use-a-different-router-with-my-DSL-service-][How do I use a different router with my DSL service?]]
+**** Go to [[https://192.168.0.1]]
+***** Login
+**** Turn off Wireless
+***** Wireless Setup
+***** Wirelss Radio: Disable
+***** Apply
+**** Set to Transparent Bridging
+***** Advanced Setup
+***** WAN Settings
+***** ISP Protocol: Transparent Bridging
+***** Apply
+** Use PPPoE login
+*** Configure router to user PPPoE login
+*** Configure VLAN to tag 201
+**** [[https://community.ui.com/questions/USG-CenturyLink-Fiber-and-VLAN-201-Help/2218097b-28e8-48a4-8315-02285bab1e07][Ubiquiti-centric instructions]]
+**** [[https://superuser.com/questions/1148268/how-to-ditch-centurylink-fiber-modem][Stack-overflow-y discussion]]
+**** On Orbi, this is
+***** http://orbilogin.com/index.htm
+***** Advanced
+***** Advanced Setup
+***** VLAN / Bridge Settings
+****** Enable VLAN / Bridge Group
+****** By VLAN tag group
+****** Enable: Check / Name: Internet / VLAN ID: 201 / Priority: 0 / Wired Ports: All / Wireless: All
+******* Set VLAN ID: 201 and Priority (probably doesn't matter)
+* cloud-init in Vagrant
+** [[https://gist.github.com/stuart-warren/8633a22ae8b9db391fd2][Nice set of shell scripts]]
+** [[https://github.com/jameskeane/vagrant-cloudinit][vagrat-cloudinit]]
+* Homebrew mkisofs
+** command in [[https://github.com/jameskeane/vagrant-cloudinit/blob/master/lib/vagrant-cloudinit.rb][vagrant-cloudinit]]
+*** Ruby
+system("mkisofs",
+          "-joliet", "-rock",
+          "-volid", "cidata",
+          "-output", iso_path,
+          "-graft-points",
+          "user-data=#{user_data}",
+          "meta-data=#{meta_data}")
+*** cli
+mkisofs -joliet -rock -volid cidata -output #{iso_path} -graft-points user-data=#{user_data} meta-data=#{meta_data}
+* Ubuntu
+** [[https://en.wikipedia.org/wiki/Ubuntu_version_history#Table_of_versions][Version History]]
+*** 19.10 (Eoan Ermine)
+ubuntu/eoan64
+*** 19.04 (Disco Dingo)
+*** 18.10 (Cosmic Cuttlefish)
+*** 18.04 LTS (Bionic Beaver) - 2018-04-26
+*** 17.10 (Artful Aardvark)
+*** 17.04 (Zesty Zapus)
+*** 16.10 (Yakkety Yak)
+*** 16.04 LTS (Xenial Xerus) - 2016-04-21
+*** 15.10 (Wily Werewolf)
+*** 15.04 (Vivid Vervet)
+*** 14.10 (Utopic Unicorn)
+*** 14.04 LTS (Trusty Tahr) - 2014-04-17
+*** 13.10 (Saucy Salamander)
+*** 13.04 (Raring Ringtail)
+*** 12.10 (Quantal Quetzal)
+*** 12.04 LTS (Precise Pangolin) - 2012-04-26
+*** 11.10 (Oneiric Ocelot)
+*** 11.04 (Natty Narwhal)
+*** 10.10 (Maverick Meerkat)
+*** 10.04 LTS (Lucid Lynx)
+* UniFi Controller on OS X
+** [[https://help.ubnt.com/hc/en-us/articles/360008240754#1][UniFi - Controller FAQ]]
+** Install OpenJDK
+*** [[https://adoptopenjdk.net][Prebuilt OpenJDK Binaries for Free!]]
+*** [[https://github.com/AdoptOpenJDK/homebrew-openjdk][AdoptOpenJDK - HomeBrew TAP]]
+*** [[https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x][How to set or change the default Java (JDK) version on OS X?]]
+*** [[https://installvirtual.com/install-openjdk-8-on-mac-using-brew-adoptopenjdk/][Install OpenJDK 8 on Mac using brew (AdoptopenJDK)]]
+*** [[https://apple.stackexchange.com/questions/334384/how-can-i-install-java-openjdk-8-on-high-sierra][How can I install java openjdk 8 on High Sierra]]
+** [[https://community.ui.com/releases/UniFi-Network-Controller-5-11-50/1728a1f1-f0a8-45dd-a2e2-95abcfc50dab][UniFi Network Controller 5.11.50 Release Notes]]
+** [[https://www.ui.com/download/unifi][UniFi Downloads]]
+** Run UniFi
+[[https://community.ui.com/questions/Unable-to-run-the-controller-on-a-Mac-10-10-5-Yosemite/040cbb45-aa69-4575-936f-506f7cd63ef2][Unable to run the controller on a Mac (10.10.5 Yosemite)]]
+java -jar /Applications/UniFi-Discover.app/Contents/Resource​s/lib/ace.jar discover
+java -jar /Applications/UniFi.app/Contents/Resources/lib/ace​.jar ui
+** [[https://community.ui.com/questions/Java-8-support-notes-for-UniFi-3-2-7-4-2-0-and-beyond/6a6462a6-884c-4f35-a3f8-8b56ef20e828][Java 8 support notes for UniFi 3.2.7, 4.2.0 and beyond!]]
+* Vagrant specific stuff
+** [[https://github.com/dotless-de/vagrant-vbguest][Need Guest Additions for Shared Folders]]
+Just install vagrant-vbguest and it should get handled as part of `vagrant up`
+    vagrant plugin install vagrant-vbguest
+Should be able to find iso at /Applications/VirtualBox.app/Contents/MacOS/VBoxGuestAdditions.iso
+
+Although this doesn't appear to resolve the shared folders problem. Oh well.
+* Ubuntu/Linux
+** [[https://help.ubnt.com/hc/en-us/articles/220066768-UniFi-How-to-Install-and-Update-via-APT-on-Debian-or-Ubuntu#STEPS][UniFi - How to Install and Update via APT on Debian or Ubuntu]]
+*** [[https://www.digitalocean.com/community/tutorials/how-to-setup-additional-entropy-for-cloud-servers-using-haveged][How to Setup Additional Entropy for Cloud Servers Using Haveged]]
+** Fixing Java
+*** To track down installed java
+> which java
+/usr/bin/java
+> ls -al /usr/bin/java
+lrwxrwxrwx 1 root root 22 Oct 21 19:47 /usr/bin/java -> /etc/alternatives/java
+> ls -al /etc/alternatives/java
+lrwxrwxrwx 1 root root 43 Oct 21 19:47 /etc/alternatives/java -> /usr/lib/jvm/java-14-openjdk-amd64/bin/java
+> ls -al /usr/lib/jvm/java-14-openjdk-amd64/bin/java
+-rwxr-xr-x 1 root root 14560 Oct 10 09:05 /usr/lib/jvm/java-14-openjdk-amd64/bin/java
+> dpkg -S /usr/lib/jvm/java-14-openjdk-amd64/bin/java
+openjdk-14-jre-headless:amd64: /usr/lib/jvm/java-14-openjdk-amd64/bin/java
+*** Uninstall
+sudo apt uninstall openjdk-14-jre-headless
+*** Install
+sudo apt install openjdk-8-jre-headless
+** Start unifi
+sudo systemctl start unifi
+sudo systemctl status unifi
+** Open the management console
+https://hostname:8443/manage
+* On the Pi
+** Getting cloud-init to work with ubuntu 19.10
+*** Flash with hypriot flash
+Mounting /dev/disk4 to customize...
+Copying cloud-init user-data to /Volumes/system-boot/user-data ...
+Copying cloud-init meta-data to /Volumes/system-boot/meta-data ...
+Copying unifi_5.11.50-12745-1_all.deb to /Volumes/system-boot/ ...
+Unmounting /dev/disk4 ...
+
+can we see these when we log into the booted system?
+*** It looks like we can't get the package from the repo on arm. Sigh.
+N: Skipping acquire of configured file 'ubiquiti/binary-arm64/Packages' as repository 'http://www.ui.com/downloads/unifi/debian stable InRelease' doesn't support architecture 'arm64'
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic-updates/main/binary-arm64/Packages  404  Not Found [IP: 91.189.88.174 80]
+E: Failed to fetch http://archive.ubuntu.com/ubuntu/dists/bionic/main/binary-arm64/Packages  404  Not Found [IP: 91.189.88.174 80]
+E: Some index files failed to download. They have been ignored, or old ones used instead.
+*** Grab it on intel (a Vagrant box is good)
+sudo apt-get --download-only install unifi # if necessary
+scp vagrant:/var/cache/apt/archives/unifi_5.11.50-12745-1_all.deb .
+*** Testing dependencies
+sudo dpkg -i unifi_5.11.50-12745-1_all.deb
+sudo dpkg -r unifi
+*** jsvc
+sudo apt install jsvc
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libcommons-daemon-java
+Suggested packages:
+  java-virtual-machine
+The following NEW packages will be installed:
+  jsvc libcommons-daemon-java
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 70.1 kB of archives.
+After this operation, 455 kB of additional disk space will be used.
+*** Mongo
+sudo apt install mongodb-org
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libssl1.0.0 mongodb-org-mongos mongodb-org-server mongodb-org-shell mongodb-org-tools
+The following NEW packages will be installed:
+  libssl1.0.0 mongodb-org mongodb-org-mongos mongodb-org-server mongodb-org-shell mongodb-org-tools
+0 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+Need to get 78.5 MB/79.3 MB of archives.
+After this operation, 284 MB of additional disk space will be used.
+** Network Setup
+*** Find controller box ip address
+USB ports aren't working on the Pi 4 with Ubuntu 19.10. To find the ip
+address we can use a [[https://superuser.com/questions/124453/how-can-i-scan-the-local-network-for-connected-devices-mac-os][neat little hack]] on the broadcast to see all ip
+addresses on the local network.
+    ifconfig | grep broadcast | arp -a
+Since we should only have the USG and the Pi board, it should be easy to
+get onto the Pi.
+*** Configure the network
+**** Setup static IP Reservations
+[[https://help.ubnt.com/hc/en-us/articles/360023759313-UniFi-USG-How-to-Set-a-Static-IP-Reservation-for-a-Client-UniFi-Device][UniFi - USG: How to Set a Static IP Reservation for a Client/UniFi Device]]
+*** Adopt Unifi devices
+*** Manual Upgrade
+**** Start a web server in a directory with the firmware using python 2
+python -m SimpleHTTPServer 8000
+**** Unifi Security Gateway
+https://dl.ui.com/unifi/firmware/UGW3/4.4.44.5213844/UGW3.v4.4.44.5213844.tar
+http://192.168.1.42:8000/UGW3.v4.4.44.5213844.tar
+**** UniFi Switch US-8-60W
+https://dl.ui.com/unifi/firmware/US24P250/4.0.54.10625/US.bcm5334x.v4.0.54.10625.190801.1545.bin
+http://192.168.1.9:8000/US.bcm5334x.v4.0.54.10625.190801.1545.bin
+* SSH Access to UniFi Devices
+** Logins and Passwords
+[[https://help.ubnt.com/hc/en-us/articles/204909374-UniFi-Accounts-and-Passwords-for-Controller-Cloud-Key-and-Other-Devices][UniFi - Accounts and Passwords for Controller, Cloud Key, and Other Devices]]
+*** ubnt / ubnt
+*** root / ubnt
+** [[https://help.ubnt.com/hc/en-us/articles/204910064-UniFi-Upgrading-firmware-image-via-SSH][Upgrading Firmware]]
+** [[https://help.ubnt.com/hc/en-us/articles/204909754-UniFi-Device-Adoption-Methods-for-Remote-UniFi-Controllers#8][Adopting]]
+** Example
+# Password: ubnt
+scp /Users/vino/Downloads/<filename>.bin
+
+ssh ubnt@192.168.1.x
+
+
+* Devices
+** UniFi Controller Pi
+dc:a6:32:16:98:8a
+** UniFi Security Gateway 3P
+f0:9f:c2:c4:0b:aa
+* UniFi Setup
+** Debian URLs
+[[https://www.ui.com/download/unifi/default/default/unifi-network-controller-51222-debianubuntu-linux-and-unifi-cloud-key][Downloads]]
+[[https://dl.ui.com/unifi/5.12.22/unifi_sysvinit_all.deb][5.12.22/unifi_sysvinit_all.deb]]
+** Backup and Restore
+[[https://help.ubnt.com/hc/en-us/articles/226218448-UniFi-How-to-Configure-Auto-Backup][UniFi - How to Configure Auto Backup]]
+[[https://help.ubnt.com/hc/en-us/articles/204952144-UniFi-How-to-Create-and-Restore-a-Backup][UniFi - How to Create and Restore a Backup]]
+[[https://gist.github.com/corny/3cf7af0f6cb7a00adeb3][Improved backup script for Ubiquiti UniFi controller]]
+[[https://www.smarthomebeginner.com/move-unifi-controller/][Move UniFi Controller to a new host without losing settings]]
+** UniFi Configuration
+*** [[https://help.ubnt.com/hc/en-us/articles/115004872967][UniFi - Where is <unifi_base>?]]
+For Ubuntu, /usr/lib/unifi
+/usr/lib/unifi/data/sites/
+/usr/lib/unifi/data/sites/default
+*** Where is config JSON
+See UniFi base above, but probably
+/usr/lib/unifi/data/sites/default/config.gateway.json
+*** CLI
+[[https://community.ui.com/questions/Unifi-Security-Gateway-CLI-reference/9de0aed8-a6c3-43fc-be36-afee1689c34c][Unifi Security Gateway CLI reference]]
+[[https://dl.ubnt.com/guides/edgemax/EdgeOS_UG.pdf][EdgeOS UG]]
+[[https://dl.ubnt.com/guides/edgemax/EdgeSwitch_CLI_Command_Reference_UG.pdf][EdgeSwitch Command Line Reference]]
+[[https://help.ubnt.com/hc/en-us/categories/200321064-EdgeMAX][EdgeMAX Advanced Routing Technology]]
+** Setting Hostname
+[[https://help.ubnt.com/hc/en-us/articles/215458888-UniFi-USG-Advanced-Configuration][UniFi - USG Advanced Configuration]]
+[[https://help.ubnt.com/hc/en-us/articles/115002673188-EdgeRouter-DHCP-Server-Using-Dnsmasq][EdgeRouter - DHCP Server Using Dnsmasq]]
+*** Community Posts
+[[https://community.ui.com/questions/No-local-DNS-resolution/a4dfd7a0-7069-451c-8b36-1c8a0ed4777c][No local DNS resolution?]]
+[[https://community.ui.com/questions/USG-have-an-Internal-DNS-feature/1d5c1da3-fa00-4619-bba5-d44b5e060ff3][USG have an Internal DNS feature?]]
+[[https://medium.com/server-guides/create-an-internal-dns-for-local-device-naming-581e2687961d][Create a local device DNS using Unifi]]
+[[https://community.ui.com/questions/Modify-USG-dns-forwarding-options-with-JSON/1fb6d3a9-1572-41c3-a179-4699decc4435][Modify USG dns/forwarding/options with JSON]] (overwrites whole service->dns->forwarding->options section)
+*** Questions
+What does dns.forwarding.options[cname=] do? Is is similar to
+host-record?  The gui-generated json had
+"cname=unifi.olympus.local,unifi", for domain name olympus.local, but it
+doesn't seem to be necessary.
+*** config on USG from the web interface
+**** To get a config
+mca-ctrl -t dump-cfg
+cat /config/config.boot
+**** Or to dump it
+ssh 192.168.1.1 'mca-ctrl -t dump-cfg'
+scp 192.168.1.1:/config/config.boot .
+**** Add proteus host-records
+set forwarding options host-record=proteus,192.168.1.120
+set forwarding options host-record=proteus.local,192.168.1.120
+**** Setup for home network
+***** Nathans-Mac-Pro
+e8:06:88:cc:11:98
+
+set service dhcp-server shared-network-name net_LAN_eth1_192.168.1.0-24 subnet 192.168.1.0/24 static-mapping zeus ip-address 192.168.1.130
+set service dhcp-server shared-network-name net_LAN_eth1_192.168.1.0-24 subnet 192.168.1.0/24 static-mapping zeus mac-address e8:06:88:cc:11:98
+
+configure
+edit service dns
+set forwarding options host-record=HOSTNAME,IPADDRESS
+commit
+save
+
+set service dns forwarding options host-record=proteus.olympus.local,192.168.1.120
+set service dns forwarding options host-record=proteus,192.168.1.120
+
+set service dns forwarding options host-record=zeus.olympus.local,192.168.1.130
+set service dns forwarding options host-record=zeus,192.168.1.130
+
+** Dynamic DNS
+[[https://community.ui.com/questions/Best-Dynamic-DNS-with-Domain-name/0a63b4e5-c0ef-4b0a-916c-efd82b1da7f7][Best Dynamic DNS with Domain name]]
+** Pi-Hole
+[[https://www.linuxincluded.com/install-pi-hole-on-ubuntu/][INSTALLING PI-HOLE ON UBUNTU 18.04 LTS]]
+** DNSMasq
+[[https://community.ui.com/questions/DNSMasq-as-DHCP-Server/c1ea1066-dd04-4855-8d1c-5ee2b435875b][DNSMasq as DHCP Server]]
+[[https://help.ubnt.com/hc/en-us/articles/115002673188-EdgeRouter-DHCP-Server-Using-Dnsmasq][EdgeRouter - DHCP Server Using Dnsmasq]]
+* Century Link
+** [[https://www.centurylink.com/home/help/internet/static-ip-addresses/order-or-cancel-static-ip-address.html][Order or cancel a static IP address]]
+* [[https://en.wikipedia.org/wiki/List_of_Greek_mythological_figures][List of Greek mythological figures]]
+* sparmou.com, sparmos.com
+** [[https://en.wikipedia.org/wiki/Agia_Triada_Monastery,_Sparmos][Agia Triada Monastery, Sparmos]]
+* Speed Testing
+brew install iperf3
+# or
+apt install iperf
+
+iperf3 -s
+iperf3 -c [server-address]
+iperf3 -c [server-address] -u -b 1G
+** See [[https://www.linode.com/docs/networking/diagnostics/install-iperf-to-diagnose-network-speed-in-linux/][Network Throughput Testing with iPerf]]
+* Firewall for VLANs
+** Create a VLAN Network
+*** (Enable IGMP Snooping)
+Allow switches to monitor IGMP traffic and determine which hosts have
+joined multicast groups. Hosts will not receive traffic unrelated to
+their multicast groups
+* Bonjour / Avahi
+** macOS
+*** List (browse) available services
+dns-sd -B _services._dns-sd._udp
+*** List (browse) specific servies
+dns-sd -B _workstation
+dns-sd -B _homekit
+dns-sd -B _atc._tcp.
+...
+*** Get info on a particular instance
+dns-sd -L "Nathan’s Mac Pro" _atc
+dns-sd -L "9CBF8CDF-A3B3-5998-93FE-218396F9DB48" '_homekit'
+dns-sd -L "EPSON ET-3750 Series" _uscans._tcp
+** Avahi
+*** List clients
+avahi-browse -a -v -t
+*** Get info on a swatch of instances
+avahi-browse -d local _homekit._tcp -v -t -r

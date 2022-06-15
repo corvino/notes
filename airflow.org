@@ -1,0 +1,68 @@
+* Ops Setup
+** Slack
+*** 2017-04-03
+**** dj.enriquez
+immutable airflow is up:
+http://airflow.reporting.s1.sandbox.private.glympse.com
+
+There are some folders you guys need to be aware of in order to deploy
+DAGs into airflow, but we can meet about that tomorrow. I believe the
+best way to deploy is a jenkins job that performs an ansible copy of the
+DAG into the DAGs folder, then airflow will automagically find it.
+
+This airflow uses a t2.micro postgres backend managed by RDS.
+
+@here
+
+These folders are mounted into airflow:
+- /etc/airflow/dags:/etc/airflow/dags
+- /var/log/airflow:/var/log/airflow
+- /opt/airflow/plugins:/opt/airflow/plugins
+
+DAGs would need to be copied into `/etc/airflow/dags` on the instance
+
+since this is immutable, airflow can be deployed with this exact
+structure in any environment/shard
+**** egorpushkin
+i’m not a huge fan od docker here. we will have to rebuild the image and
+redeploy the entire cluster every time when we need to add/update a
+package referred in one of our DAGs
+
+lets put something on a calendar to sync/review
+**** dj.enriquez
+Yup, no problem, I'm flexible one how it's deployed
+
+Now if you're talking the plugins, I understand to install, they just
+need to be copied over to the plugins directory, which I have mounted to
+a host folder for easy installation
+**** egorpushkin
+not yet. even though we may consider writing plugins at some points
+
+i was talking about referencing py packages from within DAGs we’ll write
+
+those need to be installed within the container even though DAGs will be
+read from host fs
+**** sloandog
+We could mount a site-packages folder into container and add that to
+python path via docker env injection…
+
+ or this…
+
+#+BEGIN_SRC python
+if __name__ == "__main__":
+    pip.main(["install", "requests"])
+
+import requests
+
+class Util(object):
+    def __init__(self):
+        print(requests)
+        print("module_installed_success")
+
+if __name__ == "__main__":
+    u = Util()
+#+END_SRC
+
+not pretty
+**** dj.enriquez
+thats an interesting way to do it

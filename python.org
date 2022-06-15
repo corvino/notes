@@ -1,0 +1,37 @@
+* Poetry
+** [[https://python-poetry.org/docs/configuration][Configuration]]
+~/Library/Application Support/pypoetry
+
+poetry config --list
+poetry config virtualenvs.in-project true
+** Project creation
+poetry init -n
+
+** Environments
+
+`poetry env` tells you about the information for the project the cwd, not the activated virtual envorionment
+
+Activate
+
+poetry shell
+source {path_to_venv}/bin/activate
+source .venv/bin/activate
+
+deactivate
+
+** Prompt showing virtual-env
+[[https://github.com/python-poetry/poetry/issues/1853][Config issue and workaround]]
+
+** [[https://www.python.org/dev/peps/pep-0405/#specification][Virtual Environments]]
+*** Create
+python -m venv /path/to/new/virtual/environment
+pyvenv /path/to/new/virtual/environment
+
+python -m venv .venv
+*** Activate
+source .venv/bin/activate
+(or venv-activate)
+*** Show
+to show virtual environemnt,
+
+echo $VIRTUAL_ENV

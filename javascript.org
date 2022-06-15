@@ -1,0 +1,3 @@
+* [[https://eslint.org][ESLint]]
+- [[https://github.com/eslint/eslint/blob/main/conf/eslint-recommended.js][eslint:recommended settings]]
+

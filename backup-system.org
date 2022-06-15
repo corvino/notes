@@ -1,0 +1,3 @@
+* Info articles to get started
+[[https://lifehacker.com/how-to-use-amazon-glacier-as-a-dirt-cheap-backup-solut-1460814873][​How to Use Amazon Glacier as a Dirt Cheap Backup Solution]]
+

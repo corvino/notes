@@ -1,0 +1,4 @@
+| [[https://www.obdev.at/products/littlesnitch/index.html][Little Snitch 4]]                                     | [2017-10-18 Wed] |
+| [[https://help.ubnt.com/hc/en-us/articles/236281367-UniFi-Adopting-a-USG-into-an-Existing-Network][UniFi - How to Adopt a USG into an Existing Network]] | [2017-10-18 Wed] |
+| [[https://community.ubnt.com/t5/UniFi-Routing-Switching/Adoption-Failed-It-s-impossible-to-adopt-USG/td-p/1845439][Adoption Failed: It’s impossible to adopt USG]]       | [2017-10-18 Wed] |
+

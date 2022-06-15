@@ -1,0 +1,9 @@
+1. Go to https://developer.apple.com/account/ios/certificate/; you'll be prompted login if you are not already logged-in.
+2. Click the '+' towards the upper left.
+3. Select 'Apple Push Notification service SSL (Sandbox & Production)' and click continue.
+4. Select the appropriate App ID and click continue.
+5. Follow the provided instructions to create a CSR file; click continue.
+6. Click 'Choose file...', select the CSR file, and click continue.
+7. Click 'Download' to download the signed push certificate. Open the downloaded file by double-clicking to add it to Keychain.
+8.  In Keychain Access, find the newly created private key and cert, select them both and right/control-click and choose 'Export 2 items...'. Name and save the p12 file.
+9.  Send the .p12 file, password (separate email), and Certificate Expiration Date to dawn@glympse.com

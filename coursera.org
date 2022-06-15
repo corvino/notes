@@ -1,0 +1,140 @@
+* Downloader
+[[https://github.com/coursera-dl/coursera-dl][coursera-dl]]
+** Help
+usage: coursera-dl [-h] [-u USERNAME] [-p PASSWORD] [--jobs JOBS] [--download-delay DOWNLOAD_DELAY] [-b] [--path PATH] [-sl SUBTITLE_LANGUAGE] [--specialization]
+                   [--only-syllabus] [--download-quizzes] [--download-notebooks] [--about] [-f FILE_FORMATS] [--ignore-formats IGNORE_FORMATS] [-sf SECTION_FILTER]
+                   [-lf LECTURE_FILTER] [-rf RESOURCE_FILTER] [--video-resolution VIDEO_RESOLUTION] [--disable-url-skipping] [--wget [WGET]] [--curl [CURL]] [--aria2 [ARIA2]]
+                   [--axel [AXEL]] [--downloader-arguments DOWNLOADER_ARGUMENTS] [--list-courses] [--resume] [-o] [--verbose-dirs] [--quiet] [-r]
+                   [--combined-section-lectures-nums] [--unrestricted-filenames] [-ca COOKIES_CAUTH] [-c COOKIES_FILE] [-n [NETRC]] [-k] [--clear-cache] [--hook HOOKS] [-pl]
+                   [--mathjax-cdn MATHJAX_CDN_URL] [--skip-download] [--debug] [--cache-syllabus] [--version] [-l LOCAL_PAGE]
+                   [class_names [class_names ...]]
+
+Download Coursera.org lecture material and resources.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --list-courses        list course names (slugs) and quit. Listed course names can be put into program arguments
+  --resume              resume incomplete downloads (default: False)
+  -o, --overwrite       whether existing files should be overwritten (default: False)
+  --verbose-dirs        include class name in section directory name
+  --quiet               omit as many messages as possible (only printing errors)
+  -r, --reverse         download sections in reverse order
+  --combined-section-lectures-nums
+                        include lecture and section name in final files
+  --unrestricted-filenames
+                        Do not limit filenames to be ASCII-only
+
+Basic options:
+  class_names           name(s) of the class(es) (e.g. "ml-005")
+  -u USERNAME, --username USERNAME
+                        username (email) that you use to login to Coursera
+  -p PASSWORD, --password PASSWORD
+                        coursera password
+  --jobs JOBS           number of parallel jobs to use for downloading resources. (Default: 1)
+  --download-delay DOWNLOAD_DELAY
+                        number of seconds to wait before downloading next course. (Default: 60)
+  -b, --preview         get videos from preview pages. (Default: False)
+  --path PATH           path to where to save the file. (Default: current directory)
+  -sl SUBTITLE_LANGUAGE, --subtitle-language SUBTITLE_LANGUAGE
+                        Choose language to download subtitles and transcripts.(Default: all) Use special value "all" to download all available.To download subtitles and
+                        transcripts of multiple languages,use comma(s) (without spaces) to seperate the names of the languages, i.e., "en,zh-CN".To download subtitles and
+                        transcripts of alternative language(s) if only the current language is not available,put an "|<lang>" for each of the alternative languages after the
+                        current language, i.e., "en|fr,zh-CN|zh-TW|de", and make sure the parameter are wrapped with quotes when "|" presents.
+
+Selection of material to download:
+  --specialization      treat given class names as specialization names and try to download its courses, if available. Note that there are name clashes, e.g. "machine-learning"
+                        is both a course and a specialization (Default: False)
+  --only-syllabus       download only syllabus, skip course content. (Default: False)
+  --download-quizzes    download quiz and exam questions. (Default: False)
+  --download-notebooks  download Python Jupyther Notebooks. (Default: False)
+  --about               download "about" metadata. (Default: False)
+  -f FILE_FORMATS, --formats FILE_FORMATS
+                        file format extensions to be downloaded in quotes space separated, e.g. "mp4 pdf" (default: special value "all")
+  --ignore-formats IGNORE_FORMATS
+                        file format extensions of resources to ignore (default: None)
+  -sf SECTION_FILTER, --section_filter SECTION_FILTER
+                        only download sections which contain this regex (default: disabled)
+  -lf LECTURE_FILTER, --lecture_filter LECTURE_FILTER
+                        only download lectures which contain this regex (default: disabled)
+  -rf RESOURCE_FILTER, --resource_filter RESOURCE_FILTER
+                        only download resources which match this regex (default: disabled)
+  --video-resolution VIDEO_RESOLUTION
+                        video resolution to download (default: 540p); only valid for on-demand courses; only values allowed: 360p, 540p, 720p
+  --disable-url-skipping
+                        disable URL skipping, all URLs will be downloaded (default: False)
+
+External downloaders:
+  --wget [WGET]         use wget for downloading,optionally specify wget bin
+  --curl [CURL]         use curl for downloading, optionally specify curl bin
+  --aria2 [ARIA2]       use aria2 for downloading, optionally specify aria2 bin
+  --axel [AXEL]         use axel for downloading, optionally specify axel bin
+  --downloader-arguments DOWNLOADER_ARGUMENTS
+                        additional arguments passed to the downloader
+
+Advanced authentication options:
+  -ca COOKIES_CAUTH, --cauth COOKIES_CAUTH
+                        cauth cookie value from browser
+  -c COOKIES_FILE, --cookies_file COOKIES_FILE
+                        full path to the cookies.txt file
+  -n [NETRC], --netrc [NETRC]
+                        use netrc for reading passwords, uses default location if no path specified
+  -k, --keyring         use keyring provided by operating system to save and load credentials
+  --clear-cache         clear cached cookies
+
+Advanced miscellaneous options:
+  --hook HOOKS          hooks to run when finished
+  -pl, --playlist       generate M3U playlists for course weeks
+  --mathjax-cdn MATHJAX_CDN_URL
+                        the cdn address of MathJax.js
+
+Debugging options:
+  --skip-download       for debugging: skip actual downloading of files
+  --debug               print lots of debug information
+  --cache-syllabus      cache course syllabus into a file
+  --version             display version and exit
+  -l LOCAL_PAGE, --process_local_page LOCAL_PAGE
+                        uses or creates local cached version of syllabus page
+** Example
+CDL_CA=_T2lq_C7UWePRry...
+coursera-dl -sl en --about --download-quizzes --download-notebooks --video-resolution 720p -ca $CDL_CA <class-name>
+
+*** Bundles and Spcializations
+algorithms-divide-conquer algorithms-graphs-data-structures algorithms-greedy algorithms-npcomplete
+data-scientists-tools r-programming data-cleaning exploratory-data-analysis reproducible-research statistical-inference regression-models practical-machine-learning data-products data-science-project
+machine-learning
+cloud-computing cloud-computing-2 cloud-applications cloud-applications-part2 cloud-networking cloud-computing-project
+--ignore-formats html cloud-networking
+** Issues
+*** [[https://github.com/coursera-dl/coursera-dl/issues/778][HTMLParser missing unescape]]
+pyenv install 3.8.12
+** Auth
+Need CAUTH cookie; found in request header, but not shown with: document.cookie.replaceAll(";", "\n") or document.cookie.split(";")
+
+Looking at the network tab of the browser for the page request, the request header it the way to go.
+* Classes
+** [[https://www.coursera.org/specializations/algorithms][Algorithms]]
+*** [[https://www.coursera.org/learn/algorithms-divide-conquer][Divide and Conquer, Sorting and Searching, and Randomized Algorithms]]
+*** [[https://www.coursera.org/learn/algorithms-graphs-data-structures][Graph Search, Shortest Paths, and Data Structures]]
+*** [[https://www.coursera.org/learn/algorithms-greedy][Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming]]
+*** [[https://www.coursera.org/learn/algorithms-npcomplete][Shortest Paths Revisited, NP-Complete Problems and What To Do About Them]]
+** [[https://www.coursera.org/specializations/jhu-data-science][Data Science]]
+*** [[https://www.coursera.org/learn/data-scientists-tools][The Data Scientist’s Toolbox]]
+*** [[https://www.coursera.org/learn/r-programming][R Programming]]
+*** [[https://www.coursera.org/learn/data-cleaning][Getting and Cleaning Data]]
+*** [[https://www.coursera.org/learn/exploratory-data-analysis][Exploratory Data Analysis]]
+*** [[https://www.coursera.org/learn/reproducible-research][Reproducible Research]]
+*** [[https://www.coursera.org/learn/statistical-inference][Statistical Inference]]
+*** [[https://www.coursera.org/learn/regression-models][Regression Models]]
+*** [[https://www.coursera.org/learn/practical-machine-learning][Practical Machine Learning]]
+*** [[https://www.coursera.org/learn/data-products][Developing Data Products]]
+*** [[https://www.coursera.org/learn/data-science-project][Data Science Capstone]]
+** [[https://www.coursera.org/learn/machine-learning][Machine Learning]]
+** [[https://www.coursera.org/specializations/cloud-computing][Cloud Computing]]
+*** [[https://www.coursera.org/learn/cloud-computing][Cloud Computing Concepts, Part 1]]
+*** [[https://www.coursera.org/learn/cloud-computing-2][Cloud Computing Concepts: Part 2]]
+*** [[https://www.coursera.org/learn/cloud-applications-part1][Cloud Computing Applications, Part 1: Cloud Systems and Infrastructure]]
+*** [[https://www.coursera.org/learn/cloud-applications-part2][Cloud Computing Applications, Part 2: Big Data and Applications in the Cloud]]
+*** [[https://www.coursera.org/learn/cloud-networking][Cloud Networking]]
+*** [[https://www.coursera.org/learn/cloud-computing-project][Cloud Computing Project]]
+* Support
+https://www.coursera.support/s/case/5008W00000kAQjQQAW/refund-for-early-billing

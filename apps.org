@@ -1,0 +1,8 @@
+* [[https://getcleanshot.com][Cleanshot]] (Screenshot anotations)
+* [[https://creaceed.com/prizmo][Prizmo]] (Scanning and OCR)
+* [[https://zealdocs.org][Zeal]] (Documentation Browser)
+* [[https://git-fork.com][Fork]] (Git Client)
+* [[https://proxyman.io][Proxyman]] (Charles Proxy alternative)
+* [[http://timelane.tools][Timelane]] (Xcode async visuallization)
+
+* [[https://docs.google.com/spreadsheets/d/148zTJUwfVv9xfDcpSoH3mF-c4vqV3CqyEWXuqaAiXoA/edit#gid=0][Spreadsheet from Vivek]]

@@ -1,0 +1,22 @@
+* config
+[[https://lldb.llvm.org/man/lldb.html#configuration-files][lldb Configuration Files]]
+* dealing with Swift Data
+** String
+p String(data: data, encoding: .utf8)
+** JSON
+
+** Decent approaches
+[[https://itnext.io/leveraging-swift-in-xcodes-lldb-d75e2adc5741][Leveraging Swift in Xcode’s LLDB]]
+[[https://swiftsenpai.com/testing/add-custom-lldb/][Adding Swift Code as Custom LLDB Command]]
+** Test functions
+func testSimple() {
+    print("Hello, World!")
+}
+
+func testParam(_ someText: String) {
+    print(someText)
+}
+
+func testAdd(x: Int, y: Int) {
+    print(x + y)
+}

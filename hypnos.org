@@ -1,0 +1,10 @@
+* Prometheus
+[[http://hypnos:9090/][http://hypnos:9090/]]
+[[http://hypnos:9090/metrics][http://hypnos:9090/metrics]]
+
+** There were node_exporter name changes in version 0.16
+[[https://github.com/prometheus/node_exporter/issues/830][Provide option to ease the update for 0.16.0 release]]
+[[https://github.com/kubernetes-monitoring/kubernetes-mixin/issues/66][node_exporter v0.16 metric name changes]]
+* Grafana
+[[http://hypnos:3000/][http://hypnos:3000/]]
+* Postgresql

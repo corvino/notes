@@ -1,0 +1,4 @@
+CocoaHeads Stuff:
+
+2014-7-8:
+  snapshotViewAfterScreenUpdates:

@@ -1,0 +1,19 @@
+* Name servers
+** [[https://docs.digitalocean.com/products/networking/dns/][Digital Ocean]]
+*** ns1.digitalocean.com
+*** ns2.digitalocean.com
+*** ns3.digitalocean.com
+** NameCheap
+*** dns1.registrar-servers.com
+*** dns2.registrar-servers.com
+** To check name servers, use WHOIS record
+* Records
+** nslookup
+*** Query Nameservers
+nslookup -type=ns <domainname>
+*** Check Text Records
+nslookup -type=txt cuckooawesome.co
+nslookup -q=txt cuckooawesome.co
+dig -t txt <domainname>
+dig -t txt <domainname> +short
+host -t txt <domainname>

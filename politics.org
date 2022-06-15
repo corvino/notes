@@ -1,0 +1,65 @@
+* LGBTQ
+** [[https://www.plasticsurgery.org/news/plastic-surgery-statistics][Plastic Surgery Statistics]]
+*** [[https://www.plasticsurgery.org/documents/News/Statistics/2020/cosmetic-procedures-ages-13-19-2020.pdf][Plastic Surgery Statistics Report (2020)]]
+* Abortion
+** [[https://www.pewresearch.org/fact-tank/2022/06/24/what-the-data-says-about-abortion-in-the-u-s-2/][Pew Research data]] (number of legal, rate, types, providers, etc)
+** [[https://www.npr.org/2022/05/06/1096676197/7-persistent-claims-about-abortion-fact-checked?t=1656563873101][NPR Fact Check]]
+* Trans
+** [[https://www.pbs.org/newshour/nation/transgender-kids-tend-to-maintain-their-identities-as-they-grow-up-study-suggests][Transgender kids tend to maintain their identities as they grow up, study suggests]]
+** [[https://www.kqed.org/futureofyou/441784/the-controversial-research-on-desistance-in-transgender-youth][The Controversial Research on 'Desistance' in Transgender Youth]]
+** [[https://www.npr.org/sections/health-shots/2015/07/22/424996915/health-effects-of-transitioning-in-teen-years-remain-unknown?t=1657904544619][Health Effects Of Transitioning In Teen Years Remain Unknown]]
+** [[https://www.npr.org/2022/05/05/1096920693/lgbtq-youth-thoughts-of-suicide-trevor-project-survey][Nearly half of LGBTQ youth seriously considered suicide, survey finds]]
+* Gun Violence
+** [[https://www.nejm.org/doi/full/10.1056/NEJMsr1804754][The Major Causes of Death in Children and Adolescents in the United States: NEJM]]
+2016: 20,360 Total, 12,336 injury (60%), 4074 crashes (20%), 3,145 firearm (15.4%)
+** [[https://nces.ed.gov/programs/coe/indicator/a01][Violent Deaths at School and Away From School and School Shootings]]
+"Between 1992–93 (when data collection began) and 2018–19, the number of school-associated violent deaths of all persons fluctuated, ranging from 32 to 63."
+** [[https://www.pewresearch.org/short-reads/2023/04/06/gun-deaths-among-us-kids-rose-50-percent-in-two-years/][Gun deaths among U.S. children and teens rose 50% in two years]]
+* [[https://www.npr.org/sections/health-shots/2022/04/23/1094260259/a-new-puberty-guide-for-kids-aims-to-replace-anxiety-with-self-confidence][A new puberty guide for kids aims to replace anxiety with self-confidence]]
+* Politcs
+- [[https://www.pewresearch.org/short-reads/2022/03/10/the-polarization-in-todays-congress-has-roots-that-go-back-decades/][The polarization in today’s Congress has roots that go back decades]]
+* Middle East
+- [[https://www.nytimes.com/interactive/2023/11/20/magazine/israel-gaza-oslo-accords.html][Was Peace Ever Possible?]]
+* Fresh Air
+** [[https://www.npr.org/transcripts/1095042273][How social-emotional learning became a target for Ron DeSantis and conservatives]]
+- [[https://www.theatlantic.com/ideas/archive/2023/09/prager-u-indoctrination-public-schools-1619-project/675294/][The Conservative Censorship Campaign Reaches Its Natural Conclusion]]
+* Lab Leak
+- [[https://www.nytimes.com/2023/03/19/us/politics/covid-origins-lab-leak-politics.html][Lab Leak or Not? How Politics Shaped the Battle Over Covid’s Origin]]
+- [[https://www.nytimes.com/2023/07/25/magazine/covid-start.html][The Ongoing Mystery of Covid’s Origin]]
+- [[https://www.nytimes.com/2023/07/26/briefing/covid-origins-debate.html][The Covid Origins Debate]]
+- [[https://www.nytimes.com/2023/10/16/science/covid-lab-leak-research.html][Lab Leak Fight Casts Chill Over Virology Research]]
+* Yoga
+- [[https://www.nytimes.com/interactive/2023/09/06/well/move/morning-yoga-beginner.html][5-Minue Morning Yoga]]
+* Covid
+** [[https://press.princeton.edu/books/hardcover/9780691267135/in-covids-wake][In Covid's Wake]] (3/11/2025)
+
+*** Authors
+- Stephen Macedo (Political Science)
+- Frances Lee (Political Science)
+
+*** Perspective
+- [[https://www.pressreader.com/usa/the-boston-globe/20250224/281672555680465][Five years after COVID-19, what have we learned?]] (2/24/2025)
+* AOC and Attractiveness (Searching ...)
+** Search Construction
+*** Droping sites
+-site:insider.com -site:businessinsider.in -site:theconversation.com -site:vanityfair.com -site:vox.com -site:vogue.co.uk -site:thewrap.com -site:theatlantic.com -site:marketwatch.com -site:washingtonpost.com -site:refinery29.com -site:independent.co.uk -site:independent.co.uk -site:thecut.com -site:qz.com -site:bloomberg.com -site:ft.com -site:time.com -site:bbc.com -site:complex.com -site:cnn.com -site:thehill.com -site:huffpost.com -site:instyle.com -site:crfashionbook.com
+*** Dropping terms
+-assault -riot
+- site:medium.com Alexandrai Ocasio-Cortez appearance attacked
+- site:medium.com Alexandrai Ocasio-Cortez appearance attacked
+- site:medium.com Alexandrai Ocasio-Cortez attractive journalist
+- site:medium.com Alexandrai Ocasio-Cortez attractive reaction
+*** Search terms
+*** Date Range
+- before:2020/11/30 after:2020/11/01 site:medium.com Alexandrai Ocasio-Cortez appearance
+alexandria ocasio-cortex appearance
+** Links (maybe from searches, November 29, 2020)
+- [[https://fivethirtyeight.com/features/how-broken-is-the-debate-about-alexandria-ocasio-cortez/][How Broken Is The Debate About Alexandria Ocasio-Cortez?]]
+- [[https://medium.com/s/story/paw-patrol-is-a-republican-dystopia-f178161fce54][The Misogyny and Authoritarianism of ‘Paw Patrol’]]
+- [[https://gen.medium.com/why-is-aoc-so-hated-a1d67ad4621][Why is Rep. Alexandria Ocasio-Cortez so hated?]]
+- [[https://tressiemcphd.medium.com/metaphor-mobility-and-genius-52d8688b7acf][Metaphor, Mobility and ‘Genius’]]
+** History
+- [[https://tressiemcphd.medium.com/aocs-attractiveness-drives-us-all-mad-8c16a8654f9][AOC’s Attractiveness Drives Us All Mad]]
+- [[https://medium.com/honestly-yours/the-difference-between-aocs-skincare-routine-and-nancy-pelosi-s-ice-cream-95f180c734][The Difference Between AOC’s Skincare Routine and Nancy Pelosi’s Ice Cream]]
+- [[https://www.washingtonpost.com/lifestyle/media/how-not-to-apologize-when-your-publication-makes-a-mistake/2020/08/19/35fa9870-e234-11ea-8dd2-d07812bf00f7_story.html][How not to apologize when your publication makes a mistake]]
+- [[http://omgchronicles.vickilarson.com/2019/03/05/aoc-millennial-marriage-kids/][AOC, a true millennial when it comes to marriage and kids]]

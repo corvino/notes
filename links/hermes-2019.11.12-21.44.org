@@ -1,0 +1,8 @@
+[[https://guides.rubygems.org/make-your-own-gem/][Make your own gem - RubyGems Guides]]
+[[https://bundler.io/v1.13/guides/creating_gem.html][Bundler: Developing a RubyGem using Bundler]]
+[[https://www.parks.state.wa.us/452/Non-Motorized-Sno-Parks][Non-Motorized Sno-Parks | Washington State Parks and Recreation Commission]]
+[[missing value][Greenwater / Yakima | Washington State Parks and Recreation Commission]]
+[[http://beststudentviolins.com/SuzukiViolinRepertoire.pdf][beststudentviolins.com/SuzukiViolinRepertoire.pdf]]
+[[https://community.ui.com/releases/UniFi-Network-Controller-5-12-22/263c8b60-def8-4667-85c3-87a6200a6c9b][UniFi Network Controller 5.12.22 | Ubiquiti Community]]
+[[https://stackoverflow.com/questions/42593204/how-to-capture-escape-key-in-an-nswindow][macos - How to capture escape key in an NSWindow? - Stack Overflow]]
+[[https://www.nytimes.com/2019/11/02/business/adam-neumann-wework-exit-package.html?action=click&module=Top%20Stories&pgtype=Homepage][Adam Neumann and the Art of Failing Up - The New York Times]]

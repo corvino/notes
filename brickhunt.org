@@ -1,0 +1,7 @@
+* Useful commands
+** Open app database
+open -a SQLiteFlow.app ~/Library/Application\ Support/brickhunt/brickhunt.sqlite
+** Backup app database
+cp ~/Library/Application\ Support/brickhunt/brickhunt.sqlite ~/tmp/brickhunt-$(date +%Y-%m-%d_%H.%M.%S).sqlite
+cp Brickhunt.sqlite ~/tmp/brickhunt-template-$(date +%Y-%m-%d_%H.%M.%S).sqlite
+

@@ -1,0 +1,7 @@
+* Exporting
+** [[https://orgmode.org/worg/dev/org-export-reference.html][Org Export Reference Documentation]]
+** [[https://orgmode.org/manual/Export-Settings.html#Export-Settings][Export Settings]]
+** Install [[https://github.com/hniksic/emacs-htmlize][htmlize]] for syntax highlighting
+(setq org-src-fontify-natively t)
+** [[https://news.ycombinator.com/item?id=23130104][Prettifying org-mode with CSS]]
+** [[https://github.com/dakrone/ox-tufte][Ox-tufte - exports buffers to HTML that is compatible with Tufte CSS]]

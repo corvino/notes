@@ -1,0 +1,39 @@
+#+OPTIONS: html-postamble:nil num:nil toc:nil
+
+* References
+- [[https://www.gnu.org/software/emacs/manual/][Official (GNU)]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/elisp/][Emacs Lisp]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][An Introduction to Programming in Emacs Lisp]]
+- [[https://www.emacswiki.org][Emacs Wiki]]
+  - [[https://www.emacswiki.org/emacs/EmacsLisp][EmacsLisp]]
+    - [[https://www.emacswiki.org/emacs/LearnEmacsLisp][LearnEmacsLisp]]
+    - [[https://www.emacswiki.org/emacs/ElispCookbook][ElispCookbook]]
+  - [[https://www.emacswiki.org/emacs/ElispArea][ElispArea]]
+* Working in Emacs
+** [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Lisp-Eval.html][Evaluating Emacs-Lisp Expressions]]
+- M-: (eval-expression) :: evaluate minibuffer elisp expression
+- C-x C-e (eval-last-sexp) :: evaluate elisp expression before point
+- eval-region ::
+- eval-buffer ::
+** Printing Debug Info
+- message :: print to message buffer
+- print /object &optional printcharfun/ :: print to optional arg buffer
+- printd :: prints to **debug** buffer (from .eamcs)
+* [[https://www.gnu.org/software/emacs/manual/html_node/elisp/index.html][Emacs Lisp]]
+** [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Lists.html][Lists]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Mapping-Functions.html][Mapping Functions]]
+  - mapcar /function sequence/ :: maps with /function/
+  - mapcan /function sequence/ :: flat maps with /function/
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Sets-And-Lists.html][Using Lists as Sets]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Association-Lists.html][Association Lists]]
+** [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Sequence-Functions.html][Sequences]]
+- length /sequence/
+- reverse /sequence/
+- sort /sequence predicate/
+- seq-elt /sequence index/ :: returns the element of /sequence/ at the specified /index/
+- seq-length /sequence/
+- seq-filter /predicate sequence/
+- seq-reduce /function sequence initial-value/
+- seq-uniq /sequence &optional function/
+** [[https://www.gnu.org/software/emacs/manual/html_node/cl/index.html][Common Lisp]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/cl/Mapping-over-Sequences.html][Mapping over Sequences]]

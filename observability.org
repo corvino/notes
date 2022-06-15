@@ -1,0 +1,21 @@
+* SaaS Offerings
+** [[https://lightstep.com][LightStep]]
+** [[https://www.honeycomb.io][Honeycomb]]
+** [[https://www.appdynamics.com][AppDynamics]]
+** [[https://newrelic.com][New Relic]]
+* Logging
+** SaaS
+*** [[https://www.loggly.com][loggly]]
+*** [[https://www.splunk.com][splunk]]
+*** [[https://www.sumologic.com][sumo logic]]
+** Open Source
+*** [[https://www.elastic.co/products/elastic-stack][Elastic Stack]]
+*** [[https://grafana.com/oss/loki/][Loki]]
+*** [[https://www.fluentd.org][fluentd]]
+*** [[https://www.graylog.org][graylog]]
+*** [[https://lucidworks.com/post/introducing-lucidworks-silk-scalable-open-source-solution-for-log-analysis/][SiLK]]
+* Books
+** [[https://smile.amazon.com/Logging-Log-Management-Authoritative-Understanding/dp/1597496359][Logging and Log Management: The Authoritative Guide to Understanding the Concepts Surrounding Logging and Log Management]] ([[https://www.elsevier.com/books/logging-and-log-management/chuvakin/978-1-59749-635-3][ebook]])
+** [[https://smile.amazon.com/Heart-Logs-Stream-Processing-Integration/dp/1491909382/][I Heart Logs: Event Data, Stream Processing, and Data Integration]]
+** [[https://www.cloudnativeobservability.com][Cloud Native Observability]]
+** [[https://www.manning.com/books/software-telemetry][Software Telemetry]]

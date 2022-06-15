@@ -1,0 +1,30 @@
+* Install [[http://postgresapp.com][Postgres.app]]
+* Install [[https://eggerapps.at/postico/][Postico]]
+* Do some setup
+* Add sql stuff to path
+PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin
+* Create an admin for testing
+create role dbroot with LOGIN PASSWORD 'livelink' SUPERUSER;
+* Setup pg_hba.conf to use password logins.
+** ~/Library/Application Support/Postgres/var-9.6/pg_hba.conf
+** Add a line like
+#+BEGIN_SRC conf
+local   all             flyway                                  password
+#+END_SRC
+*** first match wins, so just need to add one for users that don't auto-authenticate
+*** [[https://www.postgresql.org/docs/9.6/static/auth-pg-hba-conf.html][The pg_hba.conf File]] docs
+** Create a db, login role (user), and grant permissions
+#+BEGIN_SRC SQL
+create database flyway;
+create role flyway with login password 'flyway';
+grant all privileges on database flyway to flyway;
+
+drop database flyway;
+drop role flyway;
+#+END_SRC
+*** PostgreSQL Docs
+[[https://www.postgresql.org/docs/9.6/static/sql-createdatabase.html][Create Database]]
+[[https://www.postgresql.org/docs/9.6/static/sql-createrole.html][Create Role]]
+[[https://www.postgresql.org/docs/9.6/static/sql-grant.html][Grant]]
+** Setup flyway conf, sql, etc.
+** flyway -configFile=conf/flyway.conf -locations=filesystem:sql migrate

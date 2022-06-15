@@ -1,0 +1,48 @@
+* Apress
+** [[https://www.apress.com/us/book/9781484227428][Beginning Artificial Intelligence with the Raspberry Pi]]
+** [[https://www.apress.com/us/book/9781484226032][Blockchain Basics: A Non-Technical Introduction in 25 Steps]]
+** [[https://www.apress.com/us/book/9781430267003][Game Development Tool Essentials]] - $44.99
+** [[http://www.apress.com/us/book/9781484210987][The Advanced Game Developer's Toolkit: Create Amazing Web-based Games with JavaScript and HTML5]]
+** [[http://www.apress.com/us/book/9781484209530][Build your own 2D Game Engine and Create Great Web Games: Using HTML5, JavaScript, and WebGL]]
+** [[http://www.apress.com/us/book/9781430258001][Advanced Game Design with HTML5 and JavaScript]]
+** [[http://www.apress.com/us/book/9781484209967][Sudoku Programming with C]]
+** [[http://www.apress.com/us/book/9781484225820][Building a 2D Game Physics Engine: Using HTML5 and JavaScript]]
+** [[http://www.apress.com/us/book/9781430263371][Physics for JavaScript Games, Animation, and Simulations: with HTML5 Canvas]]
+** [[http://www.apress.com/us/book/9781590594728][Physics for Game Programmers]]
+** [[http://www.apress.com/us/book/9781430267461][Pro Unity Game Development with C#]] - $39.99
+** [[http://www.apress.com/us/book/9781430262299][Learn Unity for 2D Game Development]] - $34.99
+** [[http://www.apress.com/us/book/9781430266976][HTML5 Game Development Insights]] - $39.99
+** [[http://www.apress.com/us/book/9781430239789][HTML5 Games Most Wanted: Build the Best HTML5 Games]] - $29.99
+** [[http://www.apress.com/us/book/9781430241706][Beginning Facebook Game Apps Development]]
+** [[http://www.apress.com/us/book/9781484217238][MMOs from the Inside Out: The History, Design, Fun, and Art of Massively-multiplayer Online Role-playing Games]]
+** [[http://www.apress.com/us/book/9781484217801][MMOs from the Outside In: The Massively-Multiplayer Online Role-Playing Games of Psychology, Law, Government, and Real Life]]
+** [[http://www.apress.com/us/book/9781430241850][Online Game Pioneers at Work]]
+** [[http://www.apress.com/us/book/9781430259923][Makers at Work: Folks Reinventing the World One Object or Idea at a Time]] - $19.99
+** [[http://www.apress.com/us/book/9781484229873][Machine Learning for Decision Makers: Cognitive Computing Fundamentals for Better Decision Making]]
+** [[http://www.apress.com/us/book/9781484230954][Pro Deep Learning with TensorFlow: A Mathematical Approach to Advanced Artificial Intelligence in Python]]
+** [[http://www.apress.com/us/book/9781484227305][Raspberry Pi Image Processing Programming: Develop Real-Life Examples with Python, Pillow, and SciPy]]
+** [[http://www.apress.com/us/book/9781484223338][Machine Learning Using R]]
+* O'Reilly
+** [[https://smile.amazon.com/Distributed-Tracing-Practice-Instrumenting-Microservices/dp/1492056634/][Distributed Tracing in Practice: Instrumenting, Analyzing, and Debugging Microservices]]
+** [[https://smile.amazon.com/Cloud-Native-Data-Center-Networking/dp/1492045608/][Cloud Native Data Center Networking: Architecture, Protocols, and Tools]]
+** [[https://smile.amazon.com/Streaming-Systems-Where-Large-Scale-Processing/dp/1491983876/][Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing]]
+** [[https://smile.amazon.com/Database-Internals-Deep-Distributed-Systems/dp/1492040347/][Database Internals: A Deep Dive into How Distributed Data Systems Work]]
+** [[https://smile.amazon.com/Linux-Observability-BPF-Programming-Performance/dp/1492050202/][Linux Observability with BPF: Advanced Programming for Performance Analysis and Networking]] [[https://www.ebooks.com/en-us/209891811/linux-observability-with-bpf/david-calavera-lorenzo-fontana/][ebook]]
+** [[https://smile.amazon.com/Network-Warrior-Everything-Need-Wasnt/dp/1449387861/][Network Warrior: Everything You Need to Know That Wasn't on the CCNA Exam]]
+** [[https://smile.amazon.com/Cloud-Native-Containers-Next-Generation-Applications/dp/1492053821/][Cloud Native: Using Containers, Functions, and Data to Build Next-Generation Applications]]
+** [[https://smile.amazon.com/Cloud-Native-Data-Center-Networking/dp/1492045608/][Cloud Native Data Center Networking: Architecture, Protocols, and Tools]]
+* Misc
+** [[http://www.informit.com/store/systems-performance-enterprise-and-the-cloud-9780133390094][Systems Performance: Enterprise and the Cloud]]
+* Manning
+** [[https://www.manning.com/books/geoprocessing-with-python][Geoprocessing with Python]]
+** [[https://www.manning.com/books/time-series-forecasting-in-python-book][Time Series Forecasting in Python]]
+** [[https://www.manning.com/liveprojectseries/time-series-for-stock-price-prediction-ser][Time Series for Stock Price Prediction]]
+** [[https://www.manning.com/books/geometry-for-programmers][Geometry for Programmers]]
+** [[https://www.manning.com/books/data-science-bookcamp][Data Science Bootcamp]]
+** [[https://www.manning.com/books/event-streams-in-action][Event Streams in Action]]
+* GIS
+** [[https://smile.amazon.com/Designing-Better-Maps-Guide-Users/dp/1589484401/][Designing Better Maps: A Guide for GIS Users]]
+* Data Science
+** [[https://smile.amazon.com/Python-Data-Analysis-Wrangling-Jupyter/dp/109810403X/][Python for Data Analysis: Data Wrangling with Pandas, NumPy, and Jupyter 3rd Edition]] - November 1, 2022
+** [[https://smile.amazon.com/Essential-Math-Data-Science-Fundamental/dp/1098102932/][Essential Math for Data Science: Take Control of Your Data with Fundamental Linear Algebra, Probability, and Statistics]] - July 12, 2022
+** [[https://www.oreilly.com/library/view/machine-learning-design/9781098115777/][Machine Learning Design Patterns]]

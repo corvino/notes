@@ -1,0 +1,3 @@
+* Computing Hashes for files/object
+** [[https://stackoverflow.com/questions/7225313/how-does-git-compute-file-hashes][stackoverflow-How does git compute file hashes?]]
+** [[http://alblue.bandlem.com/2011/08/git-tip-of-week-objects.html][Git Tip of the Week: Objects]]

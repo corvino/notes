@@ -1,0 +1,132 @@
+* Some things defined, some things we don't even know what tools we want to use.
+* Start with something well defined.
+* Migrate comcast datadump from kinises based streamer that dumps data to S3 bucket, move to generic Spark job which uses S3 bucket with all events as input.
+** Extract a day or weeks worth of event depending on type, filter out all events not matching partner id, export and persist it to form Comcast expects.
+* [[https://docs.google.com/document/d/1kjO4GAo-B84qGYqVlxrE_pV6_KTFdPqcJ8mUTJiAST0/edit#heading=h.1h3d5gth3v3j][Comcast p-reporting-dumps replacement]]
+** Schuyler's spec for Spark replacement for Comcast
+* [[https://github.com/Glympse/reporting-datadump-service][Glympse/reporting-datadump-service repo]]
+** Current streamer for Comcast
+* [[https://docs.google.com/document/d/1yZA6E4Loqh2XcCFGJaGuSTjNnL22CsVbCQgeVaJOR2s/edit][Glympse Reporting]]
+** Spec for format for Comcast delivery. Legacy, huge-ass JSON array.
+* [[https://docs.google.com/document/d/1L7c3K6Imbqq4QW0H5jTdXMt1yAsSbVRn-FYvAnmqhmU/edit#heading=h.j7mlfdvblex][Glympse Data Dump Services for Partners]]
+** More spec for current streamer
+* [[https://github.com/Glympse/reporting-spark-apps][Glympse/reporting-spark-apps]]
+** Repo for spark jobs.
+* [[https://console.aws.amazon.com/s3/home?region=us-east-1#&bucket=comcast.reporting.partners.external.glympse.com&prefix=][Comcast Bucket]]
+* [[https://console.aws.amazon.com/s3/home?region=us-east-1#&bucket=p-reporting-raw-events&prefix=][production raw events]]
+
+
+* reporting-spark-apss/helpers
+** scripts that setup environment variables and then invokes runner/run.sh to run job
+* runner/args.py
+** called with --app poing to app.json; munges app.json to populate args from vault and environment, etc.
+* modules that need to be pip installed:
+** requests
+** pytz
+** boto
+
+* comcast buckets
+** p-partners-comcast-imports -> s-reporting-comcast-extract
+*** mkdir -p ~/code/glympse/s3-buckets/p-partners-comcast-imports/core-api-events/2138/2016/07/21
+*** mkdir -p ~/code/glympse/s3-buckets/p-partners-comcast-imports/core-api-streams/2138/2016/07/21
+*** aws s3 sync --profile p-reporting-apps s3://p-partners-comcast-imports/core-api-events/2138/2016/07/21 ~/code/glympse/s3-buckets/p-partners-comcast-imports/core-api-events/2138/2016/07/21
+*** aws s3 sync --profile p-reporting-apps s3://p-partners-comcast-imports/core-api-streams/2138/2016/07/21 ~/code/glympse/s3-buckets/p-partners-comcast-imports/core-api-streams/2138/2016/07/21
+*** aws s3 sync --profile p-reporting-apps s3://s-reporting-comcast-extract ~/code/glympse/s3-buckets/s-reporting-comcast-extract
+
+* json-diff
+** sucks. format json and use diff -U3.
+
+* Timestamps:
+** ./timestamp.py --timezone US/Central --offset 75600000 --date 20161218
+*** offset = +21 hours
+*** 1481965200000
+**** GMT: Sat, 17 Dec 2016 09:00:00 GMT
+**** Your time zone: 12/17/2016, 1:00:00 AM GMT-8:00
+** ./timestamp.py --timezone US/Central --offset -10800000 --date 20161218
+*** offset = -3 hours
+*** 1482051600000
+**** GMT: Sun, 18 Dec 2016 09:00:00 GMT
+**** Your time zone: 12/18/2016, 1:00:00 AM GMT-8:00
+** ./timestamp.py --timezone US/Eastern --offset 75600000 --date 20161218
+*** offset = +21 hours
+*** 1481961600000
+**** GMT: Sat, 17 Dec 2016 08:00:00 GMT
+**** Your time zone: 12/17/2016, 12:00:00 AM GMT-8:00
+** ./timestamp.py --timezone US/Eastern --offset -10800000 --date 20161218
+*** offset = -3 hours
+*** 1482048000000
+**** GMT: Sun, 18 Dec 2016 08:00:00 GMT
+**** Your time zone: 12/18/2016, 12:00:00 AM GMT-8:00
+* 2016-12-16 tickets diffs:
+** 110014387_data.json:
+*** time 1481892232648, platform/active data, different sequence_id
+** 110019253_data.json:
+*** time 1481898639239, battery/state data that appears to be an addition
+** 110019594_data.json:
+*** time 1481894358215, platform/active data, different sequence_id
+** 110019697_data.json:
+*** time 1481898850266, battery/state data that appears to be an addition
+** 110020776_data.json:
+*** time 1481899334378, battery/state data that appears to be an addition
+** 110023406_data.json:
+*** time 1481894340990, platform/active data
+*** time 1481898813567, platform/active data
+** 110025279_data.json:
+*** time 1481900740305, battery/state data
+** 110026537_data.json:
+*** time 1481901162482, battery/state data
+** 110027075_data.json:
+*** time 1481895018066, network/recovered data
+** 110028493_data.json:
+*** time 1481901821253, battery/state data
+** 110030172_data.json:
+*** time 1481895455625, platform/active data
+** 110033707_data.json:
+*** time 1481899431356, battery/state data
+*** time 1481899431356, battery/state data
+*** time 1481899431341, location/profile data
+*** time 1481899431341, location/profile data
+*** time 1481899431117, platform/active data
+*** time 1481899431117, platform/active data
+** 110033913_data.json:
+*** time 1481899508991, network/recovered data
+** 110034810_data.json:
+*** time 1481903931444, battery/state data
+** 110038121_data.json:
+*** time 1481899431349, battery/state data
+*** time 1481899431349, battery/state data
+*** time 1481899431334, location/profile data
+*** time 1481899431334, location/profile data
+*** time 1481898916059, platform/active data
+*** time 1481899431108, platform/active data
+*** time 1481899431108, platform/active data
+*** time 1481899433761, platform/active data
+*** time 1481899431397, platform/inactive data
+** 110039061_data.json:
+*** time 1481898252453, ticket/arrived data
+** 110041402_data.json:
+*** time 1481906055604, battery/state data
+** 110041885_data.json:
+*** time 1481906194352, battery/state data
+** 110043169_data.json:
+*** time 1481899952732, network/recovered data
+** 110045970_data.json:
+*** time 1481907355381, battery/state data
+** 110045991_data.json:
+*** time 1481907363125, battery/state data
+** 110047660_data.json:
+*** time 1481907804859, battery/state data
+** 110047858_data.json:
+*** time 1481907864422, battery/state
+** 110048890_data.json:
+*** time 1481908189553, battery/state
+** 110049284_data.json:
+*** time 1481901254217, location/profile
+** 110052684_data.json:
+*** time 1481902396802, platform/inactive
+** 110056903_data.json:
+*** time 1481910565299, battery/state
+** 110057063_data.json:
+*** time 1481910616455, battery/state
+** 110059083_data.json:
+*** time 1481911188505, battery/state

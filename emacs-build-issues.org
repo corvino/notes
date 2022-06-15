@@ -1,0 +1,17 @@
+* Stupid clock_gettime
+/Applications/Xcode-8-GM.app/Contents/Developer/usr/bin/make -C ../admin/unidata charscript.el
+  GEN      ../../lisp/international/charscript.el
+  CCLD     temacs
+../build-aux/install-sh -c -d ../etc
+/Applications/Xcode-8-GM.app/Contents/Developer/usr/bin/make -C ../lisp update-subdirs
+./temacs --batch --load loadup bootstrap
+dyld: lazy symbol binding failed: Symbol not found: _clock_gettime
+  Referenced from: /Users/vino/code/opensource/emacs/src/./temacs (which was built for Mac OS X 10.12)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: _clock_gettime
+  Referenced from: /Users/vino/code/opensource/emacs/src/./temacs (which was built for Mac OS X 10.12)
+  Expected in: /usr/lib/libSystem.B.dylib
+
+make[1]: *** [bootstrap-emacs] Trace/BPT trap: 5
+make: *** [src] Error 2

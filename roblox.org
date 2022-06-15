@@ -1,0 +1,3 @@
+* [[https://developer.roblox.com/en-us/][Roblox Developer]]
+* [[https://education.roblox.com/en-us/][Roblox Education]]
+* [[https://store.feistyduck.com/products/programming-in-lua-fourth-edition-ebook][Programming in Lua, Fourth Edition]]

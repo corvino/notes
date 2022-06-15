@@ -1,0 +1,17 @@
+* Generate tags with simple recursive command:
+** ctags -e -R .
+*** -e
+**** Enable etags mode, which will create a tag file for use with the Emacs editor.
+*** -R (--recurse)
+**** Recurse into directories encountered in the list of supplied files.
+** ctags -e -R --exclude=tools .
+** find . -type f -name '*.go' | xargs ctags -e
+* Basic commands
+|-----------------+------------------------------------------------|
+| M-. <RET>       | Jump to the tag underneath the cursor          |
+| M-. <tag> <RET> | Search for a particular tag                    |
+| C-u M-.         | Find the next definition for the last tag      |
+| M-*             | Pop back to where you previously invoked "M-." |
+|-----------------+------------------------------------------------|
+* Convenient References
+** [[https://www.emacswiki.org/emacs/BuildTags][Emacs Wiki - Build Tags]]

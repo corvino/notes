@@ -1,0 +1,43 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
+* Resources
+[[https://github.com/AllThingsSmitty/css-protips][CSS Protips]]
+* Books
+** CSS In Depth
+*** Global border box fix (3.1.3, pg 61)
+#+begin_src css
+  :root {
+      box-sizing: border-box;
+  }
+  ::before,
+  ::after {
+      box-sizing: inherit;
+  }
+#+end_src
+*** Guide to vertical centering (pg 72)
+**** /Can you use a natural height container?/ Apply an equal top and bottom padding to the container to center its contents.
+**** /Do you need a specific height container, or do you need to avoid using padding?/ Use ~display: table-cell~ and ~verticle-align: middle~ on your container.
+**** /Can you use flexbox?/ If you don't need to support IE9, you can center your content with flexbox.
+**** /Is the inner content only one line of text?/ Set a tall line height equal to the desired container height. This will force the container to grow to contain the line height. If the contents aren't inline, you may have to set them inline-block.
+**** /Do you know the height of both the container and the inner content?/ Center the contents with absolute positioning. See chapter 7. (I only recommend this when all approaches mentioned here fail.)
+**** /What if you don't know the height of the inner element?/ Use absolute positioning in conjunction with a transform.
+**** See [[http://howtocenterincss.com]].
+*** Prevent margins from collapsing
+**** Applying ~overflow: auto~ (or any value other than ~visible~) to the container prevents margins inside the container from collapsing with those outside the container. This is often the least intursive solution.
+**** Adding a border or padding between two margins stops them from collapsing.
+**** Margins won'e collapse to the outside of a container that is floated, that is an inline block, or that has an absolute or fixed position.
+**** When using a flexbox, margins won'e collapse between elements that are part of the flex layout. This is also the case with grid layout.
+**** Elements ith a ~table-cell~ display don't ahve a margin, so they won't collapse. This also applies to ~table-row~ and most other table display types. Exceptions are ~table~, ~table-inline~, and ~table-caption~.
+*** Lobotomized owl global margins (3.5.2, pg 80)
+#+begin_src css
+  body * + * {
+      margin-top: 1.5em;
+  }
+#+end_src
+
+(org-html-export-to-html :EXPORT_FILE_NAME "/Users/vino/test.html")
+(org-export-to-file 'html "~/test.html")
+
+(org-export-to-file 'html "test.html" `(:output-file, file))
+*** /Double container pattern/ (Brad Westfall) (pg 82)
+Content goes inside two nested containers, with margins of the intter container set to position it with the outer one.
+

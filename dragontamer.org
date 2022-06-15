@@ -1,0 +1,16 @@
+* [[https://dragontamer.miraheze.org/wiki/Farm][Farms]]
+|------------------------+------+------------+-------+-----------+-----------|
+| Name                   | Time | Production |  Gold | Gold/Food | Food/Time |
+|------------------------+------+------------+-------+-----------+-----------|
+| Sunlight Plant         |   .5 |         .6 |     6 |      10.0 |       1.2 |
+| Artificial Breeding    |    5 |          9 |   100 |      11.1 |       1.8 |
+| Light Control          |   30 |         72 |  1000 |      13.9 |       2.4 |
+| Greenhouse Farming     |   15 |         21 |   200 |       9.5 |       1.4 |
+| Hydroponic Cultivation |   90 |        150 |  1500 |      10.0 | 1.6666667 |
+| Temperate Environment  |  180 |        420 |  5000 |      11.9 | 2.3333333 |
+| Ecological Hothouse    |  360 |        600 |  6000 |      10.0 | 1.6666667 |
+| Large-scale Raising    |  720 |       1500 | 15000 |      10.0 | 2.0833333 |
+| Super Production       | 1440 |       3500 | 40000 |      11.4 | 2.4305556 |
+|------------------------+------+------------+-------+-----------+-----------|
+#+TBLFM: $5=$4/$3;%.1f
+#+TBLFM: $6=$3/$2

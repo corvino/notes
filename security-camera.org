@@ -1,0 +1,2 @@
+* [[https://en.wikipedia.org/wiki/Network_video_recorder][Network video recorder (NVR)]]
+* [[https://en.wikipedia.org/wiki/Real_Time_Streaming_Protocol][Real Time Stream Protocol (RTSP)]]

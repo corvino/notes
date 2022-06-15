@@ -1,0 +1,53 @@
+* Meta
+[[https://adam.herokuapp.com/past/2011/4/1/logs_are_streams_not_files/][Logs Are Streams, Not Files]]
+[[https://blog.treasuredata.com/blog/2011/11/23/fluentd-missing-log-collector/][Fluentd: The Missing Log Collector Software]]
+* Tools
+[[https://goaccess.io][GoAccess]]
+* Books
+[[https://smile.amazon.com/Logging-Log-Management-Authoritative-Understanding/dp/1597496359][Logging and Log Management: The Authoritative Guide to Understanding the Concepts Surrounding Logging and Log Management]]
+[[https://smile.amazon.com/Heart-Logs-Stream-Processing-Integration/dp/1491909382/ref=pd_sbs_14_1/144-3614718-3809757][I Heart Logs: Event Data, Stream Processing, and Data Integration]]
+* Podcasts
+[[https://www.se-radio.net/2015/02/episode-220-jon-gifford-on-logging-and-logging-infrastructure/][Jon Gifford on Logging and Logging Infrastructure]]
+* Kibana-focused
+** [[https://balagetech.com/visualizing-nginx-access-logs-kibana/][Visualizing NGINX access logs in Kibana]]
+*** [[https://github.com/abalage/balagetech-nginx-apache-syslog-ng-elasticsearch/blob/master/syslog-ng/conf.d/nginx.conf][conf]]
+*** [[https://www.elastic.co/guide/en/ecs/current/ecs-reference.html][ECS (Elastic Common Schema)]]
+**** [[https://www.elastic.co/guide/en/ecs/current/ecs-field-reference.html][ECS Field Reference]]
+*** [[https://github.com/elastic/beats/tree/master/filebeat/module/nginx/_meta/kibana/7/dashboard][filebeat nginx kibana dashboards]]
+** [[https://www.nginx.com/blog/using-nginx-logging-for-application-performance-monitoring/#var_upstream_response_time][Using NGINX Logging for Application Performance Monitoring]]
+** Kibana Concepts
+*** [[https://www.elastic.co/guide/en/kibana/current/managing-saved-objects.html][Saved objects]]
+*** [[https://www.elastic.co/guide/en/kibana/current/scripted-fields.html][Scripted fields]]
+*** [[https://www.elastic.co/guide/en/elasticsearch/reference/current/ip.html][IP datatype]]
+*** [[https://github.com/elastic/beats/tree/master/filebeat/module/nginx/_meta/kibana/7/dashboard][filebeat-nginx-dashboard]]
+* Swift
+** [[https://medium.com/swiftybeaver-blog/logging-in-server-side-swift-85bdecb6be80][Logging in server-side Swift]]
+** [[https://github.com/apple/swift-log][apple/swift-log]]
+** [[https://github.com/swiftstack/swift-to-elk][swift-to-elk]]
+* ELK
+** [[https://www.elastic.co/webinars/introduction-elk-stack][An Introduction to the ELK Stack for Logs and Metrics]]
+* Zip nginx logs
+sudo tar -czf nginx-logs.tar.gz -C /var/log/ nginx
+* Match pattern to record to blah
+** Log format
+*** [[http://nginx.org/en/docs/http/ngx_http_log_module.html][Combined Format]]
+'$remote_addr - $remote_user [$time_local] '
+'"$request" $status $body_bytes_sent '
+'"$http_referer" "$http_user_agent"';
+*** Example
+192.168.48.1 - - [26/Jan/2020:15:34:01 +0000] "GET /app.css HTTP/1.1" 304 0 "http://localhost/v1/views/user/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15" "-" 534 244 0.002 0.003
+*** Extended Format
+'$remote_addr - $remote_user [$time_local] '
+'"$request" $status $body_bytes_sent '
+'"$http_referer" "$http_user_agent" '
+'"$http_x_forwarded_for" $request_length '
+'$bytes_sent $request_time $upstream_response_time';
+** Parse it!
+/^(?<remote>[^ ]*) (?<host>[^ ]*) (?<user>[^ ]*) \[(?<time>[^\]]*)\] "(?<method>\S+)(?: +(?<path>[^\"]*) +\S*)?" (?<code>[^ ]*) (?<size>[^ ]*)(?: "(?<referer>[^\"]*)" "(?<agent>[^\"]*)")?/
+** Send to fluentd
+fluent-cat -f none --message-key log nginx.access < access.log
+
+
+Root mapping definition has unsupported parameters:  
+[mappings : {properties={geo={properties={country={type=text, fields={keyword={ignore_above=256, type=keyword}}}, city={type=text, fields={keyword={ignore_above=256, type=keyword}}}, country_name={type=text, fields={keyword={ignore_above=256, type=keyword}}}, postal_code={type=text, fields={keyword={ignore_above=256, type=keyword}}}, point={type=geo_point}}}, path={type=text, fields={keyword={ignore_above=256, type=keyword}}}, referer={type=text, fields={keyword={ignore_above=256, type=keyword}}}, agent={type=text, fields={keyword={ignore_above=256, type=keyword}}}, @timestamp={type=date}, code={type=text, fields={keyword={ignore_above=256, type=keyword}}}, method={type=text, fields={keyword={ignore_above=256, type=keyword}}}, size={type=text, fields={keyword={ignore_above=256, type=keyword}}}, host={type=text, fields={keyword={ignore_above=256, type=keyword}}}, tag={type=text, fields={keyword={ignore_above=256, type=keyword}}}, remote={type=text, fields={keyword={ignore_above=256, type=keyword}}}, user={type=text, fields={keyword={ignore_above=256, type=keyword}}}}}]
+PUT http://localhost:9200/_template/fluentd

@@ -1,0 +1,22 @@
+* Continuous Integration Software as a Service
+** [[https://travis-ci.org/][Travis CI]]
+** [[https://circleci.com][CircleCI]]
+** [[https://www.buddybuild.com][buddybuild]]
+** [[https://www.bitrise.io][Bitrise]]
+** [[https://codeship.com][Codehip]]
+** [[https://codefresh.io][Codefresh]]
+* Open Source
+** [[https://jenkins.io][Jenkins]]
+** [[http://hudson-ci.org][Hudson]]
+** [[http://buildbot.net][Buildbot]]
+** [[https://strider-cd.github.io][Strider]]
+** [[https://www.gocd.org][Go]]
+** [[http://integrity.github.io][Integrity]]
+** [[http://cruisecontrol.sourceforge.net][CruiseControl]]
+** [[https://dzone.com/articles/top-8-continuous-integration-tools][GitLab CI]]
+* Resources
+** [[https://vimeo.com/158290425][Xcoders Talk: Continuous Integrations for iOS Apps (Pavan Adavi, February 11, 2016)]]
+** [[https://opensource.com/business/15/7/six-continuous-integration-tools][6 top continuous integration tools]]
+** [[https://www.blazemeter.com/blog/jenkins-vs-other-open-source-continuous-integration-servers][Jenkins vs. Other Open Source Continuous Integration Servers]]
+** [[Top 8 Continuous Integration Tools][Top 8 Continuous Integration Tools]]
+** [[https://xebialabs.com/the-ultimate-devops-tool-chest/continuous-integration/][The Ultimate List of CI Tools]]

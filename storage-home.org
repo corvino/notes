@@ -1,0 +1,8 @@
+* Options
+** [[https://www.freenas.org][FreeNAS]]
+** [[https://www.freenas.org][QNAP]]
+* File System
+** [[https://www.synology.com/en-us/knowledgebase/DSM/tutorial/Storage/Which_file_system_should_I_use_to_create_a_volume][Synology - Btrfs vs ext4]]
+** [[https://www.synology.com/en-us/knowledgebase/DSM/help/DSM/StorageManager/storage_pool_what_is_raid][Synology - RAID]]
+** [[https://www.qnap.com/solution/qnap-ext4/en-us/][Why does QNAP choose the ext4 file system over Btrfs?]]
+* [[https://en.wikipedia.org/wiki/Data_corruption#Silent][Silent Data Corruption]]

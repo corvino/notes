@@ -1,0 +1,47 @@
+* Tech
+** [[https://kubernetes.io][Kubernetes]]
+** [[https://prometheus.io/][Prometheus]]
+** [[https://grafana.com][Grafana]]
+* Investigate
+** CoreOS Prometheus Operator
+*** https://github.com/coreos/prometheus-operator
+*** https://coreos.com/blog/the-prometheus-operator.html
+*** Why
+**** Seen in a later slide in [[https://www.oreilly.com/learning/kubernetes-and-prometheus-the-beginning-of-a-beautiful-friendship][Kubernetes and Prometheus: The beginning of a beautiful friendship]]
+**** Easy way to run prometheus on kubernetes. Perfect? Worth looking at.
+** [[https://medium.com/google-cloud/getting-started-with-google-cloud-55937aa6b9][Getting Started with Kubernetes on Google Cloud]]
+* Bibliography
+** Cloud Native series by Joe Beda
+*** [[https://blog.heptio.com/cloud-native-part-1-definition-716ed30e9193][Part 1: Definition]]
+*** [[https://blog.heptio.com/cloud-native-part-2-d5c29e699caf][Part 2: In Practice]]
+*** [[https://blog.heptio.com/cloud-native-part-3-6f9d888c5f07][Part 3: DevOps]]
+*** [[https://blog.heptio.com/cloud-native-part-4-79dc3875e03c][Part 4: Containers and Clusters]]
+*** [[https://blog.heptio.com/cloud-native-part-5-1c1106a4caf8][Part 5: Microservices]]
+*** [[https://blog.heptio.com/cloud-native-part-6-18e1587355db][Part 6: Security]]
+** [[https://medium.com/@jbeda][Joe Beda on medium]]
+** [[https://www.eightypercent.net/post/layers-in-the-stack.html][Anatomy of a Modern Production Stack]]
+** [[https://www.oreilly.com/ideas/google-infrastructure-for-everyone-else][Google infrastructure for everyone else]] (Björn Rabenstein)
+** [[https://www.pagerduty.com/blog/blameless-post-mortems-strategies-for-success/][Blameless post mortems – strategies for success]]
+** [[https://codeascraft.com/2012/05/22/blameless-postmortems/][Blameless PostMortems and a Just Culture]]
+** [[https://about.gitlab.com/2017/06/14/on-calliday-unsucking-your-on-call-experience/][On-Calliday: A Guide to Unsucking Your On-Call Experience]]
+** Talks
+*** [[https://www.safaribooksonline.com/library/view/velocity-2016-/9781491958537/][Velocity Amsterdam 2016]]
+**** [[https://www.oreilly.com/ideas/highlights-from-velocity-amsterdam-2016][Highlights]]
+**** [[https://www.safaribooksonline.com/library/view/velocity-2016-/9781491958537/video290700.html?utm_source=oreilly&utm_medium=newsite&utm_campaign=velocity-amsterdam-2016-keynote-highlight-come-with-me-if-you-want-to-live-on-teams-rock-stars-and-becoming-extraordinary][Come with me if you want to live: On teams, rock stars, and becoming extraordinary]]
+**** [[https://www.youtube.com/watch?v=44QQEI9CJQQ][Elasticsearch for logs and metrics: A deep dive]]
+**** [[https://www.safaribooksonline.com/library/view/velocity-2016-/9781491958537/video290642.html][From ELK to the Elastic stack: Modern logging and monitoring - Tudor Golubenco (Elastic)]]
+***** Why Elasticsearch for time series (20:07)
+****** Horizontal scalability. Mature and battle tested cluster support.
+****** Flexible aggregations (incl moving averages and Holt Winters)
+****** One system for both logs and metrics
+****** Timelion UI, Grafana
+****** Great ecosystem: e.g. alerting tools
+**** [[https://www.oreilly.com/learning/kubernetes-and-prometheus-the-beginning-of-a-beautiful-friendship][Kubernetes and Prometheus: The beginning of a beautiful friendship]] (Björn Rabenstein)
+**** [[https://www.oreilly.com/ideas/a-young-ladys-illustrated-primer-to-technical-decision-making][A young lady's illustrated primer to technical decision-making]]
+**** [[https://www.safaribooksonline.com/library/view/velocity-2016-/9781491958537/video290644.html][Anomaly detection: A hateful lovestory]]
+**** [[https://www.safaribooksonline.com/library/view/velocity-2016-/9781491958537/video290651.html][How to break apart a monolithic system safely without destroying your team]]
+***** http://melconway.com/Home/Conways_Law.html
+***** http://web.devopstopologies.com
+***** https://twitter.com/i/web/status/785923504378146817
+**** [[https://www.youtube.com/watch?v=gcfnG5DkwWs][On-Calliday: Un-Sucking Your On-Call Experience]]
+*** [[https://www.youtube.com/watch?v=PDxcEzu62jk][Monitoring, the Prometheus Way]]

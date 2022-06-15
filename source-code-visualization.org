@@ -1,0 +1,22 @@
+* [[http://gource.io][Gource]]
+** Is available through homebrew
+** You can output the log to visualize to a file
+`gource --log-command git` > ./gource.log
+** You can read from a file, with an interval specified
+gource ./gource.log -s .01
+** The git log command looks like
+git log --pretty=format:user:%aN%n%ct --reverse --raw --encoding=UTF-8 --no-renames
+** Git log format
+The log format shows is a line format, where a commit is a series of
+lines, and there is a blank line between commits.
+*** Exampe
+user:<users name>
+<UNIX EPOCH mx>
+<tabulated file change info>
+<tabulated file change info>
+<tabulated file change info>
+...
+<tabulated file change info>
+
+user:<users name>
+<UNIX EPOCH mx>

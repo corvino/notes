@@ -1,0 +1,68 @@
+* [[https://www.sdcard.org/downloads/formatter_4/eula_mac/][SD Card util for Mac]]
+* Installation
+** [[https://www.webtechgadgetry.com/how-to-format-larger-sd-cards-for-raspberry-pi/][How to format larger SD Cards for Raspberry Pi]]
+** How flash an SD Care for Raspberry Pi
+*** [[https://elinux.org/RPi_Easy_SD_Card_Setup#Using_system_tools][Using macOS System Tools]]
+*** [[https://www.maketecheasier.com/run-ubuntu-raspberry-pi/][Using Etcher]]
+** [[https://ubuntu.com/download/iot/installation-media][Ubuntu Installation Instructions]]
+* [[https://maker.pro/raspberry-pi/tutorial/os-options-for-raspberry-pi-4][Raspberry Pi 4 OS Options]]
+* Gear (Solid State Storage) and Ubuntu
+** [[https://jamesachambers.com/raspberry-pi-ubuntu-server-18-04-2-installation-guide/][Raspberry Pi 4 Ubuntu Server 18.04.2 Installation Guide]]
+** [[https://jamesachambers.com/raspberry-pi-3b-microsd-vs-ssd-speed-benchmarks/][Raspberry Pi 3B+ MicroSD / SSD Speed Benchmarks]]
+* To Flash a Card
+** Resources
+*** [[https://www.raspberrypi.org/documentation/installation/installing-images/mac.md][raspberrypi.org - Installing operating system images on Mac OS]]
+*** [[https://ubuntu.com/download/iot/installation-media#macos][ubuntu.com - Create installation media for Ubuntu - On macOS]]
+** Ubuntu
+*** Images compressed with xz
+brew install xz
+unxz ubuntu-...
+** To find the identifier
+diskutil list
+# look for the disk and make sure it is DOS_FAT_32
+** To format in FAT32
+sudo diskutil list
+sudo diskutil eraseDisk FAT32 [NAME] MBRFormat /dev/disk#
+    e.g., 
+** To unmount, if already FAT32 but mounted
+diskutil unmountDisk /dev/disk<#>
+** To flash an image
+cat image.img | sudo dd of=< drive address > bs=32m'
+sudo dd bs=1m if=<file.img> of=/dev/rdisk<#> conv=sync
+or maybe
+sudo dd if=ubuntu-19.10-live-server-arm64.iso of=/dev/rdisk4
+** To get status on flashing
+ctrl-t
+* Raspbian
+** First Boot
+Seems bizarrely undocumented, but [[https://www.raspberrypi.org/help/noobs-setup/2/][NOOBS Setup]] has the required info.
+*** username: pi
+*** password: raspberry
+* [[https://wiki.ubuntu.com/ARM/RaspberryPi][Ubuntu]]
+** username: ubuntu
+** password: ubuntu
+* [[http://blog.hypriot.com][Hypriot]]
+Kinda-of a trimmed down Raspbian Lite optimized for Docker and with it
+preinstalled.
+** Has a cool flash tool
+** Their Quick start (see [[https://blog.hypriot.com/post/releasing-HypriotOS-1-11/][Releasing HypriotOS 1.11.0]]
+curl -O https://raw.githubusercontent.com/hypriot/flash/2.3.0/flash
+chmod +x flash
+sudo mv flash /usr/local/bin/flash
+flash https://github.com/hypriot/image-builder-rpi/releases/download/v1.11.0/hypriotos-rpi-v1.11.0.img.zip)
+** Optimized
+curl -O https://raw.githubusercontent.com/hypriot/flash/2.3.0/flash
+chmod +x flash
+curl -L --fail -o hypriotos-rpi-v1.11.0.img.zip https://github.com/hypriot/image-builder-rpi/releases/download/v1.11.0/hypriotos-rpi-v1.11.0.img.zip
+unzip -o hypriotos-rpi-v1.11.0.img.zip
+flash hypriotos-rpi-v1.11.0.img
+** Just flash file
+sudo dd bs=1m if=hypriotos-rpi-v1.11.0.img of=/dev/rdisk# conv=sync
+** Hypriot has this "Cloud-Init" stuff, which maybe is the place to automate setup of devices?
+[[https://blog.hypriot.com/post/cloud-init-cloud-on-hypriot-x64/][Bootstrapping a Cloud with Cloud-Init and HypriotOS]]
+[[https://github.com/hypriot/flash/tree/master/sample][Sample Config Files]]
+[[https://github.com/hypriot/image-builder-rpi/blob/master/builder/files/boot/user-data][user-data]] file that manages boot/init?
+** Uses [[http://avahi.org][Avahi]] for network discovery (website is ... oldschool. [[https://github.com/lathiat/avahi][GitHub Repo]])
+* [[https://wiki.alpinelinux.org/wiki/Raspberry_Pi][Apline Linux]]
+** Raspberry Pi 4
+*** [[https://raspberrypi.stackexchange.com/questions/100608/booting-alpine-linux-on-raspberry-pi-4][StackExchange-Booting Alpine linux on Raspberry Pi 4]]

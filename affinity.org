@@ -1,0 +1,15 @@
+* Workbooks
+** Designer
+- Chapter 1: Interface Tour (pg 13)
+- [[https://affin.co/coreskills][Chapter 2: Core Skills]] (pg 73)
+- Chapter 3: Illustration Projects
+  - [[https://affin.co/panther][1: Panther]] (pg 128)
+  - [[https://affin.co/skyline][2. Skyline]] (pg 152)
+  - [[https://affin.co/whittler][3. The Whittler]] (pg 186)
+  - [[https://affin.co/winecellar][4. Wine Cellar]] (pg 236)
+  - [[https://affin.co/][5. The Fisherman] (pg 264)
+- Chapter 4: Design Projects
+  - [[https://affin.co/lace1][1. Lace Frame Galleries 1]] (pg 308)
+  - [[https://affin.co/lace2][2. Lace Frame Galleries 2]] (pg 340)
+  - [[https://affin.co/tix1][3. Tix App 1]] (pg 364)
+  - [[https://affin.co/tix2][4. Tix App 2]] (pg 416)

@@ -1,0 +1,12 @@
+
+
+* [[https://stackoverflow.com/questions/60027518/how-to-correctly-read-pdf-into-nodejs-buffer-from-google-drive-apis-export-meth][Post showing axios arraybuffer solution]]
+* [[https://stackoverflow.com/questions/46088042/margins-parameters-for-google-spreadsheet-export-as-pdf/46312255#46312255][Margin parameters on export]]
+* https://gist.github.com/andrewroberts/26d460212874cdd3f645b55993942455
+* [[https://stackoverflow.com/questions/47648338/creating-multiple-google-sheets-pdfs-throws-429-error][Multiple Exports return 429]]
+* [[https://stackoverflow.com/questions/61394978/exporting-specific-range-of-cells-to-pdf-google-sheets][Export with range specified]]
+* [[https://stackoverflow.com/questions/58627501/how-to-print-sheet-range-using-gs-script-in-google-sheets][Export with range specified]]
+
+max-h-screen
+h-[calc(1000px - 4rem)]
+max-h-[calc(100vw-4rem)]

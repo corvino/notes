@@ -1,0 +1,18 @@
+* Javascript
+** [[https://www.cypress.io/dashboard/][Cypress]]
+End-to-end browser testing
+*** [[https://docs.cypress.io/guides/overview/why-cypress.html][Guides]]
+** [[http://dareid.github.io/chakram/][Chakram]]
+REST API testing
+** [[https://www.frisbyjs.com][Frisby.js]]
+REST API testing
+** [[https://jasmine.github.io][Jasmine]]
+BDD testing framework
+** [[http://chaijs.com][Chai]]
+BDD/TDD assert library
+** [[https://mochajs.org][Mocha]]
+Simple, fun test framework
+** [[https://gist.github.com/yoavniran/1e3b0162e1545055429e#for-mocha-chai-and-sinon][The Ultimate Unit Testing Cheat-sheet]]
+For Mocha, Chai and Sinon
+* [[https://github.com/yurishkuro/opentracing-tutorial][OpenTracing Tutorials]]
+* [[https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html][Just Say No to More End-to-End Tests]]

@@ -1,0 +1,26 @@
+From tekl:
+
+enum TableRow: Int {
+    case First = 0
+    case Second
+
+    // Provide a simple cover for init(rawValue:) that makes more sense in a table view context
+    init?(rowIndex: Int) {
+        return TableRow(rawValue: rowIndex)
+    }
+}
+
+func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    // If you got an invalid row, could do a hard assert; return nil; or, as below, return a dummy cell
+    guard let row = TableRow(rowIndex: indexPath.row) else {
+        let cell = UITableViewCell(style: .Default, reuseIdentifier: nil)
+        cell.textLabel?.text = "Unknown row"
+        return cell
+    }
+
+    // Now you can do real cell configuration for your table without handling either Optionals or a special .Unknown case
+    switch row {
+    case .First: break
+    case .Second: break
+    }
+}

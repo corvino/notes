@@ -1,0 +1,19 @@
+* Resources
+** [[https://www.smlnj.org][Standard ML of New Jersey]]
+*** [[https://www.smlnj.org/doc/][User's Guide]]
+**** [[https://www.smlnj.org/doc/CM/index.html][Compliation Manager]]
+See Chapter 15, Auxiliary scripts for info on stand-along programs and make
+**** [[https://www.smlnj.org/doc/Emacs/sml-mode.html][The Emacs SML editing mode]]
+** [[http://www.cs.cmu.edu/afs/cs/local/sml/common/smlguide/smlnj.htm][Standard ML at CMU]]
+*** [[http://www.cs.cmu.edu/afs/cs/local/sml/common/smlguide/smlnj.htm#editing][Editing SML Programs Using Emacs]]
+* Commands and shorcuts
+|---------+-----------------------------------------------|
+| C-zr    | Run SML                                       |
+| C-cC-l  | loads file into repl, defaults to buffer file |
+| C-cC-r  | loads region into repl                        |
+| C-cC-b  | loads buffer into repl                        |
+| C-c-C-s | switch to repl                                |
+|---------+-----------------------------------------------|
+* To run a program without the repl, send the file to snadard input
+sml < prog.sml
+

@@ -1,0 +1,64 @@
+* [[https://cloudinit.readthedocs.io/en/latest/topics/dir_layout.html][Directory Layout]]
+* Check stats
+cloud-init status --long
+
+~$ cloud-init status --long
+status: done
+time: Wed, 02 Sep 2020 19:29:23 +0000
+detail:
+DataSourceDigitalOcean
+
+* Debugging
+sudo rm -rf /var/lib/cloud/ /var/log/cloud-init*
+
+sudo cloud-init -d init
+sudo cloud-init -d modules
+
+less /var/log/cloud-init.log
+* Getting cloud-init to use NoCloud
+/run/cloud-init/cloud.cfg seems to "win" the configuration battle, so it needs to include NoCloud.
+
+** Change it to datasource_list: [ NoCloud ]
+** Search Path
+It will look in /var/lib/cloud/seed/nocloud and
+/var/lib/cloud/seed/nocloud-net for user-data, meta-data, vendor-data,
+and network-config
+** There is a configuration changing the seed location, but it doesn't support arbitrary locations
+datasource:
+    NoCloud:
+        seedfrom: file:///var/lib/cloud/seed
+* Log for NoCloud search
+2020-09-03 02:30:53,263 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/user-data (quiet=False)
+2020-09-03 02:30:53,263 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/meta-data (quiet=False)
+2020-09-03 02:30:53,264 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/vendor-data (quiet=False)
+2020-09-03 02:30:53,264 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud/network-config (quiet=False)
+2020-09-03 02:30:53,264 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/user-data (quiet=False)
+2020-09-03 02:30:53,264 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/meta-data (quiet=False)
+2020-09-03 02:30:53,264 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/vendor-data (quiet=False)
+2020-09-03 02:30:53,264 - util.py[DEBUG]: Reading from /var/lib/cloud/seed/nocloud-net/network-config (quiet=False)
+* Setup no-cloud debug
+# setup user-data for testing
+sudo cp /var/lib/cloudinstance/user-data.txt user-data
+sudo chown vino:vino user-data
+# backup original cloud dir
+sudo mv /var/lib/cloud .
+
+# What the heck is this??
+sudo emacs /run/cloud-init/cloud.cfg
+
+# reset things
+sudo cloud-init clean
+sudo mkdir -p /var/lib/cloud/nocloud-net && sudo cp user-data /var/lib/cloud/nocloud-net/ && sudo touch /var/lib/cloud/nocloud-net/meta-data && sudo rm /var/log/cloud-init.log
+
+sudo mkdir -p /var/lib/cloud/nocloud-net && sudo cp user-data /var/lib/cloud/nocloud-net/ && sudo touch /var/lib/cloud/nocloud-net/meta-data && sudo rm /var/log/cloud-init.log
+sudo cloud-init init
+* Log will tell you where user-data was found
+** Example
+2020-09-02 17:35:19,120 - handlers.py[DEBUG]: start: init-network/setup-datasource: setting up datasource
+2020-09-02 17:35:19,120 - handlers.py[DEBUG]: finish: init-network/setup-datasource: SUCCESS: setting up datasource
+2020-09-02 17:35:19,121 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/206414483/user-data.txt - wb: [600] 1447 bytes
+2020-09-02 17:35:19,122 - util.py[DEBUG]: Attempting to load yaml from string of length 1447 with allowed root types (<class 'dict'>,)
+2020-09-02 17:35:19,138 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/206414483/user-data.txt.i - wb: [600] 1752 bytes
+2020-09-02 17:35:19,139 - util.py[DEBUG]: Writing to /var/lib/cloud/instances/206414483/vendor-data.txt - wb: [600] 17521 bytes
+2020-09-02 17:35:19,143 - util.py[DEBUG]: Attempting to load yaml from string of length 603 with allowed root types (<class 'dict'>,)
+

@@ -1,0 +1,21 @@
+* Install build dependencies
+brew install autoconf automake libtool
+* Clone from git://git.savannah.gnu.org/emacs.git
+* Checkout tag
+* Update Icons
+** Files
+*** document.icns
+*** Emacs.icns
+** In Source
+*** <src-root>/nextstep/Cocoa/Emacs.base/Contents/Resources
+** In app bundle
+*** Emacs.app/Contents/Resources/
+** Pretty images
+*** ~/Dropbox/images/emacs
+** Update source (run in source root)
+*** cp ~/Dropbox/images/emacs/* nextstep/Cocoa/Emacs.base/Contents/Resources
+* Checkout tag, then
+./autogen.sh
+./configure --with-ns
+make clean install
+* Outputs Emacs.app in ./nextstep

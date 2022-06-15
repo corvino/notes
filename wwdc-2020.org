@@ -1,0 +1,7 @@
+* Xcoders talks at WWDC ...
+** Curt
+*** [[https://developer.apple.com/wwdc20/10031][Stacks, Grids, and Outlines in SwiftUI]]
+*** [[https://developer.apple.com/wwdc20/10040][Data Essentials in SwiftUI ]]
+*** Platform State of the Union, (Sidebar and outline on SwiftUI), 45-minute-ish
+** Jake
+*** [[https://developer.apple.com/videos/play/wwdc2020/10056/][Optimize the interface of your Mac Catalyst app]]

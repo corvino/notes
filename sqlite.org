@@ -1,0 +1,6 @@
+* Examing database schema
+SELECT * from sqlite_master;
+(type, name, tbl_name, rootpage, sql)
+
+[[https://www.sqlite.org/pragma.html][PRAGMA Statements]]
+PRAGMA table_info(<table-name>);

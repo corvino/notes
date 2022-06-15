@@ -1,0 +1,15 @@
+* [[https://yofreesamples.com/mazes/][yo! Free Samples]]
+** [[https://yofreesamples.com/mazes/#very_easy][very easy]]
+** [[https://yofreesamples.com/mazes/#easy][easy]]
+1 :: Easy-book-806.pdf
+** [[https://yofreesamples.com/mazes/#medium][medium]]
+1 :: Medium-book-381.pdf
+** [[https://yofreesamples.com/mazes/#hard][hard]]
+1 :: Hard-book-1030.pdf
+** [[https://yofreesamples.com/mazes/#very_hard][very hard]]
+** [[https://yofreesamples.com/mazes/#insane][insane]]
+* [[https://krazydad.com/mazes/][krazydad]]
+** [[https://krazydad.com/mazes/index.php?sv=TF][tough]]
+1 :: KD_Mazes_TF_v1.pdf
+** [[https://krazydad.com/mazes/index.php?sv=ST][Super-Tough]]
+1 :: KD_Mazes_ST_v1.pdf

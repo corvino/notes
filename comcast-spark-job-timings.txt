@@ -1,0 +1,5 @@
+./timestamp.py --timezone US/Eastern --offset 75600000 --date 20161128 = 1480233600000 = Sun, 27 Nov 2016 08:00:00 GMT
+./timestamp.py --timezone US/Eastern --offset -10800000 --date 20161204 = 1480838400000 = Sun, 04 Dec 2016 08:00:00 GMT
+
+./timestamp.py --timezone US/Eastern --date 20161206 --offset-days 8 --offset-hours 21 = 1480233600000 = Sun, 27 Nov 2016 08:00:00 GMT
+./timestamp.py --timezone US/Eastern --date 20161206 --offset-days 2 --offset-hours -3 = 1480838400000 = Sun, 04 Dec 2016 08:00:00 GMT

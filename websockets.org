@@ -1,0 +1,11 @@
+* [[https://datatracker.ietf.org/doc/html/rfc6455][RFC 6455]]
+* [[https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API][mdn web docs]]
+* [[https://en.wikipedia.org/wiki/WebSocket][Wikipedia]]
+* [[https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP][HTTP History]]
+* websocket.org
+Shut down. See [[https://www.lob.com/blog/websocket-org-is-down-here-is-an-alternative][this post]].
+** Alternative
+[[https://websocketking.com][websocketking.com]]
+* Paw
+Doesn't support, see [[https://github.com/luckymarmot/Paw-Issues/issues/68][this thread]].
+* [[https://hoppscotch][hoppscotch]]

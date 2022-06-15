@@ -1,0 +1,232 @@
+“simplicity rarely loses to complexity in battles in the public square.” -- Jeffery Toobin [[https://www.nytimes.com/2020/08/05/books/review/true-crimes-and-misdemeanors-jeffrey-toobin.html][*]]
+
+
+|------------------------------------------------------------------+-------------------------------+---|
+| Harrington on Hold 'em                                           | Dan Harrington, Bill Robertie | 1 |
+| Economics: A Self-Teaching Guide                                 | Stephen L. Slavin             | 1 |
+| Let Every Nation Know                                            | Robert Dallek, Terry Golway   | 1 |
+| American Lion                                                    | Jon Meacham                   | 1 |
+| The British Empire in the Middle East 1945-1951                  | Wm. Roger Louis               | 1 |
+| The More Than Complete Hitchhiker's Guide                        | Douglas Adams                 | 1 |
+| Complete Sherlock Holmes I                                       | Sire Arthur Conan Doyle       | 1 |
+| Steve Jobs                                                       | Walter Isaacs                 | 1 |
+| The World is Flat                                                | Thomas L Friedman             | 1 |
+| Chicago's Historic Hyde Park                                     | Susan O'Connor Davis          | 1 |
+| Colonial Encounters in the Age of High Imperialism               | Scott B Cook                  | 1 |
+| The Second World War in Europe                                   | PMH Bell                      | 1 |
+| Don'e Know Much About the Bible                                  | Kenneth C Davis               | 1 |
+| How to Think Ahead in Chess                                      | IA Horowitz & Fred Reinfeld   | 1 |
+| Dylan's Visions of Sin                                           | Christopher Ricks             | 1 |
+| Bob Dylan New York                                               | June Skinner Sawyers          | 1 |
+| UofC Readings in Wastern Civilizatin: 9 Twentieth-Century Europe | John W Boyer, Jan Goldstein   | 1 |
+| The Race                                                         | Dave Shields                  | 1 |
+| The Dreyfus Affair (in French Society & Politics)                | Eric Cahm                     | 1 |
+| Day Walker: 32 Hikes in the New York Metrpolitan Area            |                               | 1 |
+| Europe in the Age of Imperialism 1880-1914                       | Heinz Gollwitzer              | 1 |
+| The Darling                                                      | Russell Banks                 | 1 |
+| Founding Brothers: The Revolutionary Generation                  | Joseph J. Ellis               | 1 |
+| Clousplitter                                                     | Russell Banks                 | 1 |
+| The Professor, the Banker, and the Suicide King                  | Michael Craig                 | 1 |
+| Woody Allen: A Biography                                         | Eric Lax                      | 1 |
+| Saint Augustine Confsessions                                     | Henry Chadwick                | 1 |
+| Great Short Works of Leo Tolstoy                                 | Leo Tolstoy                   | 1 |
+| The Collected Poems of WB Yeats                                  | WB Yeats, Richard J Finneran  | 2 |
+| The Hegel Reader                                                 | Stephen Houlgate              | 2 |
+| Sowing the Gosepl                                                | Mary Ann Tolber               | 2 |
+| The Bible as Literature: An Introduction                         | Gaebl, Wheeler, York          | 2 |
+| Nietzche on Truth and Philosophy                                 | Maudemarie Clark              | 2 |
+| Nietzsche: Life as Literature                                    | Alexander Nehamas             | 2 |
+| Hell's Angels                                                    | Hunter S Thompson             | 2 |
+| Fear and Loathing in Las Vega                                    | Hunter S Thompson             | 2 |
+| Jean-Paul Sartre                                                 | Essay in Existantialism       | 2 |
+| Basic Writings of Nietzsche                                      | Nietzsche                     | 2 |
+| Discipline & Punish: The Birth of Passion                        | Michel Foucault               | 2 |
+| Foucault Reader                                                  | Michel Foucault, Paul Rabinow | 2 |
+| The History of Sexuality: An Introduction Vol 1                  | Michel Foucault               | 2 |
+| Reading Nietzsche                                                | Nietzsche, Solomon, Higgins   | 2 |
+| Fear and Trempling: Repitition                                   | Soren Kierkegaard             | 2 |
+| Just Gaming                                                      | Lyotard, Thebaud              | 2 |
+| The Newly Born Woman                                             | Wing, Gilbert                 | 2 |
+| The New Nietzsche                                                | David B Allison               | 2 |
+| Thus Spoke Zarathustra                                           | Friedrich Nietzsche           | 2 |
+| The Castle of Otranto                                            | Horace Walpole                | 2 |
+| All the President's Men                                          | Bernstein, Woodward           | 2 |
+| The English Patient                                              | Michael Ondaatje              | 2 |
+| The Cambrdige Companion to Nietzsche                             | Magnus, Higgins               | 2 |
+| A Room of One's Own                                              | Virginia Wold                 | 2 |
+| Written on the Body                                              | Jeanette Winterson            | 2 |
+| The Trial                                                        | Franz Kafka                   | 2 |
+| Death in Venice                                                  | Thomas Mann                   | 2 |
+| Dubliners                                                        | James Joyce                   | 2 |
+| The Private Memoirs and Confessions of Justified Sinner          | James Hogg                    | 2 |
+| Northanger Abbey                                                 | Susan, Watsons, Sanditon      | 2 |
+| The Romance of the Forest                                        | Ann Radliffe                  | 2 |
+| Fear and Loathing on the Campaign Trail '72                      | Hunter S Thompson             | 2 |
+| The Norton Anthology of English Literature                       |                               | 2 |
+| The Big Sea                                                      | Langston Hughes               | 2 |
+| Paradise Lost                                                    | John Milton                   | 2 |
+| Persuasion                                                       | Jane Austen                   | 2 |
+| Heart of Darkness                                                | Joseph Conrad                 | 2 |
+| Frakenstein                                                      | Mary SHeeley                  | 2 |
+| Civilization and Its Discontents                                 | Sigmund Freud                 | 2 |
+| An Outline of Psycho-Analysis                                    | Sigmund Freud                 | 2 |
+| Gender Trouble                                                   | Judith Butler                 | 2 |
+| The Cambridge Companion to Foucault                              | Gary Gutting                  | 2 |
+| The Cambridge Companion to Freud                                 | Jerome Neu                    | 2 |
+| Spurs Nietzsche's Styles                                         | Jacques Derrida               | 2 |
+| The Continental Philsophy Reader                                 | Kearney, Rainwaters           | 2 |
+| Vegetarian Planet                                                | Didi Emmons                   | 2 |
+| The Brief Wonderous Life of Oscar Wao                            | Junot Diaz                    | 2 |
+| Bicycling Magazine's Mountain Biking Skills                      | Ben Hewitt                    | 2 |
+| My Training Starts Tomorrow                                      | Roman Mica                    | 2 |
+| Playing off the Rails                                            | David McCumber                | 2 |
+| The World's Religions                                            | Huston Smith                  | 1 |
+| Romanticism: An Anthology with CD-ROM                            | Duncn Wu                      | 3 |
+| Diccionario Medico: English-Spanish Medical Dictionary           | Gleen T Rogers, MD            | 3 |
+| The House of God                                                 | Samuel Shem                   | 3 |
+| Mount Misery                                                     | Samuel Shem                   | 3 |
+| eat pray love                                                    | Elizabeth Gilbert             | 3 |
+| Marathon: The Ultimate Training Guide                            | Hal Higdon                    | 3 |
+| teaching what you don't know                                     | Therese Huston                | 3 |
+| Dreams from My Father                                            | Barack Obama                  | 3 |
+| A Happy Marriage                                                 | Rafael Yglesias               | 3 |
+| The Princess of Iowa                                             | M Molly Backes                | 3 |
+| The Addict                                                       | Michael Stein                 | 3 |
+| Users' Guides to the Medical Literature                          | Guyatt, Rennie, Maureen, Cook | 3 |
+| The Perspectives of Psychiatry                                   | McHugh, Slavney               | 3 |
+| The Malpractice Cure                                             | Edward D McCarthy, Esq        | 3 |
+| Nature's Metropolis: Chicago and th Great West                   | William Cronon                | 3 |
+| Effective Java Second Edition                                    | Joshua Bloch                  | 3 |
+| Western Civilization: The Continuing Experiment                  | Neuschel, Cohen, Roberts      | 3 |
+| The Complete Book of Road Cycling & Racing                       | Will Peveler                  | 3 |
+| Building Cocoa Applications: A Step-by-step Guide                | Garfinkel, Mahoney            | 3 |
+| Learning Cocoa with Objective-C                                  | Davidson, Apple               | 3 |
+| Front-End Web Development: The BNR Guide                         | Chris Aquino and Todd Gandee  | 3 |
+| The Dictionary of Cultural Literacty                             | Hirsch, Kett, Trefil          | 3 |
+| Hackers & Painters                                               | Paul Graham                   | 3 |
+| My Own Country: A Doctor's Story                                 | Abraham Verghese              | 3 |
+| Cutting for Stone                                                | Abraham Verghese              | 3 |
+| Better: A Surgeon's Notes on Performance                         | Atul Gawande                  | 3 |
+| The Case for God                                                 | Karen Armstrong               | 3 |
+| A Random Walk Down Wall Streen                                   | Burton G Malkiel              | 3 |
+| Tuesdays with Morrie                                             | Mitch Albom                   | 3 |
+| The Ultimate RPG Archives: Instruction Manuals                   |                               | 3 |
+| The Eathsea Trilogy                                              | Ursula K Le Guin              | 3 |
+| Don't Know Much About History                                    | Kenneth C Davis               | 3 |
+| The Oxford History of Modern War                                 | Charles Townshend             | 3 |
+| Fantastic Mr Fox                                                 | Roald Dahl                    | 3 |
+| Eat the Document                                                 | Dana Spiotta                  | 3 |
+| The Marinit Book                                                 |                               | 4 |
+| Foorball for Dummies                                             | Howie Long, Czarnecki         | 4 |
+| Calculus: An Intuitive and Physical Approach                     | Morris Kline                  | 4 |
+| SQL For Smarties, Third Edition                                  | Joe Celko's                   | 4 |
+| AAP Caring for Your Baby and Young Child                         | Shelov, Altmann               | 4 |
+| What to Expect the First Year                                    | Eisenberg, Murkoff, Hathaway  | 4 |
+| The Cyclist's Training Bible                                     | Joe Friel                     | 4 |
+| Principles of Economics, Third Edition                           | N Gregory Mankiw              | 4 |
+| Below the Root                                                   | Zilpha Keatley Snyder         | 4 |
+| Sherlock Holmes II                                               | Arthur Conan Doyle            | 4 |
+| Complete Book of Road Cycling Skills                             | Ed Pavelka                    | 4 |
+| How to Read a Film                                               | James Monaco                  | 4 |
+| New York City Souvenir Book                                      |                               | 4 |
+| And All Betweek                                                  | Zilpha Keatley Snyder         | 4 |
+| Until the Celebration                                            | Zilpha Keatley Snyder         | 4 |
+| 1000 Places to See Before You Die                                | Patricia Schultz              | 4 |
+| The Literary Guide to the Bible                                  | Robert Alter, Frank Kermode   | 4 |
+| The Boys of Summer                                               | Roger Kahn                    | 4 |
+| The runner's Literary Companion                                  | Garth Battista                | 4 |
+| A Bar Player's Guide to Winning Darts                            | Capt Fred Everson             | 4 |
+| Arcadia                                                          | Tom Stoppard                  | 4 |
+| A America A Narrative History                                    | Tinall, Shi                   | 5 |
+| Billy Budd, Sailor                                               | Herman Melville               | 5 |
+| One Hundred Years of Solitude                                    | Garbiel Garcia Marquez        | 5 |
+| Harrington on Hold 'em Vol 1                                     | Dan Harrington, Bill Robertie | 5 |
+| A Peact to End All Peace                                         | David Fromkin                 | 5 |
+| Love in the Time of Cholera                                      | Garbiel Garcia Marquez        | 5 |
+| New Art City                                                     | Jed Perl                      | 5 |
+| Complete Book of Running                                         | Amby Burfoot                  | 5 |
+| Disgrace                                                         | JM Coetzee                    | 5 |
+| Game Time                                                        | Roger Angell                  | 5 |
+| Programming Collective Intelligence                              | Toby Segaran                  | 5 |
+| Managing Projects with GNU Make                                  | Robert Mecklenburg            | 5 |
+| AI for Game Developers                                           | Bourg, Seemann                | 5 |
+| Mansfield Park                                                   | Jane Austen                   | 5 |
+| The Accidental Connoisseur                                       | Lawrence Osborn               | 5 |
+| An Unfinished Life JFK                                           | Robert Dallek                 | 5 |
+| Past Time: Baseball as History                                   | Jules Tygiel                  | 5 |
+| Opening Day: Jackie Robinson                                     | Jonathan Eig                  | 5 |
+| FDR                                                              | Jean Edward Smith             | 5 |
+| The Blind Side                                                   | Michael Lewis                 | 5 |
+| iPhone Game Development                                          | Zirkle, Hogue                 | 5 |
+| Moneyball                                                        | Michael Lewis                 | 5 |
+| Getting Things Done                                              | David Allen                   | 5 |
+| The Fragility of Goodness                                        | Martha C Nussbaum             | 5 |
+| The Book: Playing the Percentages in Baseball                    | Tango, Lichtman, Dolphin      | 5 |
+| Rework                                                           | Fried, Hansson                | 5 |
+| The Great Shark Hunt                                             | Hunter S Thompson             | 5 |
+| Baseball Between the Numbers                                     | Baseball Prospectus           | 5 |
+| The Hot Stove League                                             | Lee Allen                     | 5 |
+| The Great Unraveling                                             | Paul Krugman                  | 5 |
+| You Were Never in Chicago                                        | Neil Steinberg                | 5 |
+| The Best Software Writing I                                      | Joel Spolsky                  | 5 |
+| The Cathedral & the Bazaar                                       | Eric S Raymond                | 5 |
+| Programming with GNU Software                                    | Loukides, Oram                | 5 |
+| Physics for Game Developers                                      | David M Bourg                 | 5 |
+| The Outbreak of World War I                                      | Holger H Herwig               | 5 |
+| The Adobe Photoshop CS3 Book for Digital Photographers           | Scott Kelby                   | 6 |
+| Assembly Language for x86 Processors Sixth Edition               | Kip R Irvine                  | 6 |
+| Adobe Photoshop CS3 Classroom in a Book                          | Adobe Press                   | 6 |
+| Adobe Illustrator CS3 Classroom in a Book                        | Adobe Press                   | 6 |
+| Complete Book of Running                                         | Amby Burfoot                  | 6 |
+| Cocoa Programming for Mac OS X Third Edition                     | Aaron Hillegass               | 6 |
+| Harry Potter and the Goblet of Fire                              | JK Rowling                    | 6 |
+| Harry Potter and the Order of the Phoenix                        | JK Rowling                    | 6 |
+| In Search of the Miraculous                                      | PD Ouspensky                  | 6 |
+| 110 Things Jets Fans Should Know & Do Before They Die            | Bill Chastain                 | 6 |
+| Rivethead: Tales from the Assembly Line                          | Ben Hamper                    | 6 |
+| Teach Yourself Film Studies                                      |                               | 6 |
+| Decolonization in Africa                                         | John D Hargreaves             | 6 |
+| The Long Season                                                  | Bruno Schull                  | 6 |
+| Positively Fifth Street                                          | James McManus                 | 6 |
+| The World's Greatest Blackjack Book                              | Humble, Cooper                | 6 |
+| The First World War                                              | Michael Howard                | 6 |
+| The Witches                                                      | Roald Dah                     | 6 |
+| Harrington on Hold 'em Vol 1                                     | Dan Harrington, Bill Robertie | 6 |
+| Super System                                                     | Doyle Brunson's               | 6 |
+| The Mirrow Makers                                                | Stephen Fox                   | 6 |
+| The Intelligen Asset Allocator                                   | William Bernstein             | 6 |
+| Family Village Tribe                                             | Mandy Johnson                 | 6 |
+| Cooking in New York City                                         | Daniel Boulud                 | 6 |
+| Avec Eric                                                        | Eric Ripert                   | 6 |
+| Mumufuku Milk Bar                                                | Christina Tosi                | 6 |
+| Bachour                                                          | Antonio Bachour               | 6 |
+| Wok Cookery                                                      | Ceil Dyer                     | 6 |
+| Sunset Stir-Fry Cookbook                                         |                               | 6 |
+| Lex & Yacc                                                       | Levine, Mason, Brown          | 6 |
+| Oregon Coastal Access Guide                                      | Kenn Oberrecht                | 7 |
+| Bitters                                                          | Brad Thomas Parsons           | 7 |
+| Clubland                                                         | Frank Own                     | 7 |
+| Party Monster                                                    | James St James                | 7 |
+| Bike Snob                                                        | BikeSnobNYC                   | 7 |
+| Dirk Gently's Holistic Detective Agency                          | Douglas Adams                 | 7 |
+| The Long Dark Tea-Time of the Soul                               | Douglas Adams                 | 7 |
+| Quidditch Through the Ages                                       | Kennilworthy Whisp            | 7 |
+| Fantatic Beasts & Where to Find Them                             | Newt Scamander                | 7 |
+| Mr Boston Official Bartender's and Party Guide                   |                               | 7 |
+| NFT New York City                                                |                               | 7 |
+| MSingin and Swingin and Getting Merry Like Christmas             | Maya Angelou                  | 7 |
+| The Martini Book                                                 |                               | 7 |
+| Top 100 Baby Purees                                              | Annabel Karmel                | 7 |
+| The 15 Minute Chinese Gourmet                                    | Elizabeth Chiu King           | 7 |
+| New York Cookbook                                                | Molly O'Neill                 | 7 |
+| Where Wizards Stay Up Late                                       | Katie Hafner, Matthew Lyon    | 7 |
+| Significant Other                                                | Matt Rendell                  | 7 |
+| The Complete Walker                                              | Colin Fletcher                | 7 |
+|                                                                  |                               |   |
+
+
+
+
+
+| You Were Never in Chicago                                        | Neil Steinberg                |   |
+|                                                                  |                               |   |

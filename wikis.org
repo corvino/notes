@@ -1,0 +1,18 @@
+* MediaWiki
+** [[https://www.mediawiki.org/wiki/Manual:Importing_XML_dumps][Manual:Importing XML dumps]]
+* Fandom
+** [[https://community.fandom.com/wiki/Help:Advanced][Help:Advanced]]
+** [[https://community.fandom.com/wiki/Help:Importing_and_exporting_pages][Help:Importing and exporting pages]]
+* Dragon Tamer
+** Fandom
+https://dragontamer.fandom.com/wiki/Dragon_Tamer_Wiki
+** Miraheze
+:Scroll: The Dragon Tamer Wiki moved to a new domain! :Scroll:
+
+https://dragontamer.miraheze.org/
+
+We have moved from Fandom to Miraheze. The Fandom wiki will be soon emptied and deleted in the upcoming days. Everything that was on the old wiki is on the new one, and we will continue editing only on the new domain now.
+
+We moved for a few reasons, including no ads, better mobile view, ability for everyone to edit and much more. Hopefully you'll like the new look!
+
+The wiki doesn't show up on search results yet, and we're working on improving that. If you want to help, please share the link or bookmark it! :QuilinSnug:

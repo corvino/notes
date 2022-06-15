@@ -1,0 +1,3 @@
+* Gmail
+** Tricks for searching mail
+has:attachment larger:10m in:sent

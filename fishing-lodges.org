@@ -1,0 +1,8 @@
+|--------------------+------------------------------------------+-----+-----|
+| Name               | Address                                  | Lat | Lng |
+|--------------------+------------------------------------------+-----+-----|
+| [[http://www.canyonriver.net][Canyon River Ranch]] | 14700 Canyon Rd, Ellensburg, WA 98926    |     |     |
+| [[http://www.sunmountainlodge.com/activities/warm-weather-activities/fly-fishing/][Sun Mountain Lodge]] | 604 Patterson Lake RD Winthrop, WA 98862 |     |     |
+| [[http://www.thesuttlelodge.com][The Suttle Lodge]]   | 13300 US Hwy 20 Sisters, OR 97759        |     |     |
+|--------------------+------------------------------------------+-----+-----|
+

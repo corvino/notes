@@ -1,0 +1,38 @@
+brentsimmons [11:05 AM]
+@corvino: The pattern I’ve used is to have a class that uses NSURLSession to download things. I pass in things to that class; the class handles the downloading and then calls back with results.
+
+jeffwatkins [11:06 AM]
+@brentsimmons: Yep. That’s the way.
+
+brentsimmons [11:06 AM]
+That class has an internal NSMutableDictionary that maps taskIdentifier to downloadable-thing.
+
+[11:06]
+This way the class knows what to do when downloadable-thing has downloaded (or errored).
+
+[11:08]
+Downloadable-thing may conform to a protocol with methods such as downloadDidComplete:error: or whatever. How the wrapper class knows what to do is up to you, but that’s one way.
+
+corvino [11:11 AM] 
+Cool; clipped, and I will think about that more later. I don’t immediately see how lets me wrap the download in an operation. I want that here, because I want to download n things and then do a processing step when I’m done, and operation dependencies seem like a good way to get that.
+
+brentsimmons [11:11 AM] 
+Right — my method doesn’t use NSOperation at all.
+
+jeffwatkins [11:11 AM] 
+Your NSOperation things should talk to your MyDownloader
+
+corvino [11:12 AM] 
+Also, I’m not trying to build a cathedral at the moment; quick-and-dirty is fine. I probably should have done something much hackier yesterday, but I got distracted thinking the answer would be obvious if I just investigated a bit...
+
+brentsimmons [11:12 AM] 
+Another option: use NSProgress. When completed, then do that other thing.
+
+jeffwatkins [11:12 AM] 
+And probably NSBlockOperation would be fine. The block downloads the thing and completes when its done.
+
+jeffmc [11:20 AM] 
+That is what I did for an image cache. On e class, one NSURLSession and a map for task and callback for a key
+
+[11:20] 
+Using the block completion for dataTask

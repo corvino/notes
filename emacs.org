@@ -1,0 +1,51 @@
+* Package Management
+** [[https://www.emacswiki.org/emacs/InstallingPackages][Installing Packages]]
+** [[https://melpa.org/#/][MELPA]]
+** Search for a package
+* macOS Specific setup
+Emacs needs/wants Full Disk Access to work properly.
+
+The program that that runs emacs is actually a ruby script, so
+/usr/bin/ruby needs to be given the permission. ([[https://apple.stackexchange.com/questions/371888/restore-access-to-file-system-for-emacs-on-macos-catalina][Restore Access to File
+System for Emacs on MacOS Catalina]])
+* macOS Appearance
+** [[https://www.reddit.com/r/emacs/comments/8lfivt/question_how_to_make_macos_titlebar_same_color_as/][reddit - How to make macOS titlebar same color as Emacs background]]
+** Useful
+(add-to-list 'default-frame-alist '(ns-appearance . light))
+(add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+
+Still need to fix scrollbar color; look at customize-faces. alos
+*** scroll-bar
+(custom-set-faces
+ '(scroll-bar ((t (:background "gray49")))))
+**** maybe?
+(set-face-attribute 'scroll-bar nil
+  :foreground "Black")
+* Customize appearance
+** From Custom
+(custom-set-faces
+ '(diff-added ((((background dark)) (:foreground "#FFFF9B9BFFFF")) (t (:foreground "DarkGreen"))))
+ '(diff-changed ((((background dark)) (:foreground "Yellow")) (t (:foreground "MediumBlue"))))
+ '(diff-context ((((background dark)) (:foreground "White")) (t (:foreground "Black"))))
+ '(diff-file-header ((((background dark)) (:foreground "Cyan" :background "Black")) (t (:foreground "Red" :background "White"))))
+ '(diff-header ((((background dark)) (:foreground "Cyan")) (t (:foreground "Red"))))
+ '(diff-hunk-header ((((background dark)) (:foreground "Black" :background "#05057F7F8D8D")) (t (:foreground "White" :background "Salmon"))))
+ '(diff-index ((((background dark)) (:foreground "Magenta")) (t (:foreground "Green"))))
+ '(diff-nonexistent ((((background dark)) (:foreground "#FFFFFFFF7474")) (t (:foreground "DarkBlue"))))
+ '(diff-removed ((((background dark)) (:foreground "#7474FFFF7474")) (t (:foreground "DarkMagenta"))))
+ '(scroll-bar ((t (:background "gray49")))))
+* cli scripting recipes
+** Basic calling of function with file input
+emacs test.org -l org-html.el --batch --eval "(test)"
+
+(defun test ()
+  (interactive)
+  (princ (buffer-string)))
+
+test.org is in buffer-string, and princ prints to stdout, so you see the contents of the file.
+** Org export
+(defun test ()
+  (interactive)
+  (org-mode)
+  (org-html-export-as-html)
+  (princ (buffer-string)))

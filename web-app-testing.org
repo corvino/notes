@@ -1,0 +1,11 @@
+* [[https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project][OWASP Zed Attack Proxy]]
+** Open Source penetration tool
+** SalesForce setup guide
+*** [[https://security.secure.force.com/security/tools/webapp/zapbrowsersetup][Setting up ZAP for Browser]]
+*** [[https://security.secure.force.com/security/tools/webapp/zaprunningscan][Running The Scan]]
+** console.enterprise.glympse.com credentials
+*** reviewer@appexchange.salesforce.glympse.com
+*** -77qu631
+* [[https://portswigger.net/burp/][Burp Suite]]
+** Proprietary
+* [[https://security.secure.force.com/chimera][Chimera]]

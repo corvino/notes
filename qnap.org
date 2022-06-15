@@ -1,0 +1,26 @@
+* [[https://wiki.qnap.com/wiki/SSH:_How_To_Set_Up_Authorized_Keys][SSH: How To Set Up Authorized Keys]]
+Put in /etc/config/ssh/authorized_keys
+* [[https://www.qnap.com/solution/container_station/en/][Container Station]]
+[[https://www.qnap.com/en-us/how-to/tutorial/article/how-to-use-container-station][How to use Container Station?]]
+* [[https://github.com/tomplus/qnap-git-server][qnap-git-server]]
+* GitLab Container
+[[http://medusa:10080][Medusa GitLab]]
+** Default
+*** username
+root
+*** password
+5iveL!fe
+** HTTP Port
+10080
+** SSH Port
+10022
+[[https://github.com/sameersbn/docker-gitlab#available-configuration-parameters][docker-gitlab available configuration parameters]]
+https://docs.gitlab.com/ee/topics/autodevops/
+* Git
+git remote add origin ssh://git@medusa:10022/vino/gitlab-tools.git
+* Setup API Scripts
+export GL_TOKEN=`op get item 'GitLab Access Token (Medusa CLI)' | jq -r .details.password`
+export GL_BASE_URL='http://medusa:10080'
+
+BASE_URL = ENV["GL_BASE_URL"]
+TOKEN = ENV["GL_TOKEN"]

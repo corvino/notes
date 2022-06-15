@@ -1,0 +1,16 @@
+I’ve been digging into this for a while and thanks to Steve’s help, I think I’ve finally tracked down the root cause of our jiggling cells and supplementary views.
+
+During my investigation, I noticed that when `-preferredLayoutAttributesFittingAttributes:` is called for our cells, superview is nil. Our code worked around this by just returning the default layoutAttributes, because we layout some of our cells differently based on the horizontal size class. We also create constraints against a `UILayoutGuide` from the enclosing collection view. None of this worked when the superview was nil. I always meant to revisit this problem, but never did.
+
+I also noticed none of our supplementary views had a nil superview when their `-preferredLayoutAttributesFittingAttributes:` was called. I assumed this meant there was different layout logic for cells v.s. supplementary views.
+
+As I dug into the collection view code, this made no sense. The layout logic is virtually identical. The lightbulb finally went on when I put a breakpoint in `-applyLayoutAttributes:` for one of our supplementary views. It was being called from `-[UICollectionView _applyLayoutAttributes:toView:]`. The chunk of code immediately above that was basically:
+
+    if (view.layoutAttributes.zIndex != newZIndex)
+        Add view to hierarchy;
+
+None of our cells every have a zIndex other than 0. So this will *never* be true. All of our supplementary views have a zIndex other than 0. So this will *always* be true.
+
+For *ALL* our supplementary views, they are added to the view hierarchy and sized using their estimated layout attributes. Then later, their `-preferredLayoutAttributesFittingAttributes:` method is called and they are resized.
+
+For *ALL* of our cells, they do not get added to the view hierarchy until after their `-preferredLayoutAttributesFittingAttributes:` method is called, but we can’t actually give a correct size, because the view is not part of the hierarchy.

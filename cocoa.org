@@ -1,0 +1,393 @@
+* WWDC
+** [[https://developer.apple.com/videos/wwdc2014][2014]]
+** [[https://developer.apple.com/videos/wwdc2015][2015]]
+** [[https://developer.apple.com/videos/wwdc2016][2016]]
+** [[https://developer.apple.com/videos/wwdc2017][2017]]
+** [[https://developer.apple.com/videos/wwdc2018][2018]]
+** [[https://developer.apple.com/videos/wwdc2019][2019]]
+** [[https://developer.apple.com/videos/wwdc2020][2020]]
+** [[https://developer.apple.com/videos/wwdc2021][2021]]
+*** [[https://developer.apple.com/documentation/New-Technologies-WWDC21][New Technologies WWDC21]]
+Highlights of new technologies introduced at WWDC21.
+* Playgrounds
+** [[https://developer.apple.com/documentation/swift_playgrounds][Swift Playgrounds]] (Apple Developer)
+** [[https://en.wikipedia.org/wiki/Playgrounds_(Xcode_feature)][Playgrounds]] (Wikipedia)
+** [[https://developer.apple.com/videos/play/wwdc2018/402/][Getting the Most out of Playgrounds in Xcode]] (WWDC 2018 Video)
+* SwiftUI Tutorials
+** Chapter 1: SwiftUI Essentials
+*** [[https://developer.apple.com/tutorials/swiftui/creating-and-combining-views][Creating and Combining Views]]
+*** [[https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation][Building Lists and Navigation]]
+*** [[https://developer.apple.com/tutorials/swiftui/handling-user-input][Handling User Input]]
+**** Mark the User’s Favorite Landmarks
+**** Filter the List View
+**** Add a Control to Toggle the State
+**** Use an Observable Object for Storage
+**** Adopt the Model Object in Your Views
+**** Create a Favorite Button for Each Landmark
+** Chapter 2: Drawing and Animation
+*** [[https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes][Drawing Paths and Shapes]]
+**** Create Drawing Data for a Badge View
+**** Draw the Badge Background
+**** Draw the Badge Symbol
+**** Combine the Badge Foreground and Background
+*** [[https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions][Animating Views and Transitions]]
+**** Add Hiking Data to the App
+**** Add Animations to Individual Views
+**** Animate the Effects of State Changes
+**** Customize View Transitions
+**** Compose Animations for Complex Effects
+** Chapter 3: App Design and Layout
+*** [[https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces][Composing Complex Interfaces]]
+**** Add a Category View
+**** Create a Category List
+**** Create a Category Row
+**** Complete the Category View
+**** Add Navigation Between Sections
+*** [[https://developer.apple.com/tutorials/swiftui/working-with-ui-controls][Working with UI Controls]]
+**** Display a User Profile
+**** Add an Edit Mode
+**** Define the Profile Editor
+**** Delay Edit Propagation
+** Chapter 4: Framework Integration
+*** [[https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit][Interfacing with UIKit]]
+**** Create a View to Represent a UIPageViewController
+**** Create the View Controller’s Data Source
+**** Track the Page in a SwiftUI View’s State
+**** Add a Custom Page Control
+*** [[https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app][Creating a watchOS App]]
+**** Add a watchOS Target
+**** Share Files Between Targets
+**** Create the Detail View
+**** Add the Landmarks List
+**** Create a Custom Notification Interface
+*** [[https://developer.apple.com/tutorials/swiftui/creating-a-macos-app][Creating a macOS App]]
+**** Add a macOS Target to the Project
+**** Create a macOS Detail View
+**** Update the Row View
+**** Update the List View
+**** Add a Built-in Menu Command
+**** Add a Custom Menu Command
+**** Add Preferences with a Settings Scene
+* Videos by topic
+** async/await
+*** 2021
+[[https://developer.apple.com/videos/play/wwdc2021/10132/][Meet async/await in Swift]]
+[[https://developer.apple.com/videos/play/wwdc2021/10058/][Meet AsyncSequence]]
+[[https://developer.apple.com/videos/play/wwdc2021/10254/][Swift concurrency: Behind the scenes]]
+[[https://developer.apple.com/videos/play/wwdc2021/10194/][Swift concurrency: Update a sample app]]
+[[https://developer.apple.com/videos/play/wwdc2021/10095/][Use async/await with URLSession]]
+[[https://developer.apple.com/videos/play/wwdc2021/10019/][Discover concurrency in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2021/10134/][Explore structured concurrency in Swift]]
+** Playgrounds
+*** 2015
+[[https://developer.apple.com/videos/play/wwdc2015/405/][Authoring Rich Playgrounds]]
+*** 2017
+[[https://developer.apple.com/videos/play/wwdc2017/410/][Localizing Content for Swift Playgrounds]]
+[[https://developer.apple.com/videos/play/wwdc2017/605/][SceneKit in Swift Playgrounds]]
+[[https://developer.apple.com/videos/play/wwdc2017/416/][Teaching with Swift Playgrounds]]
+[[https://developer.apple.com/videos/play/wwdc2017/408/][What’s New in Swift Playgrounds]]
+*** 2018
+[[https://developer.apple.com/videos/play/wwdc2018/413/][Create Your Own Swift Playgrounds Subscription]]
+[[https://developer.apple.com/videos/play/wwdc2018/402/][Getting the Most out of Playgrounds in Xcode]]
+*** 2019
+[[https://developer.apple.com/videos/play/wwdc2019/405/][Swift Playgrounds 3]]
+*** 2020
+[[https://developer.apple.com/videos/play/wwdc2020/10643/][Build a SwiftUI view in Swift Playgrounds]]
+[[https://developer.apple.com/videos/play/wwdc2020/10654/][Create Swift Playgrounds content for iPad and Mac]]
+[[https://developer.apple.com/videos/play/wwdc2020/10096/][Explore Packages and Projects with Xcode Playgrounds]]
+[[https://developer.apple.com/videos/play/wwdc2020/10681/][Swan's Quest, Chapter 1: Voices in the dark]]
+[[https://developer.apple.com/videos/play/wwdc2020/10682/][Swan's Quest, Chapter 2: A time for tones]]
+[[https://developer.apple.com/videos/play/wwdc2020/10683/][Swan's Quest, Chapter 3: The notable scroll]]
+[[https://developer.apple.com/videos/play/wwdc2020/10684/][Swan's Quest, Chapter 4: The sequence completes]]
+** SwiftUI
+*** 2019
+[[https://developer.apple.com/videos/play/wwdc2019/238/][Accessibility in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2019/237/][Building Custom Views with SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2019/226/][Data Flow Through SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2019/231/][Integrating SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2019/204/][Introducing SwiftUI: Building Your First App]]
+[[https://developer.apple.com/videos/play/wwdc2019/233/][Mastering Xcode Previews]]
+[[https://developer.apple.com/videos/play/wwdc2019/216/][SwiftUI Essentials]]
+[[https://developer.apple.com/videos/play/wwdc2019/240/][SwiftUI On All Devices]]
+[[https://developer.apple.com/videos/play/wwdc2019/219/][SwiftUI on watchOS]]
+*** 2020
+[[https://developer.apple.com/videos/play/wwdc2020/10649/][Add custom views and modifiers to the Xcode Library]]
+[[https://developer.apple.com/videos/play/wwdc2020/10037/][App essentials in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2020/10643/][Build a SwiftUI view in Swift Playgrounds]]
+[[https://developer.apple.com/videos/play/wwdc2020/10039/][Build document-based apps in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2020/10048/][Build complications in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2020/10042/][Build SwiftUI apps for tvOS]]
+[[https://developer.apple.com/videos/play/wwdc2020/10033/][Build SwiftUI views for widgets]]
+[[https://developer.apple.com/videos/play/wwdc2020/10040/][Data Essentials in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2020/10119/][Introduction to SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2020/10031/][Stacks, Grids, and Outlines in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2020/10149/][Structure your app for SwiftUI previews]]
+[[https://developer.apple.com/videos/play/wwdc2020/10185/][Visually edit SwiftUI views]]
+[[https://developer.apple.com/videos/play/wwdc2020/10041/][What's new in SwiftUI]]
+*** 2021
+[[https://developer.apple.com/videos/play/wwdc2021/10021/][Add rich graphics to your SwiftUI app]]
+[[https://developer.apple.com/videos/play/wwdc2021/10017/][Bring Core Data concurrency to Swift and SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2021/10176/][Craft search experiences in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2021/10022/][Demystify SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2021/10023/][Direct and reflect focus in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2021/10019/][Discover concurrency in SwiftUI]]
+[[https://developer.apple.com/videos/play/wwdc2021/10119/][SwiftUI Accessibility: Beyond the basics]]
+[[https://developer.apple.com/videos/play/wwdc2021/10062/][SwiftUI on the Mac: Build the fundamentals]]
+[[https://developer.apple.com/videos/play/wwdc2021/10289/][SwiftUI on the Mac: The finishing touches]]
+[[https://developer.apple.com/videos/play/wwdc2021/10018/][What's new in SwiftUI]]
+** SPM
+*** 2018
+[[https://developer.apple.com/videos/play/wwdc2018/411/][Getting to Know Swift Package Manager]]
+*** 2019
+[[https://developer.apple.com/videos/play/wwdc2019/408/][Adopting Swift Packages in Xcode]]
+[[https://developer.apple.com/videos/play/wwdc2019/410/][Creating Swift Packages]]
+*** 2020
+[[https://developer.apple.com/videos/play/wwdc2020/10147/][Distribute binary frameworks as Swift packages]]
+[[https://developer.apple.com/videos/play/wwdc2020/10096/][Explore Packages and Projects with Xcode Playgrounds]]
+[[https://developer.apple.com/videos/play/wwdc2020/10169/][Swift packages: Resources and localization]]
+*** 2021
+[[https://developer.apple.com/videos/play/wwdc2021/10197/][Discover and curate Swift Packages using Collections]]
+* SwiftUI
+** [[https://developer.apple.com/tutorials/swiftui][Introducing SwiftUI]] (Apple Developer Tutorials)
+** [[https://developer.apple.com/documentation/swiftui/building_a_great_mac_app_with_swiftui][Building a Great Mac App with SwiftUI]] (App from SwiftUI on the Mac)
+* Timeline
+** Unified
+*** 2014
+[[https://en.wikipedia.org/wiki/Swift_(programming_language)][Swift]] introduced (WWDC, June 2)
+[[https://en.wikipedia.org/wiki/Playgrounds_(Xcode_feature)][Playgrounds]] introduced (WWDC)
+*** 2015
+*** 2016
+Swift Playgrounds released (September)
+*** 2017
+*** 2018
+*** 2019
+**** WWDC
+Xcode 11
+SwiftUI
+*** 2020
+*** 2021
+**** WWDC
+Xcode 13
+async/await/actors (5.5)
+** SPM ([[https://github.com/apple/swift-package-manager/blob/main/CHANGELOG.md][Changelog]])
+*** 2018, Introduced at WWDC
+*** 2019, Packages in Xcode
+* SwiftUI
+[[https://swiftontap.com][SwiftOnTap]]
+[[https://apps.apple.com/us/app/a-companion-for-swiftui/id1485436674?mt=12][‎A Companion for SwiftUI]]
+* Investigations
+** Document Managed SwiftUI
+*** Apple Docs
+[[https://developer.apple.com/documentation/swiftui/documentgroup][DocumentGroup]]
+[[https://developer.apple.com/documentation/swiftui/filedocument][FileDocument]]
+[[https://developer.apple.com/documentation/swiftui/referencefiledocument][ReferenceFileDocument]]
+[[https://developer.apple.com/documentation/swiftui/filedocumentconfiguration][FileDocumentConfiguration]]
+*** CoreData-based
+[[https://stackoverflow.com/a/70368015/115730][FileDocument with UIManagedDocument/core data]]
+* Network delegate debugging ...
+** Classes
+- [[https://developer.apple.com/documentation/foundation/urlsessiontaskdelegate][URLSessionTaskDelegate]]
+  - [[https://developer.apple.com/documentation/foundation/urlsessionwebsocketdelegate][URLSessionWebSocketDelegate]]
+- [[https://developer.apple.com/documentation/foundation/urlsessionwebsockettask][URLSessionWebSocketTask]]
+- [[https://developer.apple.com/documentation/foundation/urlsession][URLSession]]
+- [[https://developer.apple.com/documentation/foundation/urlsessiontask][URLSessionTask]]
+- [[https://developer.apple.com/documentation/foundation/urlsessiondelegate][URLSessionDelegate]]
+- [[https://developer.apple.com/documentation/foundation/urlsessiontaskmetrics][URLSessionTaskMetrics]]
+- [[https://developer.apple.com/documentation/foundation/urlsessiontaskdelegate][URLSessionTaskDelegate]]
+** URLSessionDelegate
+class SessionDelegate: NSObject, URLSessionDelegate {
+    func urlSession(_ session: URLSession,
+                    didBecomeInvalidWithError error: Error?) {
+        print("1")
+    }
+
+    func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
+        print("2")
+    }
+}
+** URLSessionTaskDelegate
+// https://developer.apple.com/documentation/foundation/urlsessiontaskdelegate
+class SessionTaskDelegate: NSObject, URLSessionTaskDelegate, URLSessionWebSocketDelegate {
+    func urlSession(_ session: URLSession, task: URLSessionTask, didCompleteWithError error: Error?) {
+        print("a")
+    }
+
+    func urlSession(_ session: URLSession,
+                        task: URLSessionTask,
+    willPerformHTTPRedirection response: HTTPURLResponse,
+                  newRequest request: URLRequest,
+                    completionHandler: @escaping (URLRequest?) -> Void) {
+        print("b")
+    }
+
+    func urlSession(_ session: URLSession,
+                        task: URLSessionTask,
+             didSendBodyData bytesSent: Int64,
+              totalBytesSent: Int64,
+                    totalBytesExpectedToSend: Int64) {
+        print("c")
+    }
+
+    func urlSession(_ session: URLSession,
+                        task: URLSessionTask,
+                    needNewBodyStream completionHandler: @escaping (InputStream?) -> Void) {
+        print("d")
+    }
+
+    func urlSession(_ session: URLSession,
+                        task: URLSessionTask,
+                  didReceive challenge: URLAuthenticationChallenge,
+                    completionHandler: @escaping (URLSession.AuthChallengeDisposition, URLCredential?) -> Void) {
+        print("e")
+    }
+
+    func urlSession(_ session: URLSession,
+                        task: URLSessionTask,
+                    willBeginDelayedRequest request: URLRequest,
+                    completionHandler: @escaping (URLSession.DelayedRequestDisposition, URLRequest?) -> Void) {
+        print("f")
+    }
+
+    func urlSession(_ session: URLSession,
+                    taskIsWaitingForConnectivity task: URLSessionTask) {
+        print("g")
+    }
+
+    func urlSession(_ session: URLSession,
+                        task: URLSessionTask,
+                    didFinishCollecting metrics: URLSessionTaskMetrics) {
+        print("h")
+    }
+
+    func urlSession(_ session: URLSession,
+               webSocketTask: URLSessionWebSocketTask,
+                             didOpenWithProtocol protocol: String?) {
+        print("i")
+    }
+
+    func urlSession(_ session: URLSession, webSocketTask: URLSessionWebSocketTask, didCloseWith closeCode: URLSessionWebSocketTask.CloseCode, reason: Data?) {
+        print("j")
+    }
+
+    func urlSession(_ session: URLSession,
+                    didBecomeInvalidWithError error: Error?) {
+        print("k")
+    }
+
+    func urlSessionDidFinishEvents(forBackgroundURLSession session: URLSession) {
+        print("l")
+    }
+}
+* Documents
+- [[https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/DocBasedAppProgrammingGuideForOSX/Introduction/Introduction.html][Document-Based App Programming Guide for Mac]]
+  - [[https://developer.apple.com/documentation/appkit/documents_data_and_pasteboard/developing_a_document-based_app/][Developing a Document-Based App]]
+  - UTIs
+    - [[https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/understanding_utis/understand_utis_conc/understand_utis_conc.html][Uniform Type Identifier Concepts]]
+    - [[https://en.wikipedia.org/wiki/Uniform_Type_Identifier][Uniform Type Identifier]]
+    - [[https://eclecticlight.co/2021/10/16/explainer-file-types/][Explainer: file types]]
+      - [[https://apps.tempel.org/LaunchServices/][Launch Services]]
+    - [[https://emptytheory.com/2020/09/29/better-uniform-type-identifiers-with-xcode-12/][Better Uniform Type Identifiers with Xcode 12]]
+* Sandbox
+- [[https://developer.apple.com/library/archive/documentation/Security/Conceptual/AppSandboxDesignGuide/DesigningYourSandbox/DesigningYourSandbox.html][Designing for App Sandbox]]
+* Process
+[[https://developer.apple.com/forums/thread/690310][Running a Child Process with Standard Input and Output]] (Quinn "The Eskimo!")
+* FSEvents
+[[https://developer.apple.com/forums/thread/115387][Using FileSystemEvent to monitor a Dir ?]] (Quinn "The Eskimo!")
+* Noisy logs
+** Core vidoe nonsense
+defaults write com.apple.corevideo cv_note 0
+*** References
+- [[https://stackoverflow.com/questions/70492004/cvdisplaylink-debug-messages][CVDisplayLink debug messages]]
+** boringssl_metrics
+scheme environment variables:
+OS_ACTIVITY_MODE=disable
+*** References
+- [[https://stackoverflow.com/questions/44410572/failed-to-register-for-boringssl-log-debug-updates][Failed to register for BoringSSL log debug updates]]
+* App bundle
+ Xcode builds apps in =~/Library/Developer/Xcode/DerivedData/<Name>-<guid>/Build/Products/Debug=.
+
+Resources cane be found in =/Contents/Resources=, such as:
+
+=~/Library/Developer/Xcode/DerivedData/<Name>-<guid>/Build/Products/Debug/<Name>.app/Contents/Resources/AppIcon.icns=
+
+** Asset Catalogs
+
+*** assetutil
+
+You can get info on an asset catalog with =assetutil=, for instance =assetutil --info Assets.car=.
+
+*** Asset Catalog Tinkerer
+
+You can examine a car file with [[https://github.com/insidegui/AssetCatalogTinkerer][Asset Catalog Tinkerer]]; install with =brew install asset-catalog-tinkerer=. Open a file with =open -a "Asset Catalog Tinkerer" Assets.car=.
+
+** App Icon
+
+To get dock and finder to pickup an updated icon
+
+#+BEGIN_SRC bash
+sudo find /private/var/folders/ -name com.apple.dock.iconcache -exec rm {} \; 2>/dev/null
+sudo find /private/var/folders/ -name com.apple.iconservices -exec rm -rf {} \; 2>/dev/null
+sudo rm -rf /Library/Caches/com.apple.iconservices.store
+#+END_SRC
+
+Found in [[https://discussions.apple.com/thread/7859795][Correct icon not showing in the dock]].
+
+830/1024 = 81% of icon size rounded-square
+* Building windows in code
+#+BEGIN_SRC swift
+    @IBAction func showPageSource(_ sender: Any) {
+        let window = NSWindow()
+        window.title = "Source"
+
+//        let text = NSTextView(frame: NSRect(origin: .zero, size: CGSize(width: 800, height: 600)))
+//        text.string = html
+//        text.translatesAutoresizingMaskIntoConstraints = false
+
+        let text = NSTextView()
+        text.string = html
+        window.contentView = text
+
+//        window.contentView?.fillWithSubview(subview: text)
+        window.makeKeyAndOrderFront(self)
+
+//        sourceWindow = window
+//        sourceWindow?.makeKeyAndOrderFront(self)
+//        windowControllers.first?.window?.addChildWindow(window, ordered: .above)
+//        Swift.print("show page source")
+    }
+
+    @IBAction func showPageSource(_ sender: Any) {
+//        let frame = CGRect(origin: .zero, size: CGSize(width: 800, height: 600))
+//        let window = NSWindow(contentRect: frame,
+//                              styleMask: [.closable, .miniaturizable, .resizable],
+//                                 backing: .buffered,
+//                                 defer: false)
+        // sourceWindow = window
+
+        // window.makeKeyAndOrderFront(nil)
+
+        let text = NSTextView()
+        text.string = html
+
+        //window.contentView = text
+        //window.contentView?.fillWithSubview(subview: text)
+    }
+
+    @IBAction func showPageSource(_ sender: Any) {
+        let window = NSWindow()
+        window.styleMask =  [.closable, .miniaturizable, .resizable, .titled]
+        window.setContentSize(NSSize(width: 800, height: 600))
+
+        let text = NSTextView()
+        text.string = html
+
+        window.contentView?.fillWithSubview(subview: text)
+//        window.contentView = text
+
+        let controller = NSWindowController(window: window)
+        addWindowController(controller)
+        controller.showWindow(nil)
+    }
+#+END_SRC
+
+
