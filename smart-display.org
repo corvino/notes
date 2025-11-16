@@ -1,0 +1,10 @@
+* Smart Display
+
+- [[https://blog.dakboard.com][DAKboard]]
+  - [[https://blog.dakboard.com/diy-dakboard-with-raspberry-pi/][DIY DAKboard With Raspberry Pi]]
+  - [[https://github.com/dakboard][DAKboard GitHub]]
+- [[https://www.cozyla.com][Cozlya]]
+- [[http://myskylight.com][Skylight Frame]]
+
+- [[https://www.reddit.com/r/dakboard/comments/1bhv5ch/update_alternative_to_dakboard/][Alternative to Dakboard]]
+- [[https://www.reddit.com/r/dakboard/comments/1g8ikvy/updated_diy_dakboard_tutorial/][Updated DIY Dakboard Tutorial?]]

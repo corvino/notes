@@ -1,6 +1,8 @@
 #+OPTIONS: html-postamble:nil num:nil toc:nil
 
 * References
+- [[https://github.com/chrisdone-archive/elisp-guide?tab=readme-ov-file][Emacs Lisp Guide (chrisdone)]]
+- [[https://gist.github.com/Kreyren/a12e3618525477c3dd5fb16c3de45bf3][Emacs Script Pitfalls]]
 - [[https://www.gnu.org/software/emacs/manual/][Official (GNU)]]
   - [[https://www.gnu.org/software/emacs/manual/html_node/elisp/][Emacs Lisp]]
   - [[https://www.gnu.org/software/emacs/manual/html_node/eintr/][An Introduction to Programming in Emacs Lisp]]
@@ -37,3 +39,17 @@
 - seq-uniq /sequence &optional function/
 ** [[https://www.gnu.org/software/emacs/manual/html_node/cl/index.html][Common Lisp]]
 - [[https://www.gnu.org/software/emacs/manual/html_node/cl/Mapping-over-Sequences.html][Mapping over Sequences]]
+
+* Macros
+
+- [[https://www.masteringemacs.org/article/keyboard-macros-are-misunderstood][Keyboard Macros are Misunderstood]]
+
+* Regular Expressions
+
+- [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Search.html][Searching and Replacement]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/emacs/Regexps.html][17.6 Syntax of Regular Expressions]]
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Regular-Expressions.html][Regular Expressions (elisp)]]
+
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/POSIX-Regexps.html][35.9 Emacs versus POSIX Regular Expressions]]
+
+- [[https://www.gnu.org/software/emacs/manual/html_node/elisp/Simple-Match-Data.html][35.6.2 Simple Match Data Access]]

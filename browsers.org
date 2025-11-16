@@ -1,0 +1,50 @@
+* Browsers
+
+** Big 3
+
+- Chrome
+- Safari
+- Firefox
+
+** Extensions
+
+- [[https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world][Hello World extension]]
+- [[https://developer.chrome.com/docs/extensions/][Chrome Developers Documentation]]
+
+** [[https://en.wikipedia.org/wiki/Chromium_(web_browser)#Browsers_based_on_Chromium][Chromium-based browsers]]
+
+- [[https://www.chromium.org/Home/][Chromium]]
+- [[https://www.google.com/chrome/][Chrome]]
+- [[https://github.com/ungoogled-software/ungoogled-chromium][Ungoogled Chromium]]
+- [[https://github.com/uazo/cromite][Cromite]] (no macOS)
+- [[https://brave.com][Brave]]
+- [[https://arc.net][Arc]]
+- [[https://www.microsoft.com/en-us/edge/download][Edge]]
+- [[https://vivaldi.com][Vivaldi]]
+- [[https://www.opera.com][Opera]]
+- [[https://thorium.rocks][Thorium]]
+- [[https://www.tempest.com/browser][Tempest]]
+- [[https://iridiumbrowser.de][Iridium]]
+
+*** Installing [[https://github.com/ungoogled-software/ungoogled-chromium?tab=readme-ov-file#downloads][ungoogled-chromium]]
+
+Available on macOS through Homebrew.
+
+#+begin_src sh
+brew install --cask ungoogled-chromium
+#+end_src
+
+To see info on how ungoogled-chromium differs from Chromium open
+[[chrome://ungoogled-first-run]] in ungoogled-chromium. This includes
+information on [[https://github.com/NeverDecaf/chromium-web-store][extensions]] and extra features.
+
+*** Profile Info
+
+- ~~/Library/Application\ Support/Chromium/~
+- ~~/Library/Application\ Support/Google/Chrome/~
+- ~~/Library/Application\ Support/Orion//~
+
+** Firefox based browsers
+- floorp
+
+

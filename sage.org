@@ -1,0 +1,20 @@
+* [[https://www.sagemath.org][Sage]]
+** [[https://doc.sagemath.org/html/en/tutorial/introduction.html#ways-to-use-sage][Ways to Use Sage]]
+- Notebook graphical interface :: run sage −njupyter; see [[https://jupyter-notebook.readthedocs.io/en/latest/notebook.html][the Juypter documentation on-line]]
+- Interactive command line :: see [[https://doc.sagemath.org/html/en/tutorial/interactive_shell.html#chapter-interactive-shell][The Interactive Shell]]
+- Programs :: By writing interpreted and compiled programs in Sage (see Loading and Attaching Sage files and [[https://doc.sagemath.org/html/en/tutorial/programming.html#section-compile][Creating Compiled Code]]
+- Scripts :: by writing stand-alone Python scripts that use the Sage library (see [[https://doc.sagemath.org/html/en/tutorial/programming.html#section-standalone][Standalone Python/Sage Scripts]])
+* Interacts
+The macOS/Homebrew Cask seems to have something wrong with path.
+
+Looking at the browser console error messages is helpful.
+
+Fix with:
+
+#+BEGIN_SRC
+SAGE_VENV=/Applications/SageMath-9-6.app/Contents//Frameworks/Sage.framework/Versions/9.6/local/var/lib/sage/venv-python3.10.3
+mkdir ${SAGE_VENV}/share/jupyter/nbextensions/widgets/notebook
+ln -s ${SAGE_VENV}/share/jupyter/nbextensions/jupyter-js-widgets ${SAGE_VENV}/share/jupyter/nbextensions/widgets/notebook/js
+#+END_SRC
+
+References: [[https://groups.google.com/g/sage-support/c/FlLA_7tUb0M][Interact broken. SageMath 9.5 on Apple Mac OSX 12.1 . SageMath-9.5_x86_64]]

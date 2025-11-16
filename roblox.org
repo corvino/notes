@@ -1,3 +1,80 @@
 * [[https://developer.roblox.com/en-us/][Roblox Developer]]
 * [[https://education.roblox.com/en-us/][Roblox Education]]
 * [[https://store.feistyduck.com/products/programming-in-lua-fourth-edition-ebook][Programming in Lua, Fourth Edition]]
+
+
+** Mammoth Recommended Order
+
+- https://training.mammothinteractive.com/courses/enrolled
+- https://training.mammothinteractive.com/courses/the-complete-roblox-online-course-1-001-assets-mega-bundle-first-time-exclusive-humble-bundle-release/lectures/54313999
+
+*** Getting Started with Roblox Studio
+
+1. Roblox Studio Essentials - Unlock the Fundamentals
+2. Kickstart Your Journey - Lua Scripting for Beginners in Roblox Studio
+
+*** Learn Through Hands-On Video Game Projects
+
+1. Elevate Your Skills - Intermediate Lua Scripting Masterclass in Roblox Studio
+2. Adventure Awaits - Build Your First Obby Game in Roblox Studio
+3. Expert Strategies for Building Obby Games in Roblox Studio
+4. Design Your First Action-Packed FPS Game in Roblox Studio
+5. Advanced Techniques for Building an FPS Game in Roblox Studio
+6. Forge Your First Arena Combat Game in Roblox Studio
+7. Mastering Advanced Arena Combat Game Development in Roblox Studio
+
+*** Continue Your Roblox Journey
+
+1. Advanced Multiplayer Game Development in Roblox Studio
+2. Ultimate Sports Game Development in Roblox Studio
+3. Terrain Game Development in Roblox Studio for Everyone
+4. Money Mechanics in Roblox Game Development
+5. The Ultimate Game Developer's Lab in Roblox Studio
+6. From Concept to Creation in Roblox Video Game Studio
+7. Gameplay Development in Roblox Studio
+8. Build a Game in Roblox Studio for Absolute Beginners and All Ages
+9. Build an Escape the Maze Speedrunner Game in Roblox Studio
+10. Create an Epic Multiplayer Loot Rush Game in Roblox Studio
+
+*** Grow Your Game Developer Portfolio
+
+1. Intermediate Game Development in Roblox Studio
+2. Master the Art of Lua - Advanced Scripting Techniques in Roblox Studio
+3. User Experience Design in Roblox Studio Game Development
+4. Character Game Development in Roblox Studio
+5. Advanced Game Development in Roblox Studio
+6. Strategic Game Development in Roblox Studio
+7. Embark on Quests - Crafting Compelling Challenges in Roblox Studio
+
+*** 3D Modeling with Generative AI for Roblox Studio
+
+1. 3D Modeling with Blender 3.3 for Beginners
+2. Generate Low Poly 3D Models for Game Development with Meshy AI, Blender 4 and Roblox
+3. 3D Modeling with Generative AI for Roblox with Luma Labs AI and Blender 4.1
+4. Meshy AI Mastery - Crafting 3D Models for Roblox Studio Using Advanced Prompt Engineering
+
+*** Create Low Poly Models from Scratch for Roblox Studio
+
+1. Complete Roblox Creation - Designing Maps and Modeling Assets with Blender 4.1
+2. Designing Low Poly Cartoon RPG Items for Roblox with Blender 4
+3. Blender to Roblox: 3D Modeling Swords and RPG Items with AI Assistance
+4. Spaceship Modeling for Roblox: Low Poly 3D Techniques in Blender 4
+
+*** 3D Character Modeling for Roblox Studio
+
+1. Wild West Adventures in Roblox - Creating 3D Animal Cowboys with Blender 4 and AI Techniques
+2. Low Poly Knight Modeling for Roblox Studio: Blender 4 Integration with Unreal Engine
+3. Building AI-Generated Low Poly Robots for Roblox Studio in Blender 4
+4. From Blender to Roblox: Creating an AI-Generated Samurai Rabbit
+5. Developing "Officer Bamboo" the Red Panda for Roblox Studio Using Blender 4 with AI-Assisted Design
+6. Crafting a Low Poly 3D Fox for Roblox Studio Using Blender 4
+7. Creating Low Poly 3D Red Panda Models in Blender for Roblox Game Development
+
+*** Get a Giant 3D Asset Pack!
+
+- Low Poly Models for Roblox, Godot, Unity and Unreal with Sample Projects
+
+
+** Game Dev
+
+[[https://academy.zenva.com/course/humble-bundle-game-dev-2024-tier-3/][*** HUMBLE BUNDLE – GAME DEV 2024 – TIER 3]]

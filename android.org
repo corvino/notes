@@ -1,0 +1,61 @@
+* Emulator
+** Android Studio
+Preferences-> Tools->Emulator: Launch in a toold window
+
+** Console
+[[https://developer.android.com/studio/run/emulator-console][Send Emulator console commands]]
+
+#+BEGIN_SRC shell
+less ~/.emulator_console_auth_token
+telnet localhost 5554
+auth <token>
+#+END_SRC
+
+*** Port
+First emulator has *console port* 5554 and *adb port* 5555.
+Subsequent emulators have those values increased by 2.
+
+*** References
+- [[https://www.linuxtopia.org/online_books/android/devguide/guide/developing/tools/android_emulator_console.html][Using the Emulator Console]]
+** Networking
+**** Terminal App
+- [[https://github.com/termux/termux-app][termux-app]]
+**** Proxyman (gets you on VPN)
+[[https://docs.proxyman.io/debug-devices/android-device/automatic-script-for-android-emulator][Automatic Script for Android Emulator]]
+**** DNS
+[[https://developer.android.com/studio/run/emulator-networking#dns][Configuring the emulator DNS settings]]
+
+On macOS, the DNS servers are taken from =/etc/reslove.conf=, which isn't actually the list of DNS servers being used.
+
+[[https://stackoverflow.com/questions/42839734/how-to-set-the-android-emulator-dns-server-from-android-studio][StackOverflow: How to set the Android emulator DNS server from Android Studio]]
+***** macOS
+****** DNS Servers
+Can lookup with =scutil --dns | grep 'nameserver\[[0-9]*\]'=.
+
+=/etc/resolv.conf= is not used, as specified in the file.
+***** Termina
+**** Emulator wrapper with settings
+#+BEGIN_SRC bash
+# /usr/bin/env bash
+
+SOURCE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+date >> ~/tmp/emulator-launch.txt
+
+"${SOURCE_DIR}/emulator-binary" -dns-server "192.168.1.1,192.168.192.252,192.168.193.253" $@
+#+END_SRC
+**** Set DNS while running
+#+BEGIN_SRC shell
+  ANDROID_DEVICE=Pixel_XL_API_30.avd
+  ls ~/.android/avd/${ANDROID_DEVICE}/*.lock
+  rm ~/.android/avd/${ANDROID_DEVICE}/*.lock
+
+  ./emulator-binary -list-avds
+  ./emulator-binary -avd Pixel_XL_API_30 -dns-server "192.168.1.1,192.168.192.252,192.168.193.252"
+#+END_SRC
+
+**** /etc/resolve.conf
+#+BEGIN_SRC
+nameserver 192.168.192.252
+nameserver 192.168.193.252
+#+END_SRC

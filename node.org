@@ -1,0 +1,10 @@
+* Node
+
+** New project after an age
+
+#+BEGIN_SRC sh
+brew update
+brew upgrade nvm
+nvm install node
+npm init -y
+#+END_SRC

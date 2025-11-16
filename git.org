@@ -1,3 +1,34 @@
 * Computing Hashes for files/object
 ** [[https://stackoverflow.com/questions/7225313/how-does-git-compute-file-hashes][stackoverflow-How does git compute file hashes?]]
 ** [[http://alblue.bandlem.com/2011/08/git-tip-of-week-objects.html][Git Tip of the Week: Objects]]
+* Using a pointer to a repo
+Examples
+
+#+BEGIN_SRC shell
+  git init --separate-git-dir=SEP_DIR .
+
+  git clone --separate-git-dir=../repo git@github.com:corvino/notes.git .
+  # no check out
+  git clone -n --separate-git-dir=../repo git@github.com:corvino/notes.git .
+  git clone --separate-git-dir=repo git@github.com:corvino/notes.git wt
+
+  # Add worktree, for a separate checkout
+  git worktree add ../new HEAD
+  git worktree list
+
+  # Clone a new repo to a specified location, with separate directory
+  # point to location, but no files checkout out. The separate directory
+  # must be empty, but files can be copied to it after to link existing
+  # files to a new clone.
+  git clone -n --separate-git-dir=new-repo git@github.com:corvino/notes.git new-wt
+  git restore --staged .
+  cp ...
+#+END_SRC
+* Pushing a branch
+** Git delivers message
+fatal: The current branch PRES-569 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin PRES-569
+
+Make this an alias!

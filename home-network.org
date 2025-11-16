@@ -260,9 +260,10 @@ http://192.168.1.9:8000/US.bcm5334x.v4.0.54.10625.190801.1545.bin
 ** [[https://help.ubnt.com/hc/en-us/articles/204909754-UniFi-Device-Adoption-Methods-for-Remote-UniFi-Controllers#8][Adopting]]
 ** Example
 # Password: ubnt
-scp /Users/vino/Downloads/<filename>.bin
+scp /Users/vino/Downloads/firmware-name.bin ubnt@192.168.1.x:/tmp/fwupdate.bin
 
 ssh ubnt@192.168.1.x
+syswrapper.sh upgrade2
 
 
 * Devices

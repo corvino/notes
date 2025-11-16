@@ -1,0 +1,29 @@
+* Meeting on 7/22/21
+Great renaming in 3
+Variable mutability for strict collection types
+Expressables as literals
+Abi stability
+
+Keypaths as functions
+Async/await
+Multiple trailing closure syntax
+Opaque return types / some return type
+Function builders
+Dynamic callable
+Result type
+Dynamic subscript
+
+Numeric stack of protocols
+
+Everything having to do with capital S self
+Trailing dotted syntax
+
+Swift.org blog post changed the type inference and stuff lifecycle
+
+—-
+
+- The grand renaming in Swift 3
+  - [[https://github.com/apple/swift-evolution/blob/master/proposals/0005-objective-c-name-translation.md][Better Translation of Objective-C APIs Into Swift]]
+  - 
+  -
+- [[https://github.com/apple/swift-evolution/blob/main/proposals/0069-swift-mutability-for-foundation.md][Better Translation of Objective-C APIs Into Swift]]

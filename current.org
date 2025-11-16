@@ -12,6 +12,18 @@ athena:~/code/books/pro-mearn
 It's not clear this will still be happening. Example seems kind of a mess. But maybe?
 *** Book source
 athena:~/code/books-src/react-in-action
+* Supabase/Next.js
+- [[~/code/courses/twitter-clone-supabase/readme.org][Build a Twitter Clone with the Next.js App Router and Supabase readme]]
+
+** Next
+- [[https://egghead.io/courses/getting-started-with-supabase-local-dev-507b8f95][Getting Started with Supabase Local Dev]]
+
+- [[https://egghead.io/courses/fundamental-next-js-api-and-patterns-a6a7509f][Fundamental Next.js API and Patterns]]
+- [[https://egghead.io/courses/effectively-build-restful-apis-using-next-js-api-routes-41c2b1ea][Effectively Build RESTful APIs using Next.js API Routes]]
+- [[https://egghead.io/courses/build-a-real-time-data-syncing-chat-application-with-supabase-and-next-js-84e58958][Build a Real-Time Data Syncing Chat Application with Supabase and Next.js]]
+- [[https://egghead.io/courses/build-a-realtime-chat-app-with-remix-and-supabase-d36e2618][Build a Realtime Chat App with Remix and Supabase]]
+- [[https://egghead.io/courses/build-a-saas-product-with-next-js-supabase-and-stripe-61f2bc20][Build a SaaS product with Next.js, Supabase and Stripe]]
+- [[https://egghead.io/courses/architect-an-extensible-digital-garden-with-next-js-tailwind-and-nx-53f7628f][Architect an Extensible Digital Garden with Next.js, Tailwind, and Nx]]
 * Kids Programming
 ** The Offical Scratch Jr Book
 ~/Dropbox/Books/Technical Books/Kids/theofficialscratchjrbook.pdf
@@ -25,16 +37,9 @@ athena:~/code/kitchennotes
 ~/Dropbox/code/spearmints/javascript-maps
 * Working through SwiftUI tutorial
 ~/code/spearmints/Landmarks
-* Duet
-** ~/code/duet/fluent-elastic-docker
-** ~/code/spearmints/rethink-protobuf-updates
-* Cloud infrastructure stuff
-** Kubernetes for Startups
-~/Dropbox/Books/Technical Books/CloudNative/Bluematador-Kubernetes-for-Startups-ebook.pdf
-** Logging stuff
-~/code/duet/fluent-elastic-docker
 * Tools
-** [[https://screen.so/#/home][screen]] - Remote pair programming
+** [[https://pop.com/#/home][Pop]] - Remote pair programming, formerly [[https://screen.so/#/home][screen]], [[https://pop.com/screenhero][from Screenhero peep]] (Jahanzeb Sherwani)
+** [[https://leap.so][Leap]] (Vishal Kapur, CTO and of Screenhero  and Caroline Ingeborn, CEO and of Toca Boca) ([[https://techcrunch.com/2021/07/15/leap-a-social-learning-platform-aimed-at-over-55s-raises-a-3-1m-seed-round/][Tech Crunch]])
 ** [[https://kiteapp.co][Kite Compositor]] - animation and prototyping
 ** DB
 *** Mongo
@@ -43,9 +48,31 @@ athena:~/code/kitchennotes
 **** Postico
 *** SQLite
 **** SQLite Flow
+* Books/Courses
+** Redux in Action
+- [[file:///Users/vino/Dropbox/Books/Technical Books/Web/Redux_in_Action.pdf][PDF]] | [[iterm:~/code/books/redux-in-action][Terminal]] | [[vscode:~/code/books/redux-in-action/workbook][Workbook VSCode]]
+** Next.js Firebase Full Course
+- [[https://fireship.io/courses/react-next-firebase/][Web]] | [[iterm:~/code/courses/nextjs-firebase][Terminal]] |  [[vscode:~/code/courses/nextjs-firebase][VSCode]]
+** Kotlin Koans
+- [[iterm:~/code/spearmints/kotlin-koans][Terminal]]
 * Projects
+** Covid Map
 ~/code/spearmints/covid-map
-~/code/brickhunt
+** Brickhunt
+- [[iterm:~/code/brickhunt][Terminal]] | [[vscode:~/code/brickhunt][VSCode]]
+** Fanatics
+- [[iterm:~/code/presence/fanatics/fbg-sportsbook-ios][Terminal]] | [[xcode:~/code/presence/fanatics/fbg-sportsbook-ios/FanaticsSportsbook.xcworkspace/][Xcode]]
+** Goat Tracks
+- [[iterm:~/code/unbeaten-path][Server/Web Terminal]] | [[iterm:~/code/spearmints/goat-tracks][iOS Terminal]] | [[xcode:~/code/spearmints/goat-tracks/GoatTracks.xcodeproj][Xcode]]
+** Minecraft Server
+- [[iterm:~/code/server-bedrock][Bedrock Terminal]]
+- [[iterm:~/code/server-minecraft][Java Terminal]]
+* Small things to keep track of
+- Crossword flashcards: ~/Dropbox/crossword
+- Oliver Sight Words: ~/Dropbox/flashcards/oliver-sight-words
+- Dragon Tamer info site: ~/code/spearmints/tamer$
+- ABT PTA: ~/Documents/abt-accounting
+- Vimeo Private Downloading: ~/code/opensource/vimeo-private-downloader
 * Upcoming Projects
 ** PDF library lister
 ** markup viewer

@@ -1,3 +1,5 @@
 * For working around stupid automake detection of clock_gettime
 ** Add `-D_DARWIN_FEATURE_CLOCK_GETTIME=0` to the `CPPFLAGS` going into `./configure`
 * [[https://www.youtube.com/watch?v=8WhghyKZfzE][Fiddler on the Roof]]
+* [[https://mutagen.io][Mutagen]] (cloud-dev sync tool)
+  * [[https://github.com/mutagen-io/mutagen/blob/master/pkg/filesystem/watching/watch_recursive_darwin_cgo.go][Mutagen MacOS Watcher]]

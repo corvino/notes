@@ -155,3 +155,4 @@ arp -h
 *** ip
 [[https://linux.die.net/man/8/ip][ip - show / manipulate routing, devices, policy routing and tunnels]]
 ip addr show
+ip route list

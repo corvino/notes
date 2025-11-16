@@ -1,0 +1,40 @@
+- [[https://www.applegamingwiki.com/wiki/Minecraft][AppleGamingWiki: Minecraft]]
+- [[https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server][How to Setup a Minecraft: Java Edition Server]]
+- [[https://www.minecraft.net/en-us/download/server/bedrock][Bedrock Server Download]]
+- [[https://help.minecraft.net/hc/en-us/articles/4409140076813-Minecraft-Add-Ons-for-Bedrock-Versions-FAQ][Learn to be a Minecraft Creator]]
+- Default port
+  - Java :: query.port = 25565
+  - bedrock :: server-port = 19132; server-portv6 = 19133
+* Bedrock add ons
+- [[https://wiki.bedrock.dev][Bedrock Wiki]]
+* Minecraft Bedrocks Mods
+- [[https://www.pcgamer.com/best-minecraft-mods/][The best Minecraft mods for glorious new worlds]]
+- [[https://www.curseforge.com/minecraft/modpacks/skyfactory-4][SkyFactory 4]] / [[https://github.com/DarkPacks/SkyFactory-4/][GitHub SkyFactory-4]]
+- [[https://mcpedl.com/lifesteal-bedrock-addon/][LifeSteal]]
+- [[https://mcpedl.com/lifesteal-addon/][Lifesteal Addon (1.19+)]]
+* Mincraft Bedrock Server Management
+- [[https://github.com/raphaellueckl/mcpal-bedrock][MCpal Bedrock - A lightweight Minecraft Server manager]]
+- [[https://minecraft.fandom.com/wiki/Bedrock_Dedicated_Server][Minecraft Wiki: Bedrock Dedicated Server]]
+- [[https://github.com/TapeWerm/MCscripts/blob/master/src/mcbe_backup.sh][backup script]]
+
+
+* Getting Started Resources
+
+** Tools for modding
+
+- [[https://mcreator.net][MCreator]]
+- [[https://bridge-core.app][bridge]], Minecraft Add-Ons IDE
+- [[https://www.blockbench.net][Blockbench]], low-poly 3D model editor
+- [[https://wiki.bedrock.dev][Bedrock Wiki]], Minecraft technical wiki
+
+** Video Tutorials
+- [[https://www.youtube.com/watch?v=pCPTkNYldAw][YouTube - Create Addons For Minecraft Bedrock]]
+- [[https://www.youtube.com/watch?v=EkCkGxrKdT4&t=142s][Making a Minecraft MOD in 10 MINUTES..]]
+- [[https://www.youtube.com/playlist?list=PLywVRGiK95yU9JvWJhqpozf3XJnq7U9mK][How to Make Bedwars (Playlist)]]
+
+** Tools
+
+* [[https://mutagen.io][Mutagen]] (cloud-dev sync tool)
+* [[https://learn.microsoft.com/en-us/visualstudio/liveshare/use/install-live-share-visual-studio-code][Visual Studio Live Share]]
+
+

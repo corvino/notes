@@ -1,6 +1,62 @@
+* Install Xcode
+* Install homebrew
+* Install packages
+** Websites
+- [[https://formulae.brew.sh/cask/1password-cli][1password-cli]] :: Command-line interface for 1Password
+- [[https://formulae.brew.sh/formula/ansible][ansible]] ::Automate deployment, configuration, and upgrading
+- [[https://formulae.brew.sh/cask/emacs-app][emacs-app]] :: Text editor
+- [[https://formulae.brew.sh/cask/syncthing-app][syncthing-app]] :: Real time file synchronisation software
+- [[https://formulae.brew.sh/formula/terraform][terraform]] :: Tool to build, change, and version infrastructure
+- [[https://formulae.brew.sh/cask/ungoogled-chromium][ungoogled-chromium]] :: Google Chromium, sans integration with Google
+
+#+BEGIN_SRC sh
+  brew update & brew install ansible terraform & brew install --cask 1password-cli emacs-app syncthing-app ungoogled-chromium
+#+END_SRC
+
+** Optional
+- [[android-platform-tools][android-platform-tools]] :: Android SDK Platform-Tools
+- [[https://formulae.brew.sh/formula/appium][appium]] :: Automation for Apps
+- [[https://formulae.brew.sh/cask/appium-desktop][appium-desktop]] :: Graphical frontend to Appium automation server
+- [[https://formulae.brew.sh/cask/asset-catalog-tinkerer][asset-catalog-tinkerer]] :: Browse/extract images from .car files
+- [[https://formulae.brew.sh/cask/basictex][basictex]] :: Compact TeX distribution as alternative to the full TeX Live / MacTeX
+- [[https://formulae.brew.sh/cask/graphiql][graphiql]] :: Light, Electron-based Wrapper around GraphiQL
+- [[https://formulae.brew.sh/cask/ngrok][ngrok]] :: Reverse proxy, secure introspectable tunnels to localhost
+- [[https://formulae.brew.sh/cask/sage][sage]] :: Mathematics software system
+- [[https://formulae.brew.sh/cask/smlnj][smlnj]] :: Compiler for the Standard ML '97 programming language
+- [[https://formulae.brew.sh/cask/virtualbox][virtualbox]] :: Virtualiser for arm64 hardware]
+
+* Install [[https://1password.com/downloads/mac/][1Password]]
+* Setup [[https://syncthing.net][Syncthing]]
+
+- Open Web Interface
+- Goto GUI tab
+- Set HTTPS, user, and password
+
+- [[https://docs.syncthing.net/users/config.html][Syncthing Configuration]]
+- [[https://docs.syncthing.net/users/contrib.html][Community Contributions]]
+  - [[https://www.myqnap.org/product/syncthing/][Syncthing]]
+- [[https://forum.syncthing.net/t/syncthing-for-qnap/13436][
+
+[[https://docs.syncthing.net/users/faq.html#how-do-i-reset-the-gui-password][Reset GUI password]]
+
+#+BEGIN_SRC sh
+  # Does this work?
+
+  # Set GUI password
+  syncthing cli operations shutdown
+  syncthing generate --gui-password=`op item get "Syncthing" --format json | jq -r '.fields[] | select(.label == "password").value'` --gui-user=`op item get "Syncthing" --format json | jq -r '.fields[] | select(.label == "username").value'`
+#+END_SRC
+* Install [[https://www.dropbox.com/install][Dropbox]]
+Yes, Dropbox is still the easy answer for fast file syncing. It is
+frustrating that iCloud can't do this job, but it seems to have no
+interest in providing responsive syncing.
 * ...
 - [[https://github.com/corvino/osx][osx]]
+  OS X specific items, like app prefs (iTerm2).
 - [[https://github.com/corvino/IDE-Settings][IDE-Settings]]
+  - Commit/update from =IDE-Settings=
+
+  - =ls -al ~/Library/Developer/Xcode/UserData/= :: =CodeSnippets= and =xcdebugger= should be symlinks.
 - [[https://github.com/corvino/vscode-settings][vscode-settings]]
 
 ** script
@@ -15,7 +71,11 @@ rm -rf ~/Library/Preferences/com.apple.dt.Xcode.plist ~/Library/Developer/Xcode
 mkdir -p ~/Library/Application\ Support/Code
 git clone git@github.com:corvino/vscode-settings.git ~/Library/Application\ Support/Code/User
 
-
 * Preferences to twiddle
-** Finder
-Finder Preferences->General->New Finder windows show: <computer-name>
+
+Finder -> Settings -> General -> New Finder windows show: <computer-name>
+Finder -> Settings -> Advanced -> Show all filename extensions
+Safari -> Preferences... -> General -> Open "safe" files after downloading?
+
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write com.apple.Safari AutoOpenSafeDownloads -bool false

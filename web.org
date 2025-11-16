@@ -27,7 +27,11 @@ npm i -D eslint eslint-plugin-react
 Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.
 ** [[https://thenounproject.com][Noun Project]]
 Icons and Photos For Everything
-
+* Frameworks
+** [[https://remix.run/][Remix]]
+** [[https://nextjs.org/][Next.js]]
 * Learning Resources
 ** [[https://flexboxzombies.com/p/flexbox-zombies][Flexbox Zombies]]
 ** [[https://serviceworkies.com][Service Workies]]
+** [[https://fireship.io/][fireship.io]]
+- [[https://fireship.io/courses/react-next-firebase/][Next.js Firebase Full Course]]

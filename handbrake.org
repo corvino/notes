@@ -1,0 +1,49 @@
+** Settings
+
+*** General
+
+**** Fast 1080p30
+
+H.264 Video (up to 1080p) and AAC stereo audio, in a MP4 container.
+
+*** Devices
+
+**** Apple 720p30 Surround
+
+H.264 video (up to 720p30), AAC stereo audio, and Dolby Digital (AC-3) surround audio, in a MP4 container. Compatible with Apple iPhone 4, 4S, and later; iPod touch 4th, 5th Generation and later; iPad 1st Generation, iPad 2, and later; Apple TV 2nd Generation and later.
+
+
+** Two Guys and a Girl
+*** [[https://www.imdb.com/title/tt0137330/episodes/?season=3][Season 3]]
+- TwoGuysGirl-S3E5-
+- TwoGuysGirl-S3E20-TwoGuysAGirlAndABachelorette.mp4
+- TwoGuysGirl-S3E21-LoveShack.mp4
+- TwoGuysGirl-S3E22-AnotherMovingScript.mp4
+- TwoGuysGirl-S3E23-TheUndercard.mp4
+- TwoGuysGirl-S3E24-ElMatrimonioLoco.mp4
+*** [[https://www.imdb.com/title/tt0137330/episodes/?season=4][Season 4]]
+**** Disc 1
+- TwoGuysGirl-S4E1-TheBear.mp4
+- TwoGuysGirl-S4E2-Mean.mp4
+- TwoGuysGirl-S4E3-15MinutesOfShame.mp4
+- TwoGuysGirl-S4E4-TheSatanicCurses.mp4
+- TwoGuysGirl-S4E5-AGermRunsThroughIt.mp4
+- TwoGuysGirl-S4E6-TheOneWithoutDialogue.mp4
+- TwoGuysGirl-S4E7-DiscoNights.mp4
+- TwoGuysGirl-S4E8-MyDinnerWithIrene.mp4
+**** Disc 2
+- TwoGuysGirl-S4E9-Drip.mp4
+- TwoGuysGirl-S4E10-RescueMe.mp4
+- TwoGuysGirl-S4E11-BurningDownTheHouse.mp4
+- TwoGuysGirl-S4E12-GiveMommyAKiss.mp4
+- TwoGuysGirl-S4E13-IveGotASecret.mp4
+- TwoGuysGirl-S4E14-TheAftermath.mp4
+- TwoGuysGirl-S4E15-AnEyeForAFinger.mp4
+**** Disc 3
+- TwoGuysGirl-S4E16-TheGoodFiremen.mp4
+- TwoGuysGirl-S4E17-AdventuresOfCaptainKarma.mp4
+- TwoGuysGirl-S4E18-MakeMineTea.mp4
+- TwoGuysGirl-S4E19-TheLoveBoat.mp4
+- TwoGuysGirl-S4E20-TheIcewomanCometh.mp4
+- TwoGuysGirl-S4E21-ShouldIStayOrShouldIGo.mp4
+- TwoGuysGirl-S4E22-TheInternetShow.mp4

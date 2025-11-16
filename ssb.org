@@ -1,0 +1,12 @@
+* Single-site Browsers (SSB)
+
+** The List
+
+*** macOS
+
+"Add to Dock" feature added in Sonamo (2023). Still very limited as of Tahoe (2025).
+
+** Overviews and Reviews
+
+- [[https://en.wikipedia.org/wiki/Site-specific_browser][Wikipedia: Site-specific browser]]
+- [[https://tidbits.com/2021/06/18/the-best-mac-site-specific-browser-for-google-docs/][The Best Mac Site-Specific Browser for Google Docs]]

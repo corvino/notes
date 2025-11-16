@@ -10,3 +10,21 @@ uses. Yay!  Also, purchased.
 Downloads to ~/dwhelper, which can be found within the extension.
 *** [[https://www.downloadhelper.net/][Homepage]]
 *** [[https://chrome.google.com/webstore/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk][Chrome Store]]
+* More code-y
+- [[https://ytdl-org.github.io/youtube-dl/index.html][youtube-dl]]
+- [[https://gist.github.com/mistic100/895f6d17b1e193334882a4c37d0d7748][vimeo-downloader.js]]
+- [[https://github.com/Tusko/vimeo-private-downloader][vimeo-private-downloader]]
+* Bluray/DVD
+- [[https://www.makemkv.com/errors/read/][MakeMKV]]
+
+http://www.ontimeau.com/index.php?main_page=index&cPath=44&sort=4a&page=2
+* For making clips from streaming tv
+[[https://www.snapstream.com][SnapStream]]
+
+* Video player browser extensions
+- [[https://apps.apple.com/us/app/baking-soda-tube-cleaner/id1601151613][Baking Soda]]
+- [[https://apps.apple.com/us/app/vinegar-tube-cleaner/id1591303229][Vinegar]]
+- [[https://chromewebstore.google.com/detail/windowed-floating-youtube/gibipneadnbflmkebnmcbgjdkngkbklb?pli=1][Windowed]]
+
+** Sources
+- [[https://www.reddit.com/r/Safari/comments/1354azk/is_there_an_extension_to_download_videos_from/][reddit thread on Safari downloading extensions]]

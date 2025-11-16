@@ -1,0 +1,8 @@
+* Software
+- [[https://obsproject.com][OBS Studio]]
+- [[https://www.blackmagicdesign.com/products/davinciresolve][DaVinci Resolve]]
+* Learning Resources
+- [[https://beginnersapproach.com/davinci-resolve-good-for-gaming-videos/][Is DaVinci Resolve Good for Gaming Videos? (From a Gamer!)]]
+- [[https://www.easeus.com/screen-recording-tips/how-to-record-on-ps5.html][How to Record on PS5 Gameplay with Voice]]
+- [[https://www.youtube.com/watch?v=lCgVsl3omKI][How to Record and Edit Gameplay for YouTube on PS5! (NO CAPTURE CARD) (YouTube)]]
+

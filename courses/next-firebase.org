@@ -1,0 +1,79 @@
+* Next.js Firebase Full Course
+** Links
+- [[https://fireship.io/courses/react-next-firebase/][Web]]
+- [[iterm:~/code/courses/nextjs-firebase][Terminal]]
+- [[vscode:~/code/courses/nextjs-firebase][VSCode]]
+
+- [[https://github.com/fireship-io/next-firebase-course][Source Code]]
+- [[https://next.fireship.io][Demo]]
+** Videos
+*** [[https://fireship.io/courses/react-next-firebase/app-technical-overview/][Technical Overview]]
+- Build a social blogging platform like Dev2 and Medium
+- Search engine friendly
+- Dynamic and interactive
+- Server-side renering with client-side pagination
+- Prerendered + Realtime
+- ISR - Incremental Static Regeneration
+*** [[https://fireship.io/courses/react-next-firebase/app-next-setup/][Next.js Setup]]
+**** Create and run next app
+#+BEGIN_SRC shell
+  # node.js v12
+  npx create-next-app nextfire-app
+  npm run dev
+#+END_SRC
+**** CSS Frameworks
+Bootstrap, Tailwind, ChakraUI
+**** CSS Modules
+module file imported into JS that randomly generates CSS classnames
+**** Copy main CSS file, as not paid attention to in the course
+**** Pages
+Defines the routing of the application and the components that each of those pages will rroute to.
+
+Each page file contains a default export of a React component.
+***** _app.js
+Special purpose, wraps (layout) other pages
+***** api
+API routes for backend API
+
+next.js can get serverside props or get static props to retrieve data from the server, probably better starting place with firebase
+**** components
+reusable react components
+**** lib
+libraries or code used throught application
+*** [[https://fireship.io/courses/react-next-firebase/app-next-typescript/][Typescript]]
+create tsconfig.json
+
+run dev server and Next will provide command to install typescript
+*** [[https://fireship.io/courses/react-next-firebase/app-next-firebase/][Firebase Setup]]
+- On Authentication tab enable Google for easy Google OAuth
+- Setup in test mode for easier dev
+
+**** Install libs
+
+#+BEGIN_SRC shell
+npm i firebase react-firebase-hooks
+#+END_SRC
+
+ReactFire is maintained by the Firebase team (experimental at time of course)
+
+**** Setup firebase libs and config in firebase.js
+
+**** Setup tools
+
+#+BEGIN_SRC shell
+npm i -g firebase-tools
+#+END_SRC
+
+*** [[https://fireship.io/courses/react-next-firebase/app-routing/][Routing]]
+
+**** Creating a page
+
+To create a file with the name of the route or a directory followed by an index.js.
+
+To create a dynamic route to wrap the filename in brackets. Next provides a useRouter hook to extract value from brackets.
+
+Dynamic route parts can exist in directories; static routes take precedence.
+
+*** [[https://fireship.io/courses/react-next-firebase/app-loader/][Loader]]
+
+*** [[https://fireship.io/courses/react-next-firebase/app-navbar/][Navbar]]

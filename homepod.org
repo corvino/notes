@@ -1,0 +1,1 @@
+* [[https://download.developer.apple.com/iOS/iOS_Logs/HomePod_Logging_Instructions.pdf][Logging for HomePod Feedbacks]]

@@ -7,3 +7,36 @@
 - [[https://proxyrarbg.org][RARBG]]
 * YouTube
 ** [[https://www.4kdownload.com/products/videodownloader/8][4k Video Downloader]]
+* Problems
+* Video Downloader Error
+** Response code 410 (Gone)
+Error: Response code 410 (Gone)
+    at e.value (chrome-extension://lmjnegcaeklhafolokijcfjliaokphfk/background/main.js:1:230619)
+    at chrome-extension://lmjnegcaeklhafolokijcfjliaokphfk/background/main.js:1:222708
+** Failed aggregating " Moving Forward – Nordic Ski Lab "
+ffmpeg version n4.1.5-vdhcoapp Copyright (c) 2000-2020 the FFmpeg developers
+  built with Apple LLVM version 8.0.0 (clang-800.0.42.1)
+  configuration: --arch=x86_64 --enable-runtime-cpudetect --enable-gpl --extra-version=vdhcoapp --enable-shared --enable-pthreads --prefix=/Users/mig/localgit/vdhcoapp/converter/src-build/mac/64/converter-build --enable-version3 --extra-cflags=-I/Users/mig/localgit/vdhcoapp/converter/src-build/mac/64/deps/include --extra-ldflags='-L/Users/mig/localgit/vdhcoapp/converter/src-build/mac/64/deps/lib -L/Users/mig/localgit/vdhcoapp/converter/src-build/mac/64/zlib' --pkg-config=pkg-config --enable-libvo-amrwbenc --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libmp3lame --enable-libxvid --enable-libopencore_amrnb --enable-libopencore_amrwb --enable-encoder=libvpx-vp9 --enable-libwebp --enable-zlib --enable-libopenjpeg --enable-libx265 --enable-libtheora --enable-libaom --disable-doc
+  libavutil      56. 22.100 / 56. 22.100
+  libavcodec     58. 35.100 / 58. 35.100
+  libavformat    58. 20.100 / 58. 20.100
+  libavdevice    58.  5.100 / 58.  5.100
+  libavfilter     7. 40.101 /  7. 40.101
+  libswscale      5.  3.100 /  5.  3.100
+  libswresample   3.  3.100 /  3.  3.100
+  libpostproc    55.  3.100 / 55.  3.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/var/folders/zq/0b991svd1c1_q67h6p9hxy9m0000gn/T/vdh-19200P6l1wfwE5NXI.tmp':
+  Metadata:
+    major_brand     : iso5
+    minor_version   : 512
+    compatible_brands: iso5iso6mp41
+  Duration: 00:00:00.00, bitrate: N/A
+Input #1, mov,mp4,m4a,3gp,3g2,mj2, from '/var/folders/zq/0b991svd1c1_q67h6p9hxy9m0000gn/T/vdh-19200nih6wpFJ8ADg.tmp':
+  Metadata:
+    major_brand     : dash
+    minor_version   : 0
+    compatible_brands: dashmp42mp41iso6
+    creation_time   : 2022-06-09T13:32:27.000000Z
+  Duration: 00:00:00.00, bitrate: N/A
+Stream map '0:a' matches no streams.
+To ignore this, add a trailing '?' to the map.

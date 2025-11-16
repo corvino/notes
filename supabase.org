@@ -1,0 +1,14 @@
+* Supabase
+
+** Things to investigate
+
+- [[https://supabase.com/docs/guides/local-development][Local Development & CLI]]
+- [[https://supabase.com/docs/guides/deployment][Deployment]]
+  - [[https://supabase.com/docs/guides/deployment/database-migrations][Database Migrations]]
+  - [[https://supabase.com/docs/guides/deployment/terraform][Terraform Provider]]
+
+** Docs
+
+- [[https://supabase.com/docs/reference/cli/introduction][Supabase CLI]]
+- [[https://supabase.com/docs/reference/javascript/introduction][JavaScript Client Library]]
+- [[https://supabase.com/docs/reference/javascript/v1/introduction][JavaScript Client Library v1]]

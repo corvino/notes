@@ -1,0 +1,5 @@
+- [[https://stackoverflow.com/questions/8625439/track-editor-with-snap-to-track-function][QLandkarte GT on StackOverflow]]
+- [[Footpath][https://footpathapp.com]]
+- [[https://gpx.studio/about.html][gpx.studio]]
+- [[https://josm.openstreetmap.de][JOSM]]
+  - [[https://community.openstreetmap.org/t/how-to-convert-a-track-into-a-path/94347/3][Discussion]]

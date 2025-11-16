@@ -1,16 +1,99 @@
+* Useful docs
+- [[https://docs.google.com/document/d/1_VSXbp2Y_OmOAWuw0q9u9sQ6AngYkOWYPCSdOnm0IIE/edit#heading=h.jh2so5w1lxtc][Starstone Void - Dragon Tamer]]
+- [[https://docs.google.com/document/d/1nmflvjKyOTIjKshPehNFsVcQLU_osfz9Wca7Ci7gHok/edit][Artifacts for all legendary Dragons]]
+- [[https://docs.google.com/document/d/137YMqvzVLTdOBVSOcOtnVJE9MpSUxVvSoksUn2hPgGQ/edit][Dragonbrands for all legendary Dragons]]
+- [[https://docs.google.com/document/d/1ZzfQYokm_rbzqWh1tW46wrBG_cilQHphZl2IlysJbEY/edit#heading=h.k2kismkn9wmt][Dragonbrand Guide]]
+- [[https://docs.google.com/document/d/1bXZfLLDASW8JGHgUrLo7BTk9pF7qcHrvtEZHhL9G108/edit#heading=h.1iagrvejmcqr][INTRODUCTION TO DRAGONBRANDS]]
+- [[https://www.levelwinner.com/dragon-tamer-dragon-builds-guide-how-to-build-your-epic-and-legendary-dragons/][Dragon Tamer Dragon Builds Guide: How to Build Your Epic and Legendary Dragons]]
 * [[https://dragontamer.miraheze.org/wiki/Farm][Farms]]
-|------------------------+------+------------+-------+-----------+-----------|
-| Name                   | Time | Production |  Gold | Gold/Food | Food/Time |
-|------------------------+------+------------+-------+-----------+-----------|
-| Sunlight Plant         |   .5 |         .6 |     6 |      10.0 |       1.2 |
-| Artificial Breeding    |    5 |          9 |   100 |      11.1 |       1.8 |
-| Light Control          |   30 |         72 |  1000 |      13.9 |       2.4 |
-| Greenhouse Farming     |   15 |         21 |   200 |       9.5 |       1.4 |
-| Hydroponic Cultivation |   90 |        150 |  1500 |      10.0 | 1.6666667 |
-| Temperate Environment  |  180 |        420 |  5000 |      11.9 | 2.3333333 |
-| Ecological Hothouse    |  360 |        600 |  6000 |      10.0 | 1.6666667 |
-| Large-scale Raising    |  720 |       1500 | 15000 |      10.0 | 2.0833333 |
-| Super Production       | 1440 |       3500 | 40000 |      11.4 | 2.4305556 |
-|------------------------+------+------------+-------+-----------+-----------|
-#+TBLFM: $5=$4/$3;%.1f
-#+TBLFM: $6=$3/$2
+|------------------------+------+------+-------+-----+--------+-------+--------+-----------+----------|
+| Name                   | Time | Fodd |  Gold | Exp | Food/T | Exp/T | Gold/T | Gold/Food | Gold/Exp |
+|------------------------+------+------+-------+-----+--------+-------+--------+-----------+----------|
+| Sunlight Plant         |   .5 |   .6 |     6 |  .2 |    1.2 |   0.4 |   12.0 |      10.0 |     30.0 |
+| Artificial Breeding    |    5 |    9 |   100 |   2 |    1.8 |   0.4 |   20.0 |      11.1 |     50.0 |
+| Light Control          |   30 |   72 |  1000 |  12 |    2.4 |   0.4 |   33.3 |      13.9 |     83.3 |
+| Greenhouse Farming     |   15 |   21 |   200 |   6 |    1.4 |   0.4 |   13.3 |       9.5 |     33.3 |
+| Hydroponic Cultivation |   90 |  150 |  1500 |  38 |    1.7 |   0.4 |   16.7 |      10.0 |     39.5 |
+| Temperate Environment  |  180 |  420 |  5000 |  75 |    2.3 |   0.4 |   27.8 |      11.9 |     66.7 |
+| Ecological Hothouse    |  360 |  600 |  6000 | 150 |    1.7 |   0.4 |   16.7 |      10.0 |     40.0 |
+| Large-scale Raising    |  720 | 1500 | 15000 | 300 |    2.1 |   0.4 |   20.8 |      10.0 |     50.0 |
+| Super Production       | 1440 | 3500 | 40000 | 600 |    2.4 |   0.4 |   27.8 |      11.4 |     66.7 |
+|------------------------+------+------+-------+-----+--------+-------+--------+-----------+----------|
+#+TBLFM: $6=$3/$2 ;%.1f
+#+TBLFM: $7=$5/$2 ;%.1f
+#+TBLFM: $8=$4/$2 ;%.1f
+#+TBLFM: $9=$4/$3 ;%.1f
+#+TBLFM: $10=$4/$5 ;%.1f
+* Battle Prep Questions
+* Weak/Strong
+|----------+------------------------+------------------------|
+| Element  | Strong Against         | Weak Against           |
+|----------+------------------------+------------------------|
+| Nature   | Metal, Psychic         | Fire                   |
+| Fire     | Nature, Psychic        | Water                  |
+| Water    | Fire, Psychic          | Electric               |
+| Electric | Water, Chaos           | Earth                  |
+| Earth    | Electric, Chaos        | Metal                  |
+| Metal    | Earth, Chaos           | Nature                 |
+| Dark     | Electric, Earth, Metal | Light, Psychic, Chaos  |
+| Light    | Nature, Fire, Water    | Dark, Psychic, Chaos   |
+| Psychic  | Dark, Light            | Nature, Fire, Water    |
+| Chaos    | Dark, Light            | Electric, Earth, Metal |
+|----------+------------------------+------------------------|
+** Strengths & Weaknesses
+If a Dragon is strong aginst another, they will deal 20% more DMG. If a
+Dragon is weak against another, they will deal 20% less DMG.
+** Elemental Resonance
+If your team is made up of Dragons of the same Type the team will get a
+stat bonus. (Light, Dark, and Chaos Dragons will not count.)
+* Sacrifice
+** Time
+- Common :: 1:00
+- Uncommon :: 1:30
+- Rare :: 2:00
+- Epic :: 3:00
+- Legendary :: 4:00
+** Shards
+- Level 20 :: 40
+- Level 30 :: 50
+* Dragonbrands
+([[https://dragontamer.miraheze.org/wiki/Dragonbrands][wiki]])
+** Primary Bonus
+|------+-----------------------------------------|
+| Slot | Possible Bonuses                        |
+| I    | ATK                                     |
+| II   | ATK%, DEF%, HP%, SPD                    |
+| III  | DEF                                     |
+| IV   | ATK%, DEF%, HP%, Effect Hit, Effect Res |
+| V    | HP                                      |
+| VI   | ATK%, DEF%, HP%, Crit%, Crit DMG        |
+|------+-----------------------------------------|
+** Sets
+|-----------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Set       | 2-piece         | 4-piece                                                                                                                                                                                        |
+|-----------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Freyr     | +15% ATK        | +12% DMG dealt for every 20% decrease of target's HP                                                                                                                                           |
+| Vidar     | +15% Crit       | +45% DMG if the target is affected by CC (Taunt, Stun, Seal, or Freeze)                                                                                                                        |
+| Baldr     | +15% HP         | When you are critically hit, there is a 100% chance that you and a 30% chance that your allies will gain a Shield lasting 1 turn that absorbs DMG equal to 5% of your Max HP                   |
+| Heimdallr | +30% DEF        | +20% Base Healing (+50% when HP is lower than 20%)                                                                                                                                             |
+| Mimir     | +15% Effect Res | 15% base chance to either Stun, Freeze, Taunt or Seal an opponent for 1 turn                                                                                                                   |
+| Bully     | +15% Crit       | Reduces cooldowns of all your Skills by 1 turn when killing a target                                                                                                                           |
+| Hoarder   | +15% ATK        | 60% chance for attacks to ignore 45% of enemy Defense                                                                                                                                          |
+| Jammu     | +15% Crit       | 60% chance per critical hit to deal 10% of target's Max HP as DMG, ignoring DEF. DMG is capped at 120% of ATK.                                                                                 |
+| Amir      | +15% HP         | 30% chance to reflect 100% of received DMG.                                                                                                                                                    |
+| Schiff    | +15% Effect Hit | When taking DMG, 30% base chance to stun the attacking enemy for 1 turn.                                                                                                                       |
+| Skade     | +15% HP         | (Unique) Reduces 25% of DMG received by the allies and redirects 50% of that reduced DMG to you.                                                                                               |
+| Týr       | +15% ATK        | Single Attack DMG +30%. If a target is killed after a single attack, the user will use 1 Skill to continu attacking an enemy target with the least HP. (Max attacks: 3)                        |
+| Iaso      | +30% DEF        | Before your turn begins, all control effects will be negated and 10% of your HP will be restored.                                                                                              |
+| Ares      | +15% ATK        | For each 10% of HP lost, your final DMG Bonus will be increased by 20%.                                                                                                                        |
+| Pandora   | +15% ATK        | + 20% ATK. Increases continuous DMG effect DMG (incl. burned, poisoned, etc) by 30%.                                                                                                           |
+| Akso      | +15% HP         | + 30% DEF. If a direct healing Skill (excluding continuous healing, HP absorption, etc) restores more HP than needed, 40% of excess HP will be converted into a Shield that lasts for 2 turns. |
+| Mars      | +15% Crit       | +20% Crit DMG. Single-target Skills will deal an additional 40% damage to targets that have more than 70% of their HP remaining.                                                               |
+| Achilles  | +30% DEF Bonus  | Every time the user's HP decreases by 10%, any DMG reduction bonus will increase by 10%. This can go up by a maximum of 50%.                                                                   |
+|-----------+-----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+* Notes
+** Dragon breeding/hatching times
+- Silverwing
+  - 1 d 1 h 36 min / 2 d 3 h 12 min
+- Reyne
+Aurita+Core=Nix

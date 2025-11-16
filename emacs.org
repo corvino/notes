@@ -1,3 +1,5 @@
+https://emacsdocs.org
+
 * Package Management
 ** [[https://www.emacswiki.org/emacs/InstallingPackages][Installing Packages]]
 ** [[https://melpa.org/#/][MELPA]]
@@ -49,3 +51,147 @@ test.org is in buffer-string, and princ prints to stdout, so you see the content
   (org-mode)
   (org-html-export-as-html)
   (princ (buffer-string)))
+* Potentially Useful Packages
+- [[https://www.emacswiki.org/emacs/EtagsSelect][Etags Select]]
+- [[https://www.emacswiki.org/emacs/diff-mode-.el][Diff-mode-.el]]
+
+** Keyboard Macros
+
+*** Sequence for setting up macro
+
+**** Save macro
+- *C-x C-k n* kmacro-name-last-macro
+- *M-x insert-kbd-macro*
+
+**** Load and execute macro
+- *C-x C-e* eval-last-sexp
+- *M-: (local-set-key "" 'tidy-title)*
+- ;; This doesn't work and I can't find a way to load the macro as last;
+;; see digression
+- *M-x <macro-name>* (executes named macro)
+- *C-x e* (to execute macro, keep pressing e to repeat)
+
+- *M-: (setq last-kbd-macro <macro-name)*
+
+*** Loading a Macro back to last-kbd-macro
+
+Prior to Emacs 29:
+
+#+BEGIN_SRC elisp
+  (fset 'forward3
+    (kmacro-lambda-form [?\C-f ?\C-f ?\C-f] 0 "%d"))
+#+END_SRC
+
+After Emacs 29:
+
+#+BEGIN_SRC elisp
+  (defalias 'forward3
+     (kmacro "C-f C-f C-f"))
+#+END_SRC
+
+- last-kbd-macro :: Last kbd macro defined, as a string or vector; nil if none defined.
+- kmacro :: Create a ‘kmacro’ for macro bound to symbol or key. (that obeys key-valid-p)
+- key-valid-p :: Return non-nil if KEYS, a string, is a valid key sequence.
+
+- [[https://emacs.stackexchange.com/questions/80911/how-do-i-load-a-previously-named-keyboard-macro][How do I load a previously named keyboard macro?]]
+
+- kmacro-p :: Return non-nil if MAC is a kmacro keyboard macro.
+- kmacro--keys :: Access slot "keys" of OBJ of type ‘kmacro’.
+- symbol-function :: Return SYMBOL’s function definition.
+- intern :: Return the canonical symbol whose name is STRING; if there is none, one is created by this function and returned.
+- completing-read :: Read a string in the minibuffer, with completion.
+- mapatoms :: Call FUNCTION on every symbol in OBARRAY.
+
+#+BEGIN_SRC elisp
+  (setq last-kbd-macro (kmacro--keys (kmacro "C-f C-f C-f")))
+  (setq last-kbd-macro (kmacro--keys (kmacro "C-b C-b C-b")))
+  (defalias 'forward3 (kmacro "C-f C-f C-f"))
+  (defalias 'back3 (kmacro "C-b C-b C-b"))
+
+  (defun set-last-kmacro-by-name (kmacro-sym)
+    "Sets last-kbd-macro using the kmacro defined in the specified symbol."
+    (interactive
+     ;; filter only kmacros; kmacro-sym is the symbol for a kmacro.
+     ;;
+     ;; (symbol-function 'name) will be the same as (kmacro string) where
+     ;; there is (defalias 'name (kmacro string)).
+     (list (intern
+            (completing-read
+             "kmacro name: "
+             (let ((result))
+               (mapatoms (lambda (it)
+                           (when (kmacro-p (symbol-function it))
+                             (push it result))))
+               result)))))
+    (setq last-kbd-macro (kmacro--keys (symbol-function kmacro-sym))))
+
+  (defun set-last-kmacro ()
+    ""
+    (interactive)
+    (let* ((kmacro-str (string-at-point))
+           (kmacro (kmacro kmacro-str)))
+      (if (not (kmacro-p kmacro))
+          (error "Unable to load macro."))
+      (message "Set last-kbd-macro to " kmacro-str)
+      (setq last-kbd-macro (kmacro--keys kmacro))))
+
+  (defun neq (a b)
+    (not (eq a b)))
+
+  (defun string-at-point ()
+    "Return the string surrounding the point using lisp syntax. Hopefully."
+    (save-excursion
+      (backward-up-list 1 t t)
+      (push-mark)
+      (forward-char)
+      (up-list 1 t t)
+
+      (let* ((str (buffer-substring-no-properties (mark) (point)))
+             (len (length str)))
+        (if (>= 2 len)
+            (error "Unable to find string at point."))
+        (if (or (neq ?\" (aref str 0)) (neq ?\" (aref str (- len 1))))
+            (error "Unexpected string marker around point."))
+
+        (substring str 1 (- len 1)))))
+
+  (defun tst1 ()
+    ""
+    (interactive)
+    (printd (string-at-point))
+    )
+
+  (defun tst2 ()
+    (interactive)
+    (progn
+      (up-list 1 t t)
+      ))
+
+  ;;            (while (not (eq ?\( (char-after)))
+  ;; (backward-up-list 1 t t)
+  ;; (backward-list 1)
+
+  (defun test-es ()
+    ""
+    (interactive)
+    (let ((x (thing-at-point 'list)))
+      (message x)))
+
+  ;; http://xahlee.info/emacs/emacs/elisp_get-selection-or-unit.html
+  ;; https://github.com/noctuid/things.el
+  ;; https://emacs.stackexchange.com/questions/63725/copy-string-at-point-func
+  (progn
+    (skip-chars-backward "^\"")
+    (setq xbeg (point))
+    (goto-char xp0)
+    (skip-chars-forward "^\"")
+    (setq xend (point))))
+
+  ;; https://www.gnu.org/software/emacs/manual/html_node/emacs/Moving-by-Parens.html
+
+  (defun test-kmacro ()
+    (interactive)
+    ;;    (printd (symbol-function 'forward3))
+    (printd (kmacro "C-f C-f C-f C-b"))
+    )
+#+END_SRC

@@ -1,3 +1,38 @@
+* Upgrade on macOS
+
+** [[https://mac.install.guide/homebrew/4][Update Homebrew]]
+
+#+BEGIN_SRC shell
+brew update
+brew doctor
+# to upgrade packages
+brew upgrade
+#+END_SRC
+
+** [[https://docs.npmjs.com/try-the-latest-stable-version-of-node][Install the latest node]]
+
+#+BEGIN_SRC shell
+brew upgrade nvm
+nvm install node
+#+END_SRC
+* Cleanup (versions)
+Versions are stored in ~/.nvm/versions; there doesn't appear to be a command to prune old versions.
+
+#+BEGIN_SRC
+  rm -rf ~/.nvm/versions
+  nvm install node
+#+END_SRC
+
+I guess?
+* nvm cheat sheet
+- nvm ls :: list install versions
+- nvm install node :: install lastest stable version of node
+
+** Troubleshooting
+
+- Path to node binary: ~$HOME/.nvm/versions/node/v24.0.0/bin/node~.
+- Path to npm binary: ~.nvm/versions/node/v24.0.0/bin/npm~.
+- Path to nvm binary: none; ~$NVM_DIR~ = ~/Users/vino/.nvm~.
 * [[https://eslint.org][ESLint]]
 - [[https://github.com/eslint/eslint/blob/main/conf/eslint-recommended.js][eslint:recommended settings]]
 

@@ -1,3 +1,6 @@
+* Tailwindapalooza
+- [[https://tailwindcss.com/blog/introducing-catalyst][Introducing Catalyst: A modern UI kit for React]]
+- [[https://catalyst.tailwindui.com/docs][Catalyst UI Kit for Tailwind CSS]]
 * Rollups
 ** [[https://medium.com/@zeolearn/6-best-reactjs-based-ui-frameworks-9c780b96236c][6 Best ReactJS based UI Frameworks]]
 ** [[https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/][20+ Best React UI Component Libraries / Frameworks for 2020]]
@@ -7,3 +10,11 @@
 ** [[https://react.foundation][React + Foundation]]
 * [[https://semantic-ui.com][Semantic UI]]
 ** [[https://react.semantic-ui.com][Semantic UI React]]
+* [[https://headlessui.com][HeadlessUI]]
+* [[https://chakra-ui.com][chakra]]
+* [[https://www.downshift-js.com][Downshift]]
+* [[https://reach.tech][Reach UI]]
+* [[https://reakit.io][Reakit]]
+* [[https://react-spectrum.adobe.com/react-aria/][React Aria]]
+* Background
+- [[https://tailwindcss.com/blog/building-react-and-vue-support-for-tailwind-ui][Building React + Vue support for Tailwind UI]]

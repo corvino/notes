@@ -1,0 +1,54 @@
+* History
+** 2011
+- Kotlin was launched
+- The first syntax prototype was launched
+** 2012
+- Kotlin logo received its first update
+- The first Kotlin web demo was released
+- Kotlin went open source
+- Kotlin started running on Anroid
+** 2013
+- Andrey Breslav showed how web apps can be fully developed in Kotlin
+- The first chunk of SAM-conversion support appeared in Kotlin
+- New language features were added: delegated properties, callable references, static constants, and static fields
+- The Gradle plugin was released
+** 2014
+- Kotlinlang.org was launched
+- New features were added to improve JavaScript interop
+** 2015
+- New features were added to improve the developer experience on various platforms: Multiple constructors, companion objects, selaed classes, and lateinit properties
+** 2016
+- Kotlin got a new logo
+- Kotlin 1.0 released: Pragmatic language for JVM and Android
+- Gradle met Kotlin
+- The coroutines feature first appeared
+- The first Kotlin Night took place in San Francisco
+** 2017
+- Kotlin on Android became official
+- The team launched its support program for User Groups and Kotlin Nights became a community driven event series
+- Kotlin 1.1 was released, with JavaScript support, coroutines, and more
+- First book about Kotlin was released
+- The first Technology Preview of Kotlin/Native appeared
+- The very first Technology Preview of Kotlin/Native appeared
+- The very first KotlinConf was held in San Francisco
+- Kotlin 1.2 was released, which enhanced code sharing between platforms and improved compilation time
+** 2018
+- Ktor was released
+- Inline classes made it possible to wrap a value fo some type without creating and actual wrapper object
+- Kotlin 1.3 was released, with coroutines, Kotlin/native beta, and more
+- Kotlin embeded runnable and editable Kotlin snippets into blog posts and other materials
+- KotlinConf 2018 was held in Amsterdam
+** 2019
+- The team took first steps in exploring Kotlin for data science
+- Android development became Kotlin first
+- Kicked off Kotlin everywhere
+- Implemented SAM conversions for Kotlin classes
+- The first ever Kotlin Heroes contest took place on Codeforces
+- KotlinConf 2019 held in Copenhagen
+** 2020
+- Roman Elizarov became the new Project Lead for Kotlin, after Andrey Breslav stepped down
+- Kotlin Multiplatform Mobile moved to Alpha
+- Kotlin 1.4 released with the focus on quality and performance
+- kotlinx.serialization 1.0 was released
+- A new release cadence was announced for Kotlin and the Kotlin plugin
+- The "Atomic Kotlin" book was published

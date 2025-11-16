@@ -1,0 +1,42 @@
+* Instllation
+** Basic TeX
+[[https://www.tug.org/mactex/morepackages.html][MacTeX - More Packages]]
+** Packages
+tlmgr update --self
+
+tlmgr install flashcards
+tlmgr install anyfontsize
+* Package operations
+** List only installed packages
+tlmgr info --only-installed
+* PDF
+pdflatex file.tex
+# Cleanup intermediate files
+pdflatex file.tex && latexmk -c
+* Fonts
+- [[https://tug.org/FontCatalogue/allfonts.html][The LaTeX Font Catalogue]]
+- [[https://latex-tutorial.com/changing-font-size/][Changing Font Size]]
+** Non-free fonts
+See [[https://tug.org/fonts/getnonfreefonts/][getnonfreefonts]]
+
+#+BEGIN_SRC bash
+curl --remote-name https://www.tug.org/fonts/getnonfreefonts/install-getnonfreefonts
+texlua install-getnonfreefonts
+
+getnonfreefonts --sys garamondx
+# Migh need dependencies; see "Check on missing package"
+tlmgr install fontaxes
+tlmgr install ly1
+#+END_SRC
+** Set Helvetica as default font
+#+BEGIN_SRC latex
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+#+END_SRC
+** Set garamondx as the default font
+#+BEGIN_SRC latex
+\usepackage{garamondx}
+#+END_SRC
+* Check on missing package
+tlmgr info dependency.def

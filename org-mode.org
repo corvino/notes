@@ -1,9 +1,21 @@
-* Meta Info
-Mimetype is 'text/x-org'; see [[https://lists.gnu.org/archive/html/emacs-orgmode/2017-06/msg00396.html][Re: [O] mimetype for orgmode files]]
-* Apps
-[[https://github.com/amake/orgro][orgro]] (iOS, Android)
-* CSS
-- [[https://github.com/gongzhitaao/orgcss][gongzhitaao / orgcss]]
+* References
+- [[https://orgmode.org][Org Mode]]
+  - [[https://orgmode.org/quickstart.html][quikcstart]]
+  - [[https://orgmode.org/manual/index.html][manual]]
+  - [[https://orgmode.org/guide/index.html][guide]]
+- [[https://www.gnu.org/software/emacs/manual/html_mono/calc.html][Calc]]
+* Formatting
+- **​bold**
+- //​italic//
+- __​underlined__
+- ==​verbatim==
+- ~~​code~~
+- ++​strike-through++
+- /C-x 8 <RET> 200B <RET>/
+
+*** Reference
+- [[https://orgmode.org/manual/Emphasis-and-Monospace.html][12.2 Emphasis and Monospace]]
+- [[https://orgmode.org/manual/Escape-Character.html][17.12 Escape Character]]
 * [[https://orgmode.org/guide/Tables.html][Tables]]
 ** Re-aligning and field motion
 | C-c C-c   | Re-align the table without moving point                                       |
@@ -25,6 +37,26 @@ Mimetype is 'text/x-org'; see [[https://lists.gnu.org/archive/html/emacs-orgmode
 ** [[https://orgmode.org/manual/Updating-the-table.html][Updating the table]]
 org-table-recalculate
 *** On formula, c-u c-c c-c
+** Formulas
+*** elisp
+**** Filter and total a column
+This will count the cells in a column that contain the the specified string (✓).
+
+#+BEGIN_SRC org-mode
+#+TBLFM: @12$10='(length (seq-filter (apply-partially 'string= "✓") (list @2$10..@11$10)))
+#+END_SRC
+
+You could also do this with a lambda.
+
+#+BEGIN_SRC org-mode
+#+TBLFM: @12$10='(length (seq-filter (lambda (a) (string= "✓" a)) (list @2$10..@11$10)))
+#+END_SRC
+
+This will count the cells in each column in a range that contains the specified string (✓).
+
+#+BEGIN_SRC org-mode
+#+TBLFM: @12$2..@12$9='(length (seq-filter (apply-partially 'string= "✓") (list @2..@11)))
+#+END_SRC
 * [[https://orgmode.org/manual/Exporting.html][Exporting]]
 Convert and export documents to a variety of other formats.
 
@@ -92,3 +124,17 @@ Shows all properties that can be set for export, and their corresponding user va
   - Handling
     - :results output replace :: (default) replace results
     - :results none :: do nothing with results
+* * Meta Info
+Mimetype is 'text/x-org'; see [[https://lists.gnu.org/archive/html/emacs-orgmode/2017-06/msg00396.html][Re: [O] mimetype for orgmode files]]
+* Apps
+[[https://github.com/amake/orgro][orgro]] (iOS, Android)
+* CSS
+- [[https://github.com/gongzhitaao/orgcss][gongzhitaao / orgcss]]
+* iTerm
+Why can't you use and iterm2:// url scheme to open a tab at a directory? See [[https://gitlab.com/gnachman/iterm2/-/commit/c9c53fa5177ef3f2f5055bd51d49f8e63d10e4de][this commit]] and [[https://gitlab.com/gnachman/iterm2/-/issues/4598][this discussion]].
+* Custom styles for export
+- [[https://www.gnu.org/software/emacs/manual/html_node/org/HTML-Export.html][HTML Export]]
+  - [[https://www.gnu.org/software/emacs/manual/html_node/org/Images-in-HTML-export.html][Images in HTML export]]
+- StackOverflow
+  - [[https://emacs.stackexchange.com/questions/31803/custom-class-attribute-in-org-mode][Custom Class Attribute in Org Mode]]
+  - [[https://stackoverflow.com/questions/49903845/how-can-i-add-class-attributes-to-table-headers-when-exporting-from-org-to-html][how can I add class attributes to table headers when exporting from org to html?]]

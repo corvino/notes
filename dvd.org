@@ -1,0 +1,13 @@
+* Tools
+- [[https://www.videolan.org/developers/libdvdcss.html][libdvdcss]] (install with Handbrake)
+- [[https://makemkv.com/download/][MakeMKV]]
+- [[https://metaz.maven-group.org][MetaZ]]
+- [[https://github.com/donmelton/video_transcoding][donmelton / video_transcoding]]
+* References
+- [[https://www.jeffgeerling.com/blog/2022/how-i-rip-dvds-and-blu-rays-my-mac-2022-edition][MakeMKV, Handbrake and MetaZ]]
+- [[https://www.thurrott.com/music-videos/1132/rip-blu-ray-videos][MakeMKV]]
+- [[https://www.macworld.com/article/671971/how-to-rip-a-dvd-or-blu-ray-disc-to-mac.html][Handbrake and libdvdcss]]
+- [[https://www.cisdem.com/resource/handbrake-wont-rip-dvd.html][Handbrake and libdvdcss]]
+- [[https://www.macxdvd.com/mac-dvd-video-converter-how-to/handbrake-libdvdcss-error-fixed-windows-mac.htm][Handbrake and libdvdcss]]
+- [[https://easyosx.net/2021/11/22/how-to-rip-a-dvd-or-blu-ray-to-mac/][How to Rip a Blu-ray to Mac]] (VLC and Handbrake)
+- [[https://robservatory.com/revisiting-ripping-blu-ray-discs/][Handbrake vs Meton's tools]]

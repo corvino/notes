@@ -1,0 +1,10 @@
+* [[https://www.terraform.io/docs/language/settings/backends/s3.html][S3 Backend]]
+- Create key
+- Setup AWS Credentials
+
+#+BEGIN_SRC
+brew install awscli
+aws configure
+#+END_SRC
+
+[[https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html][Configuring the AWS CLI]]

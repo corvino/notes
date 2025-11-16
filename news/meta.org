@@ -1,0 +1,6 @@
+
+* Organizing news
+- [[https://ground.news/rating-system#biasRating][ground.news bias rating]]
+- [[https://www.allsides.com/media-bias/media-bias-chart][AllSides Media Bias Chart]]
+- [[https://adfontesmedia.com][ad fontes media]]
+- [[https://mediabiasfactcheck.com/methodology/][Media Bias Fact Check Methodology]]

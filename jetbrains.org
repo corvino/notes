@@ -1,0 +1,7 @@
+* ~/Library/Application Support/Google/AndroidStudio2021.2/settingsRepository/repository
+
+* Merge old repo
+git remote add old <filepath-to-.git|url>
+git fetch old
+git checkout -b <new-branch-name> <your-custom-remote-name>/master
+git merge old/master

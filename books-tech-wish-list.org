@@ -1,3 +1,7 @@
+* DRM (Adobe Digital Editions)
+- [[https://dedrm.com][DeDRM tools]]
+  - [[https://github.com/noDRM/DeDRM_tools][DeDRM_tools]]
+- [[https://epubor.com/ultimate.html][Epubor Ultimate]]
 * Apress
 ** [[https://www.apress.com/us/book/9781484227428][Beginning Artificial Intelligence with the Raspberry Pi]]
 ** [[https://www.apress.com/us/book/9781484226032][Blockchain Basics: A Non-Technical Introduction in 25 Steps]]
@@ -44,5 +48,5 @@
 ** [[https://smile.amazon.com/Designing-Better-Maps-Guide-Users/dp/1589484401/][Designing Better Maps: A Guide for GIS Users]]
 * Data Science
 ** [[https://smile.amazon.com/Python-Data-Analysis-Wrangling-Jupyter/dp/109810403X/][Python for Data Analysis: Data Wrangling with Pandas, NumPy, and Jupyter 3rd Edition]] - November 1, 2022
-** [[https://smile.amazon.com/Essential-Math-Data-Science-Fundamental/dp/1098102932/][Essential Math for Data Science: Take Control of Your Data with Fundamental Linear Algebra, Probability, and Statistics]] - July 12, 2022
+** [[https://www.oreilly.com/library/view/essential-math-for/9781098102920/][Essential Math for Data Science: Take Control of Your Data with Fundamental Linear Algebra, Probability, and Statistics]]  ([[https://smile.amazon.com/Essential-Math-Data-Science-Fundamental/dp/1098102932/][amazon.com]]) ([[https://www.ebooks.com/en-us/book/210574753/essential-math-for-data-science/thomas-nield/][ebooks.com]])
 ** [[https://www.oreilly.com/library/view/machine-learning-design/9781098115777/][Machine Learning Design Patterns]]

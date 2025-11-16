@@ -1,0 +1,9 @@
+* Youth Soccer
+** Clubs and Locations
+* Club Locations
+  - [[https://www.playmrac.com/soccer/][Mt Rainier FC]] :: Buckley, WA
+  - [[https://clubs.bluesombrero.com/mukilteoyouthsoccer][Mukilteo Youth Soccer Club]] :: Mukilteo, WA
+  - [[https://www.nortac.org][NORTAC (North Tacoma) Sparta Soccer Club]] :: Tacoma
+  - [[https://www.pugetsoundsoccerclub.com][Puget Sound Soccer Club]] :: Tacoma, WA?
+  - [[https://wa.steelunited.com][Steel United Washington]] :: Puyallup, WA
+  - [[https://thurstoncountyunited.org/home][TC (Thurston County) United]] :: Lacey, WA

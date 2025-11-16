@@ -1,0 +1,403 @@
+* Inverting the Pyramid
+by Jonathan Wilson
+
+** Terminology
+- [[https://en.wikipedia.org/wiki/Defender_(association_football)#Centre-back][Stopper]] :: man-marking centerback
+- [[https://en.wikipedia.org/wiki/Defender_(association_football)#Sweeper_(libero)][Sweeper]] :: non-marking centerback, "last man"
+- libero :: literally free, sweeper
+
+** People
+
+*** [[https://en.wikipedia.org/wiki/Herbert_Chapman][Herbet Chapman]]
+- Played 1896-1909
+- Managed 1907-1934
+
+Developed WM, kind-of a 3-4-3
+
+*** [[https://en.wikipedia.org/wiki/Hugo_Meisl][Hugo Meisl]]
+- Managed 1912-1937
+
+Manager of Austria, adimistrator of Austrian Football Association.
+
+Brought Jimmy Hogan to Vienna where they developed short-ground-passing game (scottish passing game).
+
+*** [[https://en.wikipedia.org/wiki/Jimmy_Hogan][Jimmy Hogan]]
+- Played 1902-1913
+- Managed 1910-1939
+
+Architect of Total Football
+
+Formed partnership with Meisl in 1931, developed short passing game around Wunderteam.
+
+*** [[https://en.wikipedia.org/wiki/Helenio_Herrera][Helenio Herrera]]
+- Played 1931-1945
+- Managed 1944-1981
+
+First manager to emphasize fitness, nutrition, psychology, and discipline at all times. Accused of PEDs and matchfixing
+
+Known for managing Barca and Inter.
+
+** Chapters
+
+*** From Genesis to the Pyramid
+*** The Waltz and the Tango
+
+*** The Third Back
+- Herbert Chapman
+- Herbie Roberts
+
+For 1925-1926 season, offside rule was changed to only require 2 defenders between receiver and goal. The requirement had been 3 since 1866. (36)
+
+Chapman's first insight was that a team can "attack for too long". Dropping back can draw out the defenders and open up attacking space. (40)
+
+Chapman deployed Tom Wilson as a stopper center-half to check the center-forward at Aston Villa in 1922.
+
+Charlie Buchanan brought idea of defensive center-half to Arsenal. (41)
+
+Wings drop back to help midfield, making the WM formation complete. (46-47)
+
+Page 51 required reviewing, on negativity and bick kicking in England, attacking center-halfs, etc,
+
+*** How Facism Destroyed the Coffeehouse
+*** Organised Disorder
+*** Harnessing the Carnival
+*** The English Pragmatism (1)
+*** The Birth of the New
+
+*** Catenaccio
+Defensive, negative style of football.
+
+- Karl Rappan
+- Helenio Herrera
+*** After the Angels
+- Period of isolation had left focus on style and invidvidualism of /la nuestra/ unchallenged.
+- End of /la nuestra/ and tactical change after 6-1 defeat to Czechoslovakia.
+  - Move away from /metodo/ to 4-2-4 and focus on negative style. (pg 189)
+  - Increasing violence in Argentine style after 1958 (pg 191-)
+
+**** [[https://en.wikipedia.org/wiki/Victorio_Spinetto][Spinetto]] (1911-1990) (pg 192-197)
+- Managed Vélez Starsfield team of Zubeldía.
+- Move away from /la nuestra/ and emphasis on style and trick.
+- Laid foundation for antifutbol (pg 196), emphasis on toughtness and mentality.
+**** [[https://en.wikipedia.org/wiki/Osvaldo_Zubeld%C3%ADa][Zubeldía]] (1927-1982) (pg 197-)
+- Managed Estudiantes
+- Played a 4-33 with a pressing and an aggressive offside trap.
+  - Pressing probably from Viktornaskiv Maslov and Dynamo Kiev, either directly or indirectly (pg 200)
+- Mainstreamed /antifutbol/.
+
+*** Total Football
+- Logical next step after /passovotchka/ of the 40s and Hungarian style of the 50s.
+- "Rinus Michels and Valeriy obanovskyi each came to the same realization [...] The game, as they saw it, was about space and how you controlled it: make the field big when you have the ball and it is easy to retain it; make it smalll when you do not and it becomes far more difficult for the opposition to keep it.
+**** Jack Reynolds
+- Dutch soccer's founding father
+- Between 1915 and 1947 spent 25 years in 3 stints managing Ajax. (pg 205)
+- Strict discplinarian, believed in the primacy of technique, and established youth system (pg 206)
+**** Vic Buckingham
+- Managed Ajax from 1959-1965
+- Proponent of possession football rather than kick-and-rush or long-ball (pg 206)
+- Used W-M
+**** [[https://en.wikipedia.org/wiki/Rinus_Michels][Rinus Michels (1965–1971)]]
+- Focus on discipline as a coach, after being an easy-going artist as a player. (pg 207)
+- Emphasized ballwork in training, leading to technique.
+- Moved to a 4-2-4
+- Depature from conservative-norms, connected to secular society in the 60s. (pg 207-209)
+- /totaalvoetbal/ first appears in reponse to 1974 national team in the 1974 World Cup. (pg 209)
+- Attacking has defensive underpinnings; 4-2-4 can make it hard to regain possession (pg 210)
+  - Velibor Vasocić as sweeper who also move forward into midfield (pg 210)
+- Moved to 4-3-3 with Vasocić still pushing up into a 3-4-3 (pg 211)
+- Pressing combined with offside trap to shrink the field (pg 211)
+  - open space behind defense handled by fast pressing (pg 213)
+- Interchanging of positions to overcome packed defenses (pg 212)
+  - defenense pushing forward meant others had to cover (pg 213)
+  - revolutionary that interchanging of positions was longitudinal rather than lateral (pg 213)
+- Lots of doping (pg 213-214)
+- Moves to Barcelano
+**** [[https://en.wikipedia.org/wiki/Ștefan_Kovács][Ștefan Kovács]] (1971-1973)
+- Relaxed vs Michels discipline; Ajax wins lots of hardware (pg 215
+- Ajax falls apart after Kovács leaves and Cruyff leaves after losing captinacy (pg 218)
+
+*** Science and Sincerity
+**** [[https://en.wikipedia.org/wiki/Valeriy_Lobanovskyi][Valeriy Lobanovskyi]]
+  - Played 1957-1968 for Dynamo Kyive, Odea, Shakhtar Donetsk
+  - Managed 1969-2001, long periods at Dynamo
+  - Relaxed as a player and clashed with Maslov.
+  - Mathematics background, inspired systemic approach (pg 220)
+***** Team of four at Dynamo (pg 222-223)
+  - Lobanovksyi modeled playing systems
+  - Zelentsov in charge of individual preparation of players
+  - Bazylevych coached
+  - Mykhaylo Oshemkov dealt with "information support" (collation of statistical data from games)
+***** Philosophy
+
+- Focus on posession.
+- Very systematic.
+- Universality; forwards defend and defenders attack (pg 224)
+- Sophisticated method of recording and analyzing games (pg 226)
+- Computer game analysis informed training, balancing speed and stamina
+  - Strict discipline and hard training; players struck after increase, showing limits (pg 228)
+
+"You have to go forward in such a way and with such a range of attacking
+options that it will force the opponent into the condition you want them
+to be in. One of the most important means of doing that is to vary the
+size of the playing area." (pg 223)
+
+"Like Michel's Ajax, Lobanovskyi's Dynamo could press, seeking to pen in
+their opponents and win the bvall high up the field, but they were
+equally copable of sitting deep and striking on the counterattack. As
+Lobanovskyi was always at pains to make clear, it all depended on
+circumstance." (pg 223)
+
+"One thing remained central: keep the preferred playing area as large as
+possible while in posession and as small as possible while the opponent
+had the ball." (pg 223)
+
+"Set moves were practiced, to be used, Zelentsov said, not robotically but like a chess player adapting gambits according to circumstance." (pg 224)
+
+"... he made his players aware that they were not individuals, that individual skill was of use only within the context of the system." (pg 226)
+
+**** Eduard Malofeev
+
+Anti-Lobanvskyi at Dinamo Minsk. Romantic embracer of individualism.
+
+*** Fly Me to the Moon
+
+**** Brazil 1970
+
+- Mythical apogee of soccer (pg 235)
+- Correct economic conditions for sufficient infrastructure and pipeline of players (pg 237)
+- Last hurrah of open space from lack of pressing, due to heat and air in Mexico.
+
+"The final against Italy was billed as a battle for soccer's soul, between the /futebol d'arte/ of the Brazilians and the /futebol de resultados/---of the Italians. Art won, but never again would a side enjoy such success simply by throwing their best players on the field and asking them to play." (pgs 239-240)
+
+"It was exuberant, it was brilliant, and it wasn't just Brazil that reacted with euphoria, but it marked the end of the ago of soccer's innocence. In club soccer, in Europe at least, that era had ended much earlier, but in Mexico, the heat and the altitude combined to to make pressing or any kind of systematic closing down of opponents impossible. For the last time in major competition, there was space, and Brazli had a team perfectly equipped to make the best use of it." (pg 242)
+
+"Even Brazil seem to have accepted that 1970 was a zenith never to be repeated ... Although the cerebral and aesthetic qualities of the Dutch sides that dominated soccer in the early seventies were undeniable, they were physically robust and far more consious of the demands of system than the Brazil of 1970 had been." (pgs 242-243)
+
+**** Brazil post 1974
+
+- South America dominated by Dutch in 1974 percipitated a rethink
+- Death of old-style deep-lying midfield creator
+
+" ... winning is vital to everybody, of course; Vickery claims, though, that Brazil's economic inequality and the importance of soccer in creating the sense that the social order can be overturned makes it particularly so there. If a skillful player jinks by a defnder and leaves him in the dust, it doesn't matter what their backgrounds are or how much they earn; the pawn can become king. That is why tricks are important, why Brazilian soccer is in thrall to the ethos of the /malandro/. But it needs ultimately to be validate by victory ..." (pg 244)
+
+**** Argentina post 1974
+
+- South America dominated by Dutch in 1974 percipitated a rethink
+- Yearning for the old style, the age of /la nuestra/ (pg 245)
+- Magnificent Brazil-Italy match in 1982, possibly greatest in history (pg 252)
+
+***** Brazil loses to Italy in 1982
+
+"It was a game, moreover, that lay on a fault line of history and, unlike in 1970, soccer followed the victors, in style if not in formation. Zico called it "the day that football died," but that is to percolate everything through the consciousness of a particularly romantic Brazilian. Rather, it was the day that a certain naivety in soccer died; it was the day after which it was no longer possible simply to pick the best players and allow them to get on with it; it was the day that system won. There was still a place for great individual attacking talents, but they had to be incorporated into something knowing; they had to be protected and covered for." (pg 253)
+
+"A study carried out by the physical preparation specialist Murici Sant'anna claimed that the ground covered by players doubled between the midseventies and the midnineties. The logic seemed incontrovertible: a Brazilian midfield based on elaboration and passing had been overwhelmed by Dutch pressing in 1974, so two decades later, when pressing was even more ferocious, there was no sense going back. The physical development of players meant there was less time and space and more contact. This, of course, was an age-old complaint, but that didnt invalidate the conclusion: Brazilian players had to be as robust and muscular as Europeans, and if that meant a certain flair and technical finess was lost, that was a necessary price of progress." (pg 253)
+
+"Brazilian soccer ... 'has given the central midfielder, the man who has 70% of his teams posession in his hands, the specific function of destroying, when it should be to setup play.' The emphasis has swung even more towards destructiveness since." (pg 254)
+
+*** The English Pragmatism (2)
+
+**** Possession-based passing game at Liverpool and Nottingham Forrest (Clough)
+
+- "[S]tylistic shift that led English clubs to dominate Europe in the late seventies and early eighties" begins in Anfield (in the boot room) in 1973. (pg 255)
+- Physicality, building from back, posession
+
+"The way they were prepared to hold possession and frustrate their opponents, though, taught Liverpool an important lesson. 'We realized it was no use winning the ball if you finished up on your backside,' said Paisley. 'The top Eurpeans showed us how to break out of defence effectively. The pace of their movement was dicated by their first pass. We had to learn how to be patient like that and think about the next two or three moves when we had the ball.'
+
+The days of the old-fashioned stopper center-half, the boot-room decided, were over: it was necessary to have defenders who could play. ... 'The Europeans showed the building from the back is the only way to play,' Shankly explained." (pg 256)
+
+- Ball control and psassing, make the defense shift, leads to openings to exploint (pg 257-258)
+
+- 1964 Liverpool wears red shorts--the first time they wear all read--and withdraws an inner forward to provide an early example of four at the back. Later demonstrated flexibility. (pg 258)
+
+- Liverpool emphasised challenging for the ball, which continental intercepting defanged. Liverpool came to be defined by patient passing by 1974, which corrected the problem. (pg 258)
+
+**** High-octane style at Watford and Wimbledon who punched above their weight (pg 262)
+
+"Although Liverpool and Forest espoused a possession-based passing game, there was at the same time a strand of English soccer that went in the opposite direction, favoring a high-octane style readily dismissed as kick and rush. It was the basis of the rise of Watford and Wimbledon, small clubs who learend to punch above their weight, but, damagingly, it became orthodoxy at the Football Association. When Charles Hughes became technical director of the FA, English soccer was placed into the hands of a fundamentalist, a man who, Brian Glanvill claimed, "poisoned the wells of English football." (pg 262)
+
+- Introduction of pressing:
+
+"The historically more significant feature of the decade, though, was the introduction of pressing. It came from a surprising source: a young manager who began his career with Lincoln City and then brought, given the resources available to him, staggering success to Watford: Graham Taylor. England’s failure to qualify for the World Cup in 1994 and the vilification that followed has rather sullied his reputation, but in the late seventies he was the most radical coach in the country."
+
+- Seventies were the decade of systematized schema (following Ramsay's success in the World Cup) and pressing. (pg 262)
+
+Graham Taylor becomes appointed manager at Watford FC (by Elton John!) and rapidly earned promotion. Style was high-tempo, always pressing and pushing the ball forward.
+
+- Wimbledon takes this to an extreme, emphasizing directness and gamesmanship to produce results. (pg 265-266)
+
+"Like all bristling outsiders, Wimbledon put their unpopularity down to the “snootiness”—Crabtree uses the word repeatedly—of the establishment, but the attendance figures told their own story. This was soccer nobody wanted to watch. Budget perhaps dictated their style, but it did not excuse the thuggery that lay just below the surface. This wasn’t just pragmatic; it was nihilistic.
+
+Taylor, by contrast, was simply being practical. He accepted his system had its limitations and admits that at every stage he expected his side to be found out. When he got to Aston Villa and had a viable budget, although his style remained direct, there was a refinement to it." (pg 266-267)
+
+#+BEGIN_QUOTE
+It wasn’t until his first season of European competition with Watford that Taylor began to find opponents coming up with the sort of solutions to his direct style that he had expected to encounter far earlier. “We were playing sides who were prepared to sit deep, play short passes, hold the ball and pick us off, who had fans who weren’t demanding they thump the ball forward,” he explained .. “It was men against boys,” Taylor said. “When you gave the ball away, they didn’t give it back to you.”
+
+And there, precisely, is the problem with a direct style based on pressing. It’s all well and good until you come up against a team good enough technically to be able to keep possession even when under pressure. And, as Taylor points out, when climatic conditions make it impossible to maintain a high tempo and render constant pressing impossible, its deficiencies become even more evident. That, of course, goes some way to explaining England’s persistent underachievement in major tournaments, which are almost invariably staged in conditions far hotter than English players are used to at home.
+
+Page 267
+#+END_QUOTE
+
+[[https://en.wikipedia.org/wiki/Charles_Reep][Charles Reep]]'s match-anaylsis (involving bad statistics) appears to have influenced [[https://en.wikipedia.org/wiki/Charles_Hughes_(football_manager)][Charles Hughes]], Technical Director of the FA, who ensconsed direct tactics in England (pages 268-270) and embraced terrible statistical analysis.
+
+#+BEGIN_QUOTE
+There is, perhaps, a nod here back to the days of the head-down charging of the Victorians: where Italian paranoia led to catenaccio and a faith in strategy over ability, English insecurity led to a style that similarly distrusted ability, favoring instead a thoughtless physicality—keep battling, keep running, keep trying. As the German journalist Raphael Honigstein put it sardonically in the title of his work on English soccer, Harder, Better, Faster, Stronger. But not more skillful.
+
+Page 274
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Quite aside from that there is a baffling lack of subtlety to Hughes’s work. He claimed that by applying his “formula”—which arguably just comes down to being better than the opposition anyway—a side has a greater than 85 percent chance of winning. The question then is whether there is a pattern to the other 15 percent. What Hughes’s statistics do not show is the possibility Taylor accepts, the possibility that feels intuitively true, that direct soccer can take a team only so far, that there comes a certain level of opposition capable of keeping the ball, capable of controlling possession, against which it is rendered ineffective.
+#+END_QUOTE
+
+**** Sweden and Norway
+
+Soccer is introduced by British sailors and Sweden finds sucess in the '40s and '50s. Professionalism start in 1967 and style begins with W-M. (page 275) Countermovement is led by British coaches Houghton and Hodgson and emphasizes zonal defense and match situations
+
+#+BEGIN_QUOTE
+That, according to Arnesson, “stifles initiative, and turns players into robots,” and, as critics dismissed the English style as “dehumanising,” the debate about the relative merits of beauty and success came to Sweden. ... Naivety is gone, and there is a second order of complexity.
+#+END_QUOTE
+
+After dissapintment in the 1980 European Championship, Houghton and Hodgson leave but influence is continued by Eriksson. (page 277(
+
+Norway takes quickly to pragtamism. Egil Olson, extending Allen Wade's work, argues
+
+#+BEGIN_QUOTE
+... that Wade had made possession too much of a priority, almost an end in itself, whereas he believed attaining it should be the aim of defensive play, and the application of it to produce goals the aim of attacking play. That may seem obvious, but the slight semantic clarification was to have radical effects, as Olsen extended the thought. He believed that in Wade’s model too little attention was paid to penetration, that it was more important to pass the opposition longitudinally than to retain possession.
+
+Page 278
+#+END_QUOTE
+
+Focus was shifted to position of the ball and moving it forward
+
+#+BEGIN_QUOTE
+This in turn led him to postulate that position of the ball is more important than possession.
+
+“If I have to describe the core of my philosophy, the most central element, it is that if your opponent is off-balance, even slightly off-balance, he shouldn’t be allowed to regain his balance,”
+
+Page 278
+#+END_QUOTE
+
+Strong emphasis on movement of the ball forward, and nuumber of chances on goal without regard to quality. (pages 279-280)
+
+*** Return of the Back Three
+
+*** The Coach Who Wasn't A Horse (Page 305[356])
+
+AC Milan under [[https://en.wikipedia.org/wiki/Arrigo_Sacchi][Arrigo Sacchi]] in the late 80s shifted Italy from defensive to offensive football.
+
+#+BEGIN_QUOTE
+It was AC Milan’s success in Europe in the sixties that introduced the libero as the Italian default, and, a quarter of a century later, it was AC Milan’s success in Europe that killed it off.
+#+END_QUOTE
+- Page 305
+
+#+BEGIN_QUOTE
+... it was only after Arrigo Sacchi had succeeded him in 1987 that Italian soccer was awakened to the possibilities of abandoning man-marking altogether and adopting an integrated system of pressing.
+
+“Liedholm’s zone wasn’t a real zone,” Sacchi said. “My zone was different. Marking was passed on from player to player as the attacking player moved through different zones ...” It is probable no side has ever played the zonal system so well as Sacchi’s Milan.
+#+END_QUOTE
+- Page
+
+Sacchi liked and was influenced by passing, attacking sides, (pg 306) and was focused on the aesthic, entertainment qualities of soccer:
+
+#+BEGIN_QUOTE
+    ... it was a team that had just one objective: winning. But if you want to go down in history you don’t just need to win, you have to entertain.
+
+...
+
+“Great clubs have had one thing in common throughout history, regardless of era and tactics,” he said.
+
+    They owned the pitch and they owned the ball. That means when you have the ball, you dictate play and when you are defending, you control the space.
+#+END_QUOTE
+- Page 307
+
+Agreement from Valdano, who said "“People often say results are paramount, that, ten years down the line, the only thing which will be remembered is the score, but that’s not true ... It’s about the search for perfection. We know it doesn’t exist, but it’s our obligation towards football and, maybe, towards humanity to strive towards it. That’s what we remember. That’s what’s special.” (pg 308)
+
+Sacchi was all about system:
+
+#+BEGIN_QUOTE
+“Many believe that football is about the players expressing themselves,” he said. “But that’s not the case. Or, rather, it’s not the case in and of itself. The player needs to express himself within the parameters laid out by the manager. And that’s why the manager has to fill his head with as many scenarios, tools, movements, with as much information as possible. Then the player makes decisions based on that. And it’s about being a player. Not just being skilful or being athletic. I didn’t want robots or individualists. I wanted people with the intelligence to understand me, and the spirit to put that intelligence to the service of the team. In short, I wanted people who knew how to play football.”
+
+In that, he differs from Valdano, whose romanticism is of a less pragmatic bent. “There is room for all theories, but individual expression on the pitch is something I don’t think we can give up,” Valdano said. “The brain of one manager can’t compete with the infinite possibilities of eleven thinking brains on the pitch. Ultimately, while the concept of team is very important, you need individuals to go to the next level.”
+
+For Sacchi, though, the system was the most important thing.
+#+END_QUOTE
+- Page 313
+
+"There is a sense in which his greatest triumph was persuading the great players and the great egos in his Milan squad of that." (page 314)
+
+"Pressing was the key, but there was no sense of hounding the man in possession as Dynamo Kyiv or Ajax had done."
+
+#+BEGIN_QUOTE
+Pressing is not about running and it’s not about working hard. It’s about controlling space ... That was the key: our pressing was psychological as much as physical. Our pressing was always collective. I wanted all eleven players to be in an “active” position, effecting and influencing the opposition when we did not have the ball. Every movement had to be synergistic and had to fit into the collective goal.
+#+END_QUOTE
+- Page 314
+
+Milan dropped the librero:  "It was based on a back-four who played, radically for Italy, not with a libero, but in a line—a sliding arc that was only flat when the ball was in the center of the field ... Each player was as important defensively as he was in attack. It was a side in which players and not positions were the key.” (page 315)
+
+Use of shadow play, which had been common in England but not in continental Europe. (pg 315)
+
+#+BEGIN_QUOTE
+But they are a means to an end, not an end in itself. They help you reach your goal, which is putting your talent at the service of the team, and, by doing this, making both you and the team greater. So, in situations like that, I just have to say, he’s a great footballer, but perhaps not a great player.
+#+END_QUOTE
+- Pages 316-317
+
+#+BEGIN_QUOTE
+Milan were substantially different under Capello. Although the 4–4–2 principle remained the same and although they continued to press, Capello’s Milan were far less fluid, far more defensive, often featuring an out-and-out holder like Marcel Desailly at the back of the midfield, something that was anathema to Sacchi’s doctrine of universality.
+#+END_QUOTE
+
+- Page 317
+
+*** Total Recall
+
+**** [[https://en.wikipedia.org/wiki/Louis_van_Gaal][Van Gaal]] lead Ajax back to success.
+
+Had "trinity" of core beliefs: discipline, communication, and team building. (page 321)
+
+#+BEGIN_QUOTE
+In terms of shape, Van Gaal made clear what had long been implicit in Ajax’s 4–3–3, which was that, with one of the central defenders stepping out to be a holding midfielder, it was really a 3–4–3: a back three that marked zonally, two wingers flanking a striker, and a diamond shape in midfield. “In modern football,” Van Gaal said, “the players in the middle of the back four… have really become playmakers.” They, he explained, had space, whereas the number 10, the advanced central midfielder, had become too restricted to control the tempo of the game.
+#+END_QUOTE
+- Pages 321-322
+
+#+BEGIN_QUOTE
+Giving playmaking duties to the number 4, though, meant a change of role for the player who operated behind the central striker. “The Ajax number 10,” Kormelink and Seeverens wrote, “… has to set an example by pursuing his opponent.”
+
+...
+
+In turn the duties of the center-forward changed, and Van Gaal was always quick to dismiss those who criticized strikers such as Stefan Pettersson or Ronald De Boer for their comparatively poor goals return: “They were skilled at playing one-twos and creating space for their colleagues. Because Ajax play in a small area of the field, the mobile midfielders and, in many cases, the defenders can cover the ground quickly to get in scoring positions.”
+
+Where Van Gaal’s philosophy differed from the Total Football that had emerged in the seventies, though, was that he was adamant midfielders should not run beyond their wingers to create overlaps. That was partly for defensive security, so that a missed attempt at an overlap did not expose the full-back, but also so that the winger always had space ahead of him to move into. The midfielder was there for support and to ensure that, if necessary, the ball could be switched quickly from one flank to the other.
+#+END_QUOTE
+- Page 322
+
+**** Marcello Bielsa and Argentina
+
+- Emphasized pressing rather posession in Total Football derivative. (pg 325)
+- First South American coach to try to emply Michels principles. (pg 325)
+- Influential desipt not winning much. (pg 325)
+
+#+BEGIN_QUOTE
+enormously, he worked set pieces very thoroughly and paid close attention to all details. That was the main change. Marcelo’s philosophy took place within changes taking place between two decades. The style was very practical. It was a very aggressive style, looking for every man to win his personal duel—when that happens, it shifts a match in your favour and that was how Marcelo planned games. It was adding up the sum of winning individual battles, along with controlling possession as well as always looking to go forward and attack. Of course we had to balance that with defence but that was the idiosyncrasy of Marcelo’s style.
+#+END_QUOTE
+- Page 327
+
+#+BEGIN_QUOTE
+"Where Argentinian soccer had long been divided between bilardisme and menottisme—or between the Estudiantes of 69 and the Hurácan of 73, as Bielsa put it—he found a third way. “I spent sixteen years of my life listening to them: eight to Menotti who is a coach who prioritises inspiration and eight to Bilardo who is a coach who prioritises functionality,” he said after becoming national coach in 1998. “And I tried to take the best from each.”
+#+END_QUOTE
+- Page 327
+
+#+BEGIN_QUOTE
+The drills may have been bilardista, but the basic thrust of Bielsa’s play was far more towards the menottista end of the spectrum. Bilardo saw the ideal way of playing as being with seven players to defend and three to attack; Bielsa’s approach was far, far more aggressive. “I am obsessive about attack,” he said. “When I watch videos it’s for attacking not for defending. My football, in defence, is very simple: ‘We run all the time.’ I know that it’s easier to defend than create. To run, for example, is a decision of the will, to create you need an indispensable amount of talent.”
+
+Defending for Bielsa was about proactivity; it wasn’t a question of packing men behind the ball and entering a bunker. For him the key was to win the ball back as high up the field as possible, to stifle the opposition’s attacks almost before they had begun. “While the opponent has the ball,” he explained, “the whole team presses, always trying to cut off the play as close as possible to the opponent’s goal; when we get it we look to play with dynamism and create the spaces for improvisation.”
+#+END_QUOTE
+- Page 328
+
+#+BEGIN_QUOTE
+The 3–4–3 was the basic shape but, Bielsa explained “the scheme always depended on the characteristics of our opponents.” Position and formation became secondary. As Sacchi had determined, for players to hold their positions was a reactive way of playing; with a proactive outlook, positions have value only relative to other positions; far more important are the principles by which players adopt their positions. Bielsa’s tutor in that regard was the Uruguayan Oscar Washington Tabárez, a coach whose pragmatism seems oddly incongruent with his own idealism. “Football,” Bielsa said, “rests on four fundamentals, as outlined by Oscar Tabárez: 1) defence; 2) attack; 3) how you move from defence to attack; 4) how you move form attack to defence. The issue is trying to make those passages as smooth as possible.”
+#+END_QUOTE
+- Page 331
+
+*** Ghosts and the Machine (Page 334)
+*** Pressing and Possessing (Page 363)
+*** The Post-Cruyffian World (Page 385)
+*** Epilogue (Page 405)

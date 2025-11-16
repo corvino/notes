@@ -1,0 +1,5 @@
+* Snow report APIs
+- [[https://www.myweather2.com/developer/apis.aspx?uref=f8add9ec-fe95-4001-b822-df8680e49dce][weather2]]
+- [[https://developer.weatherunlocked.com/documentation/skiresort][Weather Unlocked Ski Resort]]
+- [[http://docs.clientservice.onthesnow.com/docs/list_samples.html][OnTheSnow]]
+- [[https://www.worldweatheronline.com/developer/api/docs/ski-weather-api.aspx][World Weather Online]]

@@ -18,17 +18,45 @@ diskutil eject /dev/diskN
 *** [[https://help.ubuntu.com/lts/serverguide/index.html][Server]]
 **** [[https://help.ubuntu.com/lts/serverguide/installation.html][Installation]]
 ** Ubuntu 16.04 LTS (Xenial Xerus)
-* Upgrades
-** [[https://help.ubuntu.com/community/EoanUpgrades][EoanUpgrades]]
-** [[https://help.ubuntu.com/community/DiscoUpgrades][DiscoUpgrades]]
-** [[https://help.ubuntu.com/community/BionicUpgrades][BionicUpgrades]]
+
+* [[https://wiki.ubuntu.com/Releases][Releases]]
+** Upgrades
+- [[https://help.ubuntu.com/community/EoanUpgrades][EoanUpgrades]]
+- [[https://help.ubuntu.com/community/DiscoUpgrades][DiscoUpgrades]]
+- [[https://help.ubuntu.com/community/BionicUpgrades][BionicUpgrades]]
+
 * Server Setup
 ** Install ssh
+#+BEGIN_SRC sh
 sudo apt update
 sudo apt install openssh-server
 sudo systemctl status ssh
+#+END_SRC
+
 ** Change user password
+#+BEGIN_SRC sh
 passwd
+#+END_SRC
+
 ** Apt upgrade
+#+BEGIN_SRC sh
 sudo apt update
 sudo apt upgrade
+#+END_SRC
+
+* [[https://documentation.ubuntu.com/server/how-to/software/upgrade-your-release/index.html][Upgrade]]
+#+BEGIN_SRC sh
+sudo apt update
+sudo apt update --fix-missing
+sudo apt upgrade
+sudo do-release-upgrade
+#+END_SRC
+
+* Check release
+#+BEGIN_SRC sh
+cat /etc/lsb-release
+#+END_SRC
+
+* Install Mongo
+* Upgrade Ubuntu
+sudo apt update --fix-missing

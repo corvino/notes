@@ -9,65 +9,72 @@
 ** [[https://developer.apple.com/videos/wwdc2021][2021]]
 *** [[https://developer.apple.com/documentation/New-Technologies-WWDC21][New Technologies WWDC21]]
 Highlights of new technologies introduced at WWDC21.
+** 2022
+*** [[https://developer.apple.com/documentation/New-Technologies-WWDC22][New Technologies WWDC22]]
 * Playgrounds
 ** [[https://developer.apple.com/documentation/swift_playgrounds][Swift Playgrounds]] (Apple Developer)
 ** [[https://en.wikipedia.org/wiki/Playgrounds_(Xcode_feature)][Playgrounds]] (Wikipedia)
 ** [[https://developer.apple.com/videos/play/wwdc2018/402/][Getting the Most out of Playgrounds in Xcode]] (WWDC 2018 Video)
-* SwiftUI Tutorials
-** Chapter 1: SwiftUI Essentials
-*** [[https://developer.apple.com/tutorials/swiftui/creating-and-combining-views][Creating and Combining Views]]
-*** [[https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation][Building Lists and Navigation]]
-*** [[https://developer.apple.com/tutorials/swiftui/handling-user-input][Handling User Input]]
-**** Mark the User’s Favorite Landmarks
-**** Filter the List View
-**** Add a Control to Toggle the State
-**** Use an Observable Object for Storage
-**** Adopt the Model Object in Your Views
-**** Create a Favorite Button for Each Landmark
-** Chapter 2: Drawing and Animation
-*** [[https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes][Drawing Paths and Shapes]]
-**** Create Drawing Data for a Badge View
-**** Draw the Badge Background
-**** Draw the Badge Symbol
-**** Combine the Badge Foreground and Background
-*** [[https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions][Animating Views and Transitions]]
-**** Add Hiking Data to the App
-**** Add Animations to Individual Views
-**** Animate the Effects of State Changes
-**** Customize View Transitions
-**** Compose Animations for Complex Effects
-** Chapter 3: App Design and Layout
-*** [[https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces][Composing Complex Interfaces]]
-**** Add a Category View
-**** Create a Category List
-**** Create a Category Row
-**** Complete the Category View
-**** Add Navigation Between Sections
-*** [[https://developer.apple.com/tutorials/swiftui/working-with-ui-controls][Working with UI Controls]]
-**** Display a User Profile
-**** Add an Edit Mode
-**** Define the Profile Editor
-**** Delay Edit Propagation
-** Chapter 4: Framework Integration
-*** [[https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit][Interfacing with UIKit]]
-**** Create a View to Represent a UIPageViewController
-**** Create the View Controller’s Data Source
-**** Track the Page in a SwiftUI View’s State
-**** Add a Custom Page Control
-*** [[https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app][Creating a watchOS App]]
-**** Add a watchOS Target
-**** Share Files Between Targets
-**** Create the Detail View
-**** Add the Landmarks List
-**** Create a Custom Notification Interface
-*** [[https://developer.apple.com/tutorials/swiftui/creating-a-macos-app][Creating a macOS App]]
-**** Add a macOS Target to the Project
-**** Create a macOS Detail View
-**** Update the Row View
-**** Update the List View
-**** Add a Built-in Menu Command
-**** Add a Custom Menu Command
-**** Add Preferences with a Settings Scene
+* SwiftUI
+** Apple Articles
+- (Documentation / SwiftUI / View Fundamentals / View)
+  - [[https://developer.apple.com/documentation/swiftui/view-appearance][Appearance Modifiers]]
+    - [[https://developer.apple.com/documentation/swiftui/adding-a-background-to-your-view][Adding a Background to Your View]]
+** Tutorials
+*** Chapter 1: SwiftUI Essentials
+**** [[https://developer.apple.com/tutorials/swiftui/creating-and-combining-views][Creating and Combining Views]]
+**** [[https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation][Building Lists and Navigation]]
+**** [[https://developer.apple.com/tutorials/swiftui/handling-user-input][Handling User Input]]
+- Mark the User’s Favorite Landmarks
+- Filter the List View
+- Add a Control to Toggle the State
+- Use an Observable Object for Storage
+- Adopt the Model Object in Your Views
+- Create a Favorite Button for Each Landmark
+*** Chapter 2: Drawing and Animation
+**** [[https://developer.apple.com/tutorials/swiftui/drawing-paths-and-shapes][Drawing Paths and Shapes]]
+- Create Drawing Data for a Badge View
+- Draw the Badge Background
+- Draw the Badge Symbol
+- Combine the Badge Foreground and Background
+**** [[https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions][Animating Views and Transitions]]
+- Add Hiking Data to the App
+- Add Animations to Individual Views
+- Animate the Effects of State Changes
+- Customize View Transitions
+- Compose Animations for Complex Effects
+*** Chapter 3: App Design and Layout
+**** [[https://developer.apple.com/tutorials/swiftui/composing-complex-interfaces][Composing Complex Interfaces]]
+- Add a Category View
+- Create a Category List
+- Create a Category Row
+- Complete the Category View
+- Add Navigation Between Sections
+**** [[https://developer.apple.com/tutorials/swiftui/working-with-ui-controls][Working with UI Controls]]
+- Display a User Profile
+- Add an Edit Mode
+- Define the Profile Editor
+- Delay Edit Propagation
+*** Chapter 4: Framework Integration
+**** [[https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit][Interfacing with UIKit]]
+- Create a View to Represent a UIPageViewController
+- Create the View Controller’s Data Source
+- Track the Page in a SwiftUI View’s State
+- Add a Custom Page Control
+**** [[https://developer.apple.com/tutorials/swiftui/creating-a-watchos-app][Creating a watchOS App]]
+- Add a watchOS Target
+- Share Files Between Targets
+- Create the Detail View
+- Add the Landmarks List
+- Create a Custom Notification Interface
+**** [[https://developer.apple.com/tutorials/swiftui/creating-a-macos-app][Creating a macOS App]]
+- Add a macOS Target to the Project
+- Create a macOS Detail View
+- Update the Row View
+- Update the List View
+- Add a Built-in Menu Command
+- Add a Custom Menu Command
+- Add Preferences with a Settings Scene
 * Videos by topic
 ** async/await
 *** 2021
@@ -101,40 +108,51 @@ Highlights of new technologies introduced at WWDC21.
 [[https://developer.apple.com/videos/play/wwdc2020/10684/][Swan's Quest, Chapter 4: The sequence completes]]
 ** SwiftUI
 *** 2019
-[[https://developer.apple.com/videos/play/wwdc2019/238/][Accessibility in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2019/237/][Building Custom Views with SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2019/226/][Data Flow Through SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2019/231/][Integrating SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2019/204/][Introducing SwiftUI: Building Your First App]]
-[[https://developer.apple.com/videos/play/wwdc2019/233/][Mastering Xcode Previews]]
-[[https://developer.apple.com/videos/play/wwdc2019/216/][SwiftUI Essentials]]
-[[https://developer.apple.com/videos/play/wwdc2019/240/][SwiftUI On All Devices]]
-[[https://developer.apple.com/videos/play/wwdc2019/219/][SwiftUI on watchOS]]
+- [[https://developer.apple.com/videos/play/wwdc2019/204/][Introducing SwiftUI: Building Your First App]]
+- [[https://developer.apple.com/videos/play/wwdc2019/216/][SwiftUI Essentials]]
+- [[https://developer.apple.com/videos/play/wwdc2019/226/][Data Flow Through SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2019/237/][Building Custom Views with SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2019/231/][Integrating SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2019/238/][Accessibility in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2019/233/][Mastering Xcode Previews]]
+- [[https://developer.apple.com/videos/play/wwdc2019/240/][SwiftUI On All Devices]]
+- [[https://developer.apple.com/videos/play/wwdc2019/219/][SwiftUI on watchOS]]
 *** 2020
-[[https://developer.apple.com/videos/play/wwdc2020/10649/][Add custom views and modifiers to the Xcode Library]]
-[[https://developer.apple.com/videos/play/wwdc2020/10037/][App essentials in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2020/10643/][Build a SwiftUI view in Swift Playgrounds]]
-[[https://developer.apple.com/videos/play/wwdc2020/10039/][Build document-based apps in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2020/10048/][Build complications in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2020/10042/][Build SwiftUI apps for tvOS]]
-[[https://developer.apple.com/videos/play/wwdc2020/10033/][Build SwiftUI views for widgets]]
-[[https://developer.apple.com/videos/play/wwdc2020/10040/][Data Essentials in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2020/10119/][Introduction to SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2020/10031/][Stacks, Grids, and Outlines in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2020/10149/][Structure your app for SwiftUI previews]]
-[[https://developer.apple.com/videos/play/wwdc2020/10185/][Visually edit SwiftUI views]]
-[[https://developer.apple.com/videos/play/wwdc2020/10041/][What's new in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10649/][Add custom views and modifiers to the Xcode Library]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10037/][App essentials in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10643/][Build a SwiftUI view in Swift Playgrounds]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10039/][Build document-based apps in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10048/][Build complications in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10042/][Build SwiftUI apps for tvOS]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10033/][Build SwiftUI views for widgets]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10040/][Data Essentials in SwiftUI]] (Curt)
+- [[https://developer.apple.com/videos/play/wwdc2020/10119/][Introduction to SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10031/][Stacks, Grids, and Outlines in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10149/][Structure your app for SwiftUI previews]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10185/][Visually edit SwiftUI views]]
+- [[https://developer.apple.com/videos/play/wwdc2020/10041/][What's new in SwiftUI]]
 *** 2021
-[[https://developer.apple.com/videos/play/wwdc2021/10021/][Add rich graphics to your SwiftUI app]]
-[[https://developer.apple.com/videos/play/wwdc2021/10017/][Bring Core Data concurrency to Swift and SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2021/10176/][Craft search experiences in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2021/10022/][Demystify SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2021/10023/][Direct and reflect focus in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2021/10019/][Discover concurrency in SwiftUI]]
-[[https://developer.apple.com/videos/play/wwdc2021/10119/][SwiftUI Accessibility: Beyond the basics]]
-[[https://developer.apple.com/videos/play/wwdc2021/10062/][SwiftUI on the Mac: Build the fundamentals]]
-[[https://developer.apple.com/videos/play/wwdc2021/10289/][SwiftUI on the Mac: The finishing touches]]
-[[https://developer.apple.com/videos/play/wwdc2021/10018/][What's new in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10021/][Add rich graphics to your SwiftUI app]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10017/][Bring Core Data concurrency to Swift and SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10176/][Craft search experiences in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10022/][Demystify SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10023/][Direct and reflect focus in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10019/][Discover concurrency in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10119/][SwiftUI Accessibility: Beyond the basics]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10062/][SwiftUI on the Mac: Build the fundamentals]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10289/][SwiftUI on the Mac: The finishing touches]]
+- [[https://developer.apple.com/videos/play/wwdc2021/10018/][What's new in SwiftUI]]
+*** [[https://developer.apple.com/videos/wwdc2022/][2022]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10142/][Efficiency awaits: Background tasks in SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10136/][Hello Swift Charts]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10054/][The SwiftUI cookbook for navigation]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10075/][Use SwiftUI with AppKit]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10072/][Use SwiftUI with UIKit]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10137/][Swift Charts: Raise the bar]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10061/][Bring multiple windows to your SwiftUI app]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10056/][Compose custom layouts with SwiftUI]]
+- [[https://developer.apple.com/videos/play/wwdc2022/110343/][SwiftUI on iPad: Add toolbars, titles, and more]]
+- [[https://developer.apple.com/videos/play/wwdc2022/10058/][SwiftUI on iPad: Organize your interface]]
 ** SPM
 *** 2018
 [[https://developer.apple.com/videos/play/wwdc2018/411/][Getting to Know Swift Package Manager]]
@@ -150,31 +168,72 @@ Highlights of new technologies introduced at WWDC21.
 * SwiftUI
 ** [[https://developer.apple.com/tutorials/swiftui][Introducing SwiftUI]] (Apple Developer Tutorials)
 ** [[https://developer.apple.com/documentation/swiftui/building_a_great_mac_app_with_swiftui][Building a Great Mac App with SwiftUI]] (App from SwiftUI on the Mac)
+* Combine
+- [[https://heckj.github.io/swiftui-notes/][Using Combine]]
+- [[https://www.apeth.com/UnderstandingCombine/start.html][Understanding Combine]]
 * Timeline
 ** Unified
+*** 2005
+- macOS 10.4 Tiger (April 29)
+*** 2007
+- macOS 10.5 Leopard (October 26)
+- iOS 1
+*** 2008
+- iOS 2
+*** 2009
+- macOS 10.6 Snow Leopard (August 28)
+- iOS 3
+*** 2010
+- iOS 4
+*** 2011
+- macOS 10.7 Lion (July 20)
+- iOS 5
+*** 2012
+- macOS 10.8 Mountain Lion (July 25)
+- iOS 6
+*** 2013
+- macOS 10.9 Mavericks (October 22)
+- iOS 7
 *** 2014
-[[https://en.wikipedia.org/wiki/Swift_(programming_language)][Swift]] introduced (WWDC, June 2)
-[[https://en.wikipedia.org/wiki/Playgrounds_(Xcode_feature)][Playgrounds]] introduced (WWDC)
+- macOS 10.10 Yosemite (October 16)
+- iOS 8
+- [[https://en.wikipedia.org/wiki/Swift_(programming_language)][Swift]] introduced (WWDC, June 2)
+- [[https://en.wikipedia.org/wiki/Playgrounds_(Xcode_feature)][Playgrounds]] introduced (WWDC)
 *** 2015
+- macOS 10.11 El Capitan
+- iOS 9
 *** 2016
-Swift Playgrounds released (September)
+- macOS 10.12 Sierra
+- iOS 10
+- Swift Playgrounds released (September)
 *** 2017
+- macOS 10.13 High Sierra
+- iOS 11
 *** 2018
+- macOS 10.14 Mojave
+- iOS 12
 *** 2019
-**** WWDC
-Xcode 11
-SwiftUI
+- macOS 10.15 Catalina
+- iOS 13 / iPadOS 13
+- Xcode 11
+- SwiftUI
 *** 2020
+- macOS 11 Big Sur
+- iOS 14 / iPadOS 14
 *** 2021
-**** WWDC
-Xcode 13
-async/await/actors (5.5)
+- macOS 12 Monterey
+- iOS 15 / iPadOS 15
+- Xcode 13
+- async/await/actors (5.5)
+*** 2022
+- macOS 13 Ventura
+- iOS 16 / iPad OS 16
 ** SPM ([[https://github.com/apple/swift-package-manager/blob/main/CHANGELOG.md][Changelog]])
 *** 2018, Introduced at WWDC
 *** 2019, Packages in Xcode
 * SwiftUI
-[[https://swiftontap.com][SwiftOnTap]]
-[[https://apps.apple.com/us/app/a-companion-for-swiftui/id1485436674?mt=12][‎A Companion for SwiftUI]]
+- [[https://swiftontap.com][SwiftOnTap]]
+- [[https://apps.apple.com/us/app/a-companion-for-swiftui/id1485436674?mt=12][‎A Companion for SwiftUI]]
 * Investigations
 ** Document Managed SwiftUI
 *** Apple Docs
@@ -333,6 +392,10 @@ sudo rm -rf /Library/Caches/com.apple.iconservices.store
 Found in [[https://discussions.apple.com/thread/7859795][Correct icon not showing in the dock]].
 
 830/1024 = 81% of icon size rounded-square
+* Date/Time
+- [[https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DatesAndTimes/DatesAndTimes.html#//apple_ref/doc/uid/10000039i][Apple: About Dates and Times]]
+- [[https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DataFormatting/Articles/dfDateFormatting10_4.html#//apple_ref/doc/uid/TP40002369-SW4][Apple: Date Formatters]]
+- [[https://www.unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns][unicode: Date Format Patterns]]
 * Building windows in code
 #+BEGIN_SRC swift
     @IBAction func showPageSource(_ sender: Any) {
@@ -391,3 +454,9 @@ Found in [[https://discussions.apple.com/thread/7859795][Correct icon not showin
 #+END_SRC
 
 
+* Build systems
+- [[https://gyp.gsrc.io][GYP]]
+- [[https://buck.build][Buck]]
+- [[https://github.com/yonaskolb/XcodeGen][XcodeGen]]
+* Apple Account
+[[https://developer.apple.com/support/app-account/][Enrolling and Verifying Your Identity with the Apple Developer App]]

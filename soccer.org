@@ -1,0 +1,49 @@
+* ESPN Pages
+- [[https://www.espn.com/soccer/team/_/id/660/united-states][USA Page]]
+- [[https://www.espn.com/soccer/team/_/id/364/liverpool][Liverpool page]]
+* US Players
+| NAME                   | POS | AGE | HT    | WT      | Club                     |
+| Sean Johnson           | G   |  33 | 6'3"  | 214 lbs | NYC FC                   |
+| Ethan Horvath          | G   |  27 | 6'4"  | 183 lbs | Luton Town               |
+| Matt Turner            | G   |  28 | 6'3"  | 172 lbs | Arsenal                  |
+| Walker Zimmerman       | D   |  29 | 6'3"  | 194 lbs | Nashville SC             |
+| DeAndre Yedlin         | D   |  29 | 5'8"  | 163 lbs | Inter Miami CF           |
+| Erik Palmer-Brown      | D   |  25 | 6'2"  | 192 lbs | Troyes                   |
+| Aaron Long             | D   |  29 | 6'1"  | 172 lbs | New York Red Bulls       |
+| Cameron Carter-Vickers | D   |  24 | 6'0"  | 203 lbs | Celtic                   |
+| Antonee Robinson       | D   |  25 | 6'0"  | 152 lbs | Fulham                   |
+| Reggie Cannon          | D   |  24 | 5'11" | 161 lbs | FC Dallas                |
+| George Bello           | D   |  20 | 5'8"  | 163 lbs | Arminia Bielefeld        |
+| Joe Scally             | D   |  19 | 6'0"  | 174 lbs | Borussia Mönchengladbach |
+| Mark McKenzie          | D   |     |       |         | KRC Genk                 |
+| Sam Vines              | D   |     |       |         | Royal Antwerp            |
+| Kobi Henry             | D   |  18 | 6'2"  | 170 lbs | Reims                    |
+| Kellyn Acosta          | M   |  27 | 5'10" | 150 lbs | LAFC                     |
+| Paul Arriola           | M   |  27 | 5'6"  | 146 lbs | FC Dallas                |
+| Cristian Roldan        | M   |  27 | 5'8"  | 163 lbs | Seattle Sounders FC      |
+| Tyler Adams            | M   |  23 | 5'9"  | 159 lbs | Leeds                    |
+| Christian Pulisic      | M   |  24 | 5'8"  | 150 lbs | Chelsea                  |
+| Luca de la Torre       | M   |  24 | 5'10" | 148 lbs | Celta de Vigo            |
+| Weston McKennie        | M   |  24 | 6'1"  | 183 lbs | Juventas                 |
+| Brenden Aaronson       | M   |  21 | 5'10" | 152 lbs | Leeds                    |
+| Yunus Musah            | M   |  19 | 5'10" | 163 lbs | Valencia                 |
+| Johnny Cardoso         | M   |     |       |         | Internacional            |
+| Jordan Morris          | F   |  27 | 6'0"  | 183 lbs | Seattle Sounders FC      |
+| Haji Wright            | F   |  24 | 6'4"  | 174 lbs | Antalyaspor              |
+| Jesús Ferreira         | F   |  21 | 5'9"  | 150 lbs | FC Dallas                |
+| Timothy Weah           | F   |  22 | 6'1"  | 146 lbs | Lille                    |
+| Malik Tillman          | F   |  20 | 6'2"  | 157 lbs | Rangers                  |
+| Paul Arriola           | F   |     |       |         | FC Dallas                |
+| Ricardo Pepi           | F   |     |       |         | Groningen                |
+| Giovanni Reyna         | F   |     |       |         | Borussia Dortmund        |
+| Josh Sargeant          | F   |     |       |         | Norwich City             |
+| Sergio Dest            | D   |     |       |         | AC Milan                 |
+* Kids Camps
+- [[https://www.soundersfc.com/camps/][Sounders]]
+- [[https://www.uksoccer.com][UK Soccer]]
+- [[https://camps.fcbarcelona.us/dates-locations/][Barca Academy]]
+- [[https://www.psgacademyusacamp.com/soccer-camp-in-seattle/][PSG]]
+- [[https://www.ussportscamps.com/soccer/nike/nike-soccer-camp-seattle-university][Nike at SU]]
+* Data
+- [[https://datahub.io/collections/football][Datahub Football Data]]
+- [[https://www.jokecamp.com/blog/guide-to-football-and-soccer-data-and-apis/#CrowdScores][Joe Kampschmidt's Guide to Football/Soccer data and APIs]]

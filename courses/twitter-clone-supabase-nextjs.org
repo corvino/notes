@@ -1,0 +1,5 @@
+[[https://egghead.io/courses/build-a-twitter-clone-with-the-next-js-app-router-and-supabase-19bebadb][Build a Twitter Clone with the Next.js App Router and Supabase]] on egghead.io
+
+- [[https://egghead.io/lessons/postgresql-create-a-new-supabase-project-and-basic-postgresql-schema][Create a New Supabase Project and Basic PostgreSQL Schema]]
+
+[[https://egghead.io/courses/getting-started-with-supabase-local-dev-507b8f95][Getting Started with Supabase Local Dev]]

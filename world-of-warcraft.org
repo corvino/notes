@@ -1,0 +1,166 @@
+- Characters
+  - Yarma (Hunter) Mining/Engineering
+  - Lyanna (Demon Hunter) ?/?
+  - Saffiya (Druid) ?/?
+
+* [[https://en.wikipedia.org/wiki/Category:World_of_Warcraft_expansion_packs][Expansions]]
+
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_The_Burning_Crusade][The Burning Crusade]] (2007)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Wrath_of_the_Lich_King][Wrath of the Lich King]] (2008)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Cataclysm][Cataclysm]] (2009)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Mists_of_Pandaria][Mists of Pandaria]] (2011)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Warlords_of_Draenor][Warlords of Draenor]] (2014)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Legion][Legion]] (2015)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Battle_for_Azeroth][Battle for Azeroth]] (2018)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Shadowlands][Shadowlands]] (2020)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_Dragonflight][Dragonflight]] (2022)
+- [[https://en.wikipedia.org/wiki/World_of_Warcraft:_The_War_Within][The War Within]] (2023)
+
+* Cities
+
+- [[https://wowpedia.fandom.com/wiki/Stormwind_City][Stormwind City]]
+  - [[https://static.wikia.nocookie.net/wowpedia/images/a/af/WorldMap-StormwindCity.jpg/revision/latest?cb=20180117171550][Map]]
+- [[https://wowpedia.fandom.com/wiki/Stratholme][Stratholme]]
+
+* [[https://worldofwarcraft.blizzard.com/en-us/game/classes][Classes]]
+  - Warrior :: Tank, Damage
+  - Paladin :: Tank, Healer, Damage
+  - Hunter :: Damage
+  - Rogue :: Damage
+  - Priest :: Healer, Damage
+  - Shaman :: Healer, Damage
+  - Mage :: Damage
+  - Warlock :: Damage
+  - Monk :: Tank, Healer, Damage
+  - Druid :: Tank, Healer, Damage
+  - Demon Hunter :: Tank, Damage
+  - Death Knight :: Tank, Damage
+  - Evoker :: Healer, Damage
+
+** Priest
+
+- [[https://www.wowhead.com/guide/classes/priest/discipline/overview-pve-healer][Discipline Priest Healer Guide]]
+- [[https://www.wowhead.com/guide/classes/priest/holy/overview-pve-healer][Holy Priest Healer Guide]]
+
+** Hunter
+*** Beast Mastery
+
+- [[https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-spec-builds-pet-talents][Beast Mastery Hunter DPS Spec]]
+
+* [[https://wowpedia.fandom.com/wiki/Profession][Profession]]
+** Tailoring
+
+*** Guides
+- [[https://www.wow-professions.com/classic/tailoring-leveling-guide-classic-wow][Classic WoW Tailoring Leveling Guide 1-300]]
+- [[https://www.elitepvpers.com/forum/wow-guides-templates/35228-level-enchanting-tailoring-same-time-eng.html][Level Enchanting/Tailoring at the Same Time]]
+- [[https://www.mmo-champion.com/threads/1073989-level-enchanting-and-tailoring-fast][level enchanting and tailoring fast]]
+- [[https://www.wowhead.com/guide/shadowlands-tailoring-profession][Shadowlands 1-100 Tailoring Profession and Leveling Guide]]
+- [[https://www.wow-professions.com/guides/shadowlands-tailoring-leveling-guide][Shadowlands Tailoring Leveling Guide 1 - 100]]
+- [[https://www.wowhead.com/guide/professions/tailoring/leveling-dragonflight][Dragonflight Tailoring Leveling 1-100 Guide]]
+- [[https://www.wow-professions.com/guides/dragon-isles-tailoring-leveling-guide-dragonflight][Dragon Isles Tailoring Leveling Guide 1-100 (Dragonflight)]]
+- [[https://www.wowhead.com/guide/the-war-within/professions/tailoring-leveling][The War Within Tailoring Leveling 1 - 100 Guide]]
+
+*** Cloth Farming
+- Wool: Stockades
+- Silk: Scarlet Monastarey
+- Mageweave: Zul'Farrak
+- Runecloth: [[https://www.wow-professions.com/farming/runecloth-farming][Farming]] Blackrock Depths, Searing Gorge, Eastern Kingdoms
+- Netherweave: [[https://www.wow-professions.com/farming/netherweave-cloth-farming][Farming]] Mana-Tombs, Terokkar Forest, Outlands
+- Frostweave: [[https://www.reddit.com/r/wotlk/comments/y6bhna/endless_frostweave_farming_wotlk/][Farming]]/[[https://www.wow-professions.com/farming/frostweave-cloth-farming][Farming]] Sholazar Basin, Naxxramas
+- Wildercloth (Dragon Flight): [[https://www.wow-professions.com/farming/wildercloth-farming][Farming]] Azure Span
+- Weavercloth/Duskweave (War Within):
+
+Classic professions can be obtained at Level 5.
+
+*** Bags
+
+**** [[https://wowpedia.fandom.com/wiki/Bag][Bag]]
+| [[https://www.wowhead.com/item=222853/weavercloth-bag][Weavercloth Bag]]            | 34 | Khaz Algar   | 8x Equisiste Weavercloth Bolt, 5x Mosswood Thread |
+| [[https://www.wowhead.com/item=194018/azureweave-expedition-pack][Azureweave Expedition Pack]] | 34 | Dragon Isles | 3x Azureweave Bolt, 5x Spool of Wilderthread      |
+| [[https://www.wowhead.com/spell=376528/wildercloth-bag][Wildercloth Bag]]            | 32 | Dragon Isles | 12x Wildercloth Bolt, 4x Spool of Wilderthread    |
+| [[https://www.wowhead.com/spell=345986/lightless-silk-pouch][Lightless Silk Pouch]]       | 32 | Shadowlands  | 15x Lightless Silk, 25x Penumbra Thread           |
+| [[https://www.wowhead.com/spell=345985/shrouded-cloth-bag][Shrouded Cloth Bag]]         | 30 | Shadowlands  | 20x Shrouded Cloth, 15x Penumbra Thread           |
+**** [[https://wowpedia.fandom.com/wiki/Reagent_bag][Reagent bag]] ([[Storm-Battered Reagent Bag][Storm-Battered Reagent Bag]] is sold in Stormwind)
+
+** Guides
+
+- [[https://www.wow-professions.com/classic/enchanting-leveling-guide-classic-wow][Classic WoW Enchanting Leveling Guide 1-300]]
+
+- [[https://www.icy-veins.com/wow/professions-tailoring][Tailoring Guide for The War Within]]
+- [[https://www.wow-professions.com/guides/wow-tailoring-leveling-guide][TWW Tailoring Leveling Guide 1 - 100]]
+
+- [[https://www.icy-veins.com/wow/healing-guide][Healing Guide (The War Within 11.0.7)]]
+
+* Hunter: Beast Mastery
+
+
+
+* Discipline Priest
+
+- [[https://www.wowhead.com/guide/classes/priest/discipline/talent-builds-pve-healer][Best Discipline Priest Talent Tree Builds]] (Questing and Delves)
+- [[https://www.icy-veins.com/wow/discipline-priest-leveling-guide][Discipline Priest Leveling Guide from 1 to 80 — The War Within (11.0.7)]]
+
+* Guardian Druid
+
+[[https://www.wowhead.com/guide/classes/druid/guardian/overview-pve-tank#:~:text=Guardian%20Druid%20is%20a%20shape,%2Dhealing%2C%20and%20high%20mobility.][Guardian Druid Tank Guide - The War Within 11.0.7]]
+
+* Mounts
+
+** Venor Mounts
+- [[https://www.wowhead.com/wotlk/item=44234/reins-of-the-travelers-tundra-mammoth][Reins of the Traveler's Tundra Mammoth]], sold by [[https://www.wowhead.com/wotlk/npc=32216/mei-francis][Mei Francis]]
+  - ([[https://wowwiki-archive.fandom.com/wiki/Faction_discount][Faction disctount]], [[https://www.wowhead.com/wotlk/guide/kirin-tor-reputation-rewards#:~:text=Lich%20King%20Classic.-,Building%20reputation%20with%20Kirin%20Tor%20is%20primarily%20achieved%20through%20a,select%20normal%20level%2080%20dungeons.][Kirin Tor faction]])
+- [[https://www.wowhead.com/item=84101/reins-of-the-grand-expedition-yak][Reins of the Grand Expedition Yak]]
+- [[https://www.wowhead.com/item=163042/reins-of-the-mighty-caravan-brutosaur][Reins of the Mighty Caravan Brutosaur]]
+- [[https://www.reddit.com/r/wownoob/comments/k0bo44/where_can_i_get_a_vendor_mount_new_to_retail_wow/][reddit thread]]
+
+* Kir Tirin
+
+- [[https://www.wowhead.com/wotlk/guide/kirin-tor-reputation-rewards][Kirin Tor Reputation Guide for Wrath of the Lich King Classic]]
+- [[https://www.icy-veins.com/wotlk-classic/kirin-tor-reputation-and-rewards-guide][Kirin Tor Reputation and Rewards Guide]]
+- [[https://www.wowhead.com/guide/the-ultimate-reputation-guide-10726][The Ultimate Reputation Guide]]
+- [[https://wowpedia.fandom.com/wiki/Tabard][Tabard]]
+
+** Daily Quests
+
+[[https://www.wowhead.com/wotlk/guide/professions/cooking/daily-quests][Cooking Daily Quests]]
+Katherine Lee, Dalaran, A Hero's Welcome Inn, Dalaran, /way 39.8 66.6
+Entrances on the east and west of the southeast building of The Silver Enclave.
+
+- [[https://www.wowhead.com/wotlk/quest=13100/infused-mushroom-meatloaf][Infused Mushroom Meatloaf]]
+- [[https://wowpedia.fandom.com/wiki/Sewer_Stew][Sewer Stew]]
+  - [[https://wowpedia.fandom.com/wiki/Crystalsong_Carrot][Crystalsong Carrot]] (underneath Dalaran)
+  - [[https://www.wowhead.com/wotlk/item=43013/chilled-meat#comments][Chilled Meat]] : Avoid mammoths; try [[https://www.wowhead.com/wotlk/npc=28098/hardknuckle-forager][Hardknuckle Forager]]
+- [[https://www.wowhead.com/wotlk/quest=13113/convention-at-the-legerdemain][Convention at the Legerdemain]]
+- [[https://www.wowhead.com/wotlk/quest=13103/cheese-for-glowergold][Cheese for Glowergold]]
+- [[https://www.wowhead.com/wotlk/quest=13833/blood-is-thicker][Blood Is Thicker]]
+
+[[https://www.wowhead.com/wotlk/guide/professions/fishing/overview#fishing-dailies][Fishing Dailies]]
+Dalaran fishing trainer Marcia Chase near the fountain, /way 52.87 65.13
+
+- [[https://www.wowhead.com/wotlk/quest=13830/the-ghostfish][The Ghostfish]]
+- [[https://wowpedia.fandom.com/wiki/Jewel_Of_The_Sewers][Jewel of the Sewers]]
+- [[https://www.wowhead.com/wotlk/quest=13834/dangerously-delicious][Dangerously Delicious]]
+- [[https://www.wowhead.com/wotlk/quest=13836/disarmed][Disarmed!]]
+
+[[https://wowpedia.fandom.com/wiki/Endorah][Endorah]] for [[https://wowpedia.fandom.com/wiki/Too_Close_For_Comfort][Too Close For Comfort]] (horde)
+
+- [[https://www.wowhead.com/wotlk/quest=11995/your-presence-is-required-at-stars-rest][Your Presence is Required at Stars' Rest]]
+- [[https://www.wowhead.com/wotlk/quest=11587/prison-break][Prison Break]]
+- [[https://www.wowhead.com/wotlk/quest=12794/the-magical-kingdom-of-dalaran][The Magical Kingdom of Dalaran]]
+
+There are no longer [[https://wowpedia.fandom.com/wiki/Archmage_Timear][dungeon quests]].
+
+* Portals
+
+- Dalaran to Stormwind (Silver Enclave) (/way 37.92 62.31)
+- Stormwind to Dalaran (first right, first left)
+- Stormwind to Azsuna
+- Stormwind to Oribos
+- Stormwind to Boralus
+- Stormwind to Stormshield, Ashran
+- Stormwind to Jade Forest
+- Stormwind to Shattrath
+- Stormwind to Caverns of Time
+- Stormwind to Exodar
+- Stormwind to Bel'ameth
+- 

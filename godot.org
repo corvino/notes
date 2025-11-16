@@ -1,0 +1,31 @@
+** Using VSCode
+
+- [[https://docs.godotengine.org/en/stable/tutorials/editor/external_editor.html][Using an external text editor]] from Godot docs
+
+** Learning
+
+- [[https://academy.zenva.com/course/humble-bundle-game-dev-2024-tier-3/][Humble Bundle - Game Dev 2024 - Tier 3]]
+- [[https://academy.zenva.com/course/humble-bundle-complete-godot-2025-tier-3/][Humble Bundle - Complete Godot 2025 - Tier 3]]
+
+*** Courses (Game Humble Bundle)
+
+- [[https://academy.zenva.com/course/godot-4-101-game-engine-foundations/][Godot 101 – Game Engine Foundations]]
+- [[https://academy.zenva.com/course/godot-mobile-game/][Mobile Game Development with Godot]]
+- [[https://academy.zenva.com/course/godot-2d-arcade-game/][Build a Complete, Fully-Fledged 2D Game with Godot]]
+- [[https://academy.zenva.com/course/godot-walking-sim/][Build a Walking Simulator with Godot 4]]
+- [[https://academy.zenva.com/course/godot-ai-state-machine/][Make an AI State Machine in Godot 4]]
+- [[https://academy.zenva.com/course/godot-horror-game/][Create a Horror Game in Godot 4]]
+- [[https://academy.zenva.com/course/godot-tower-defense/][Build a Tower Defense Game in Godot 4]]
+- [[https://academy.zenva.com/course/godot-bullet-hell/][Develop a Bullet Hell in Godot 4]]
+- [[https://academy.zenva.com/course/godot-metroidvania/][Make a Metroidvania in Godot 4]]
+- [[https://academy.zenva.com/course/godot-procedural-generation/][Discover Procedural Generation in Godot 4]]
+- [[https://academy.zenva.com/course/godot-csharp-puzzle-game/][Build a Complete Puzzle Game with Godot and C#]]
+
+** Shortcuts
+
+- [[https://academy.zenva.com/lesson/basic-godot-shortcuts662a2020e2df0/?zva_less_compl=3272668][Basic Editor Shortcuts]]
+- [[https://docs.godotengine.org/en/stable/tutorials/editor/default_key_mapping.html][Default editor shortcuts]]
+
+** Courses Started/Finished
+
+- [[https://www.gamedev.tv/courses/godot-2d-action-adventure/welcome-to-the-course/7671][Godot 4: Build a 2D Action-Adventure Game]]
