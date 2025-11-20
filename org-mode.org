@@ -1,29 +1,31 @@
-* References
-- [[https://orgmode.org][Org Mode]]
-  - [[https://orgmode.org/quickstart.html][quikcstart]]
-  - [[https://orgmode.org/manual/index.html][manual]]
-  - [[https://orgmode.org/guide/index.html][guide]]
-- [[https://www.gnu.org/software/emacs/manual/html_mono/calc.html][Calc]]
-* Formatting
-- **​bold**
+* [[https://orgmode.org][org-mode]]
+** Docs
+  - [[https://orgmode.org/quickstart.html][Getting started with Org-mode]]
+  - [[https://orgmode.org/manual/index.html][The Org Manual]]
+  - [[https://orgmode.org/guide/index.html][Org Mode Compact Guide]]
+  - [[https://www.gnu.org/software/emacs/manual/html_mono/calc.html][The GNU Emacs Calculator (Calc)]]
+** Formatting
+[[https://orgmode.org/manual/Emphasis-and-Monospace.html][Markup for Rich Contents: Emphasis and Monospace (12.2)]]
+
+- **​Bold**
 - //​italic//
 - __​underlined__
 - ==​verbatim==
 - ~~​code~~
 - ++​strike-through++
+
+[[https://orgmode.org/manual/Escape-Character.html][Miscellaneous: Escape Character (17.12)]]
+
 - /C-x 8 <RET> 200B <RET>/
 
-*** Reference
-- [[https://orgmode.org/manual/Emphasis-and-Monospace.html][12.2 Emphasis and Monospace]]
-- [[https://orgmode.org/manual/Escape-Character.html][17.12 Escape Character]]
-* [[https://orgmode.org/guide/Tables.html][Tables]]
-** Re-aligning and field motion
+** [[https://orgmode.org/guide/Tables.html][Tables]]
+*** Re-aligning and field motion
 | C-c C-c   | Re-align the table without moving point                                       |
 | TAB       | Re-align the table, move to the next field. Creates a new row if necessary.   |
 | S-TAB     | Re-align, move to previous field.                                             |
 | RET       | Re-align the table and move down to next row. Creates a new row if necessary. |
 | S-<ARROW> | Move a cell up, down, left, and right by swapping with adjacent cell          |
-** Column and row editing
+*** Column and row editing
 | M-LEFT, M-RIGHT | Move the current column left/right                                |
 | M-S-LEFT        | Kill the current column                                           |
 | M-S-RIGHT       | Insert a new column to the left of point position                 |
@@ -32,14 +34,14 @@
 | M-S-DOWN        | Insert a new row above the current row                            |
 | ""              | With a prefix argument, the line is created below the current one |
 
-* Spreadsheets
-** [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Org as a spreadsheet system: a short introduction]]
-** [[https://orgmode.org/manual/Updating-the-table.html][Updating the table]]
+** Spreadsheets
+*** [[https://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Org as a spreadsheet system: a short introduction]]
+*** [[https://orgmode.org/manual/Updating-the-table.html][Updating the table]]
 org-table-recalculate
-*** On formula, c-u c-c c-c
-** Formulas
-*** elisp
-**** Filter and total a column
+**** On formula, c-u c-c c-c
+*** Formulas
+**** elisp
+***** Filter and total a column
 This will count the cells in a column that contain the the specified string (✓).
 
 #+BEGIN_SRC org-mode
@@ -57,41 +59,41 @@ This will count the cells in each column in a range that contains the specified 
 #+BEGIN_SRC org-mode
 #+TBLFM: @12$2..@12$9='(length (seq-filter (apply-partially 'string= "✓") (list @2..@11)))
 #+END_SRC
-* [[https://orgmode.org/manual/Exporting.html][Exporting]]
+** [[https://orgmode.org/manual/Exporting.html][Exporting]]
 Convert and export documents to a variety of other formats.
 
-** Commands
+*** Commands
 - /C-c C-e [[https://orgmode.org/manual/The-Export-Dispatcher.html][(org-export)]]/ :: Bring up export interface
 - /C-c C-e h h ([[https://orgmode.org/manual/HTML-export-commands.html][org-html-export-to-html]])/ ::
 
-** [[https://orgmode.org/manual/Export-Settings.html][Export Settings]]
+*** [[https://orgmode.org/manual/Export-Settings.html][Export Settings]]
 Export settings, which includes options for the publishing options shown below.
-** HTML Options
-*** Disable postamble, section numbers, and table of contents
+*** HTML Options
+**** Disable postamble, section numbers, and table of contents
 #+OPTIONS: html-postamble:nil num:nil toc:nil
-*** Disable All postamble
+**** Disable All postamble
 #+OPTIONS: html-postamble:nil
-*** Finer grained control
+**** Finer grained control
 #+OPTIONS: author:nil email:nil creator:nil timestamp:nil
 (setq org-export-html-validation-link nil)
 ;; post v8:
 (setq org-html-validation-link nil)
-** HTML Variables
+*** HTML Variables
 - org-html-htmlize-output-type :: Output type to be used by htmlize when formatting code snippets (‘css’, ‘inline-css’, or ‘nil’)
 - org-org-htmlized-css-url :: URL pointing to the CSS defining colors for htmlized Emacs buffers
-** cli
-*** References
+*** cli
+**** References
 - -l file, --load=file :: Load the lisp code in the file file.
 - --eval=expr, --execute=expr :: Evaluate the Lisp expression expr.
 - -f function, --funcall=function :: Execute the lisp function function.
-*** Examples
+**** Examples
 #+BEGIN_SRC shell
 SCRIPT=~/code/monocle/Monocle/org-html.el
 emacs -l $SCRIPT test.org --batch --eval "(org-to-html)"
 emacs -l $SCRIPT test.org --batch -f org-to-html
 emacs -nw -l $SCRIPT -f org-to-html -f kill-emacs
 #+END_SRC
-** htmlize/css
+*** htmlize/css
 org-org-htmlized-css-url is a variable defined in ‘ox-org.el’.
 Its value is nil
 
@@ -108,12 +110,12 @@ work on the same website.  When this variable is non-nil,
 creating an htmlized version of an Org buffer using
 ‘org-org-export-as-org’ will include a link to this URL if the
 setting of ‘org-html-htmlize-output-type’ is ‘css’.
-* [[https://orgmode.org/manual/Publishing.html][Publishing]]
+** [[https://orgmode.org/manual/Publishing.html][Publishing]]
 Automatic HTML conversion of projects composed of interlinked Org files.
 
-** [[https://orgmode.org/manual/Publishing-options.html][Publishing Options]]
+*** [[https://orgmode.org/manual/Publishing-options.html][Publishing Options]]
 Shows all properties that can be set for export, and their corresponding user variables in org.
-* Tables, Formulas, and Code Blocks, Oh My!
+** Tables, Formulas, and Code Blocks, Oh My!
 - /C-u C-c C-c/ recompute table :: See [[https://orgmode.org/manual/Updating-the-table.html][Updating the table]]
 - /C-c C-c/ execute code block :: See [[https://orgmode.org/manual/Evaluating-Code-Blocks.html][Evaluating Code Blocks]]
 - [[https://orgmode.org/manual/Environment-of-a-Code-Block.html][Environment of a Code Block]]
@@ -124,15 +126,15 @@ Shows all properties that can be set for export, and their corresponding user va
   - Handling
     - :results output replace :: (default) replace results
     - :results none :: do nothing with results
-* * Meta Info
+** * Meta Info
 Mimetype is 'text/x-org'; see [[https://lists.gnu.org/archive/html/emacs-orgmode/2017-06/msg00396.html][Re: [O] mimetype for orgmode files]]
-* Apps
+** Apps
 [[https://github.com/amake/orgro][orgro]] (iOS, Android)
-* CSS
+** CSS
 - [[https://github.com/gongzhitaao/orgcss][gongzhitaao / orgcss]]
-* iTerm
+** iTerm
 Why can't you use and iterm2:// url scheme to open a tab at a directory? See [[https://gitlab.com/gnachman/iterm2/-/commit/c9c53fa5177ef3f2f5055bd51d49f8e63d10e4de][this commit]] and [[https://gitlab.com/gnachman/iterm2/-/issues/4598][this discussion]].
-* Custom styles for export
+** Custom styles for export
 - [[https://www.gnu.org/software/emacs/manual/html_node/org/HTML-Export.html][HTML Export]]
   - [[https://www.gnu.org/software/emacs/manual/html_node/org/Images-in-HTML-export.html][Images in HTML export]]
 - StackOverflow

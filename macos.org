@@ -1,19 +1,33 @@
-* Install Xcode
-* Install homebrew
-* Install packages
-** Websites
+* macOS (or how to bootstrap a new Apple desktop)
+
+** Name Computer
+- Settings->General->Name
+
+** Install Xcode
+#+BEGIN_SRC sh
+  sudo xcdoe-select -s /Application/Xcode-<version>
+  sudo xcodebuild -license
+  sudo xcode-select --install # or homebrew will do this
+#+END_SRC
+
+** Install and Setup  [[https://brew.sh][homebrew]]
+*** Install packages
+- [[https://formulae.brew.sh/cask/1password][1password]] :: Password manager that keeps all passwords secure behind one password
 - [[https://formulae.brew.sh/cask/1password-cli][1password-cli]] :: Command-line interface for 1Password
-- [[https://formulae.brew.sh/formula/ansible][ansible]] ::Automate deployment, configuration, and upgrading
+- [[https://formulae.brew.sh/formula/ansible][ansible]] :: Automate deployment, configuration, and upgrading
 - [[https://formulae.brew.sh/cask/emacs-app][emacs-app]] :: Text editor
+- [[https://formulae.brew.sh/cask/iterm2][iterm2]] :: Terminal emulator as alternative to Apple's Terminal app
 - [[https://formulae.brew.sh/cask/syncthing-app][syncthing-app]] :: Real time file synchronisation software
 - [[https://formulae.brew.sh/formula/terraform][terraform]] :: Tool to build, change, and version infrastructure
 - [[https://formulae.brew.sh/cask/ungoogled-chromium][ungoogled-chromium]] :: Google Chromium, sans integration with Google
+- [[https://formulae.brew.sh/cask/visual-studio-code][visual-studio-code]] :: Open-source code editor
 
 #+BEGIN_SRC sh
-  brew update & brew install ansible terraform & brew install --cask 1password-cli emacs-app syncthing-app ungoogled-chromium
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+  brew update & brew install ansible terraform & brew install --cask 1password-cli emacs-app iterm2 syncthing-app ungoogled-chromium
 #+END_SRC
 
-** Optional
+*** Optional Packages
 - [[android-platform-tools][android-platform-tools]] :: Android SDK Platform-Tools
 - [[https://formulae.brew.sh/formula/appium][appium]] :: Automation for Apps
 - [[https://formulae.brew.sh/cask/appium-desktop][appium-desktop]] :: Graphical frontend to Appium automation server
@@ -23,21 +37,31 @@
 - [[https://formulae.brew.sh/cask/ngrok][ngrok]] :: Reverse proxy, secure introspectable tunnels to localhost
 - [[https://formulae.brew.sh/cask/sage][sage]] :: Mathematics software system
 - [[https://formulae.brew.sh/cask/smlnj][smlnj]] :: Compiler for the Standard ML '97 programming language
-- [[https://formulae.brew.sh/cask/virtualbox][virtualbox]] :: Virtualiser for arm64 hardware]
+- [[https://formulae.brew.sh/cask/virtualbox][virtualbox]] :: Virtualiser for arm64 hardware
 
-* Install [[https://1password.com/downloads/mac/][1Password]]
-* Setup [[https://syncthing.net][Syncthing]]
+** Setup [[https://syncthing.net][Syncthing]]
+
+This is important to bring over notes!
 
 - Open Web Interface
 - Goto GUI tab
 - Set HTTPS, user, and password
+- Exchange device ids to create a peer-to-peer paring; this can be done from either end
+- Select folders to sync and map them to the local filesystem
 
+*** References
 - [[https://docs.syncthing.net/users/config.html][Syncthing Configuration]]
 - [[https://docs.syncthing.net/users/contrib.html][Community Contributions]]
-  - [[https://www.myqnap.org/product/syncthing/][Syncthing]]
-- [[https://forum.syncthing.net/t/syncthing-for-qnap/13436][
+- [[https://www.myqnap.org/product/syncthing/][Syncthing]]
+- [[https://docs.syncthing.net/users/untrusted.html][untrusted]]
 
-[[https://docs.syncthing.net/users/faq.html#how-do-i-reset-the-gui-password][Reset GUI password]]
+- [[https://forum.syncthing.net/t/syncthing-for-qnap/13436][Syncthing Forums: Syncthing for QNAP]]
+- [[https://docs.syncthing.net/users/faq.html#how-do-i-reset-the-gui-password][Syncthing Docs: Reset GUI password]]
+
+*** cli Setup (Incomplete)
+
+It is not clear whether the cli is still advisable, but worth
+researching.
 
 #+BEGIN_SRC sh
   # Does this work?
@@ -46,36 +70,83 @@
   syncthing cli operations shutdown
   syncthing generate --gui-password=`op item get "Syncthing" --format json | jq -r '.fields[] | select(.label == "password").value'` --gui-user=`op item get "Syncthing" --format json | jq -r '.fields[] | select(.label == "username").value'`
 #+END_SRC
-* Install [[https://www.dropbox.com/install][Dropbox]]
-Yes, Dropbox is still the easy answer for fast file syncing. It is
-frustrating that iCloud can't do this job, but it seems to have no
-interest in providing responsive syncing.
-* ...
-- [[https://github.com/corvino/osx][osx]]
-  OS X specific items, like app prefs (iTerm2).
-- [[https://github.com/corvino/IDE-Settings][IDE-Settings]]
-  - Commit/update from =IDE-Settings=
 
-  - =ls -al ~/Library/Developer/Xcode/UserData/= :: =CodeSnippets= and =xcdebugger= should be symlinks.
-- [[https://github.com/corvino/vscode-settings][vscode-settings]]
+** Setup GitHub
+- [[https://github.com/settings/keys][GitHub SSH and GPG Keys]]
+- [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?tool=webui][Adding a new SSH key to your GitHub account]]
+- [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent][Generating a new SSH key and adding it to the ssh-agent]]
 
-** script
-git clone git@github.com:corvino/osx.git ~/.darwin
-~/.darwin/setup.sh
+#+BEGIN_SRC sh
+  pbcopy < ~/.ssh/id_ed25519.pub
+  ssh-keygen -t ed25519 -C "corvino@gmail.com
+#+END_SRC
 
-git clone git@github.com:corvino/IDE-Settings.git ~/code/IDE-Settings
-rm -rf ~/Library/Developer/Xcode
-rm -rf ~/Library/Preferences/com.apple.dt.Xcode.plist ~/Library/Developer/Xcode
-~/code/IDE-Settings/xcode-setup.sh
+** Setup [[https://1password.com/downloads/mac/][1Password]]
 
-mkdir -p ~/Library/Application\ Support/Code
-git clone git@github.com:corvino/vscode-settings.git ~/Library/Application\ Support/Code/User
+** Setup config-y repos
 
-* Preferences to twiddle
+*** [[https://github.com/corvino/tilde][tilde]]
+
+*nix-y configuration (dot-) files.
+
+#+BEGIN_SRC sh
+  git clone git@github.com:corvino/tilde.git ~/.tilde
+  ~/.tilde/setup.sh
+  chsh -s /bin/bash # Put this in ~/.tilde?
+#+END_SRC
+
+*** [[https://github.com/corvino/vscode-settings][vscode-settings]]
+
+Just run the [[https://github.com/corvino/vscode-settings/blob/master/setup.sh][setup script]] from the repo; it clones the repo as part of the
+setup.
+
+
+** [[https://github.com/corvino/IDE-Settings][IDE-Settings]]
+
+Settings for IDEs, mostly Xcode at the moment. Has a decript version for
+Jetbrains/IntelliJ.
+
+#+BEGIN_SRC sh
+  git clone git@github.com:corvino/IDE-Settings.git ~/.ide-settings
+  ~/.ide-settings/xcode-setup.sh
+#+END_SRC
+
+** [[https://github.com/corvino/osx][osx]]
+
+For macOS app configuration, like iTerm2. Just iTerm2 at the moment.
+
+#+BEGIN_SRC sh
+  git clone git@github.com:corvino/osx.git .darwin
+#+END_SRC
+
+
+*** Notes on usage
+
+** Preferences to twiddle
 
 Finder -> Settings -> General -> New Finder windows show: <computer-name>
 Finder -> Settings -> Advanced -> Show all filename extensions
 Safari -> Preferences... -> General -> Open "safe" files after downloading?
 
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+*** Power Stuff
+
+#+BEGIN_SRC sh
+  sudo pmset -a hibernatemode 25
+
+  defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+  defaults write com.apple.Safari AutoOpenSafeDownloads -bool false
+#+END_SRC
+
+** (Don't) Install [[https://www.dropbox.com/install][Dropbox]]
+Yes, Dropbox is still the easy answer for fast file syncing. It is
+frustrating that iCloud can't do this job, but it seems to have no
+interest in providing responsive syncing.
+
+** latex
+
+Some pieces that aren't in basictex but are useful.
+
+#+BEGIN_SRC sh
+  sudo tlmgr update --self
+  sudo tlmgr install helvetic multirow
+#+END_SRC
