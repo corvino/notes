@@ -1,0 +1,21 @@
+* Backup (sigh)
+
+Do not lose data.
+
+Do not lose productivity worrying about losing data.
+
+Use a lot of git.
+
+* Resources
+
+- [[https://tldp.org/LDP/intro-linux/html/chap_09.html][tldp: Fundamental Backup Techniques]]
+- [[https://github.com/RsyncProject/rsync/blob/master/README.md][RSYNC]]
+- [[https://www.rsync.net/index.html][rsync.net]]
+- [[https://www.borgbackup.org/][Borg]]
+
+- [[https://www.arqbackup.com/][Arq]]
+- [[https://bombich.com][Carbon Copy Cloner]]
+- [[https://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html][SuperDuper!]]
+
+- [[https://www.truenas.com][TrueNAS]]
+  - Scale
